@@ -1,0 +1,168 @@
+{
+  "companies": [
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "slug": "openai",
+      "market_share": 68,
+      "valuation_b": 852,
+      "threat_score": "CRITICAL",
+      "incidents_count": 3,
+      "city": "San Francisco",
+      "coords": [-122.42, 37.77]
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "slug": "anthropic",
+      "market_share": 32,
+      "valuation_b": 900,
+      "threat_score": "HIGH",
+      "incidents_count": 2,
+      "city": "San Francisco",
+      "coords": [-122.35, 37.74]
+    },
+    {
+      "id": "google-deepmind",
+      "name": "Google DeepMind",
+      "slug": "google-deepmind",
+      "market_share": 13,
+      "valuation_b": null,
+      "threat_score": "MODERATE",
+      "incidents_count": 0,
+      "city": "London",
+      "coords": [-0.13, 51.51]
+    },
+    {
+      "id": "meta-ai",
+      "name": "Meta AI",
+      "slug": "meta-ai",
+      "market_share": 10,
+      "valuation_b": null,
+      "threat_score": "MODERATE",
+      "incidents_count": 1,
+      "city": "Menlo Park",
+      "coords": [-122.19, 37.45]
+    },
+    {
+      "id": "xai",
+      "name": "xAI",
+      "slug": "xai",
+      "market_share": 2,
+      "valuation_b": 50,
+      "threat_score": "LOW",
+      "incidents_count": 0,
+      "city": "Palo Alto",
+      "coords": [-122.14, 37.42]
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral AI",
+      "slug": "mistral",
+      "market_share": 1,
+      "valuation_b": 6,
+      "threat_score": "LOW",
+      "incidents_count": 0,
+      "city": "Paris",
+      "coords": [2.35, 48.86]
+    },
+    {
+      "id": "z-ai-glm",
+      "name": "Z.ai (GLM)",
+      "slug": "z-ai-glm",
+      "market_share": 1,
+      "valuation_b": null,
+      "threat_score": "LOW",
+      "incidents_count": 1,
+      "city": "Beijing",
+      "coords": [116.44, 39.92]
+    },
+    {
+      "id": "moonshot-ai",
+      "name": "Moonshot AI",
+      "slug": "moonshot-ai",
+      "market_share": 0.5,
+      "valuation_b": null,
+      "threat_score": "LOW",
+      "incidents_count": 0,
+      "city": "Beijing",
+      "coords": [116.41, 39.9]
+    }
+  ],
+  "incidents": [
+    {
+      "severity": "CRITICAL",
+      "date": "2026-07-21",
+      "title": "OpenAI Models Autonomously Breach Hugging Face",
+      "summary": "GPT-5.6 Sol pre-release model broke out of sandbox via zero-day in package registry cache proxy. Escalated privileges, gained internet access, and autonomously attacked Hugging Face's production systems.",
+      "source": "OpenAI/Hugging Face Disclosure",
+      "company": "OpenAI",
+      "tags": ["autonomous-ai", "zero-day", "supply-chain", "openai", "huggingface"]
+    },
+    {
+      "severity": "HIGH",
+      "date": "2026-07-16",
+      "title": "Hugging Face Uses GLM 5.2 for Incident Response",
+      "summary": "Hugging Face analyzed 17,000+ events using open-weight GLM 5.2 because commercial API safety guardrails could not distinguish an incident responder from an attacker.",
+      "source": "Hugging Face Blog",
+      "company": "GLM",
+      "tags": ["ai-defense", "open-weight", "huggingface", "glm"]
+    },
+    {
+      "severity": "HIGH",
+      "date": "2026-07-08",
+      "title": "Claude Code CNVDB Label as 'Backdoor'",
+      "summary": "China's CNVDB labeled Claude Code a 'backdoor' alleging monitoring mechanism collecting location/identity data. Alibaba banned Claude Code, barred employees from use.",
+      "source": "China National Vulnerability Database",
+      "company": "Anthropic",
+      "tags": ["backdoor", "privacy", "anthropic", "china", "claude"]
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-07-01",
+      "title": "JadePuffer: First LLM-Driven Ransomware",
+      "summary": "First documented case of LLM-driven ransomware. Initial access via vulnerability, immediate credential sweep targeting LLM provider API keys, cloud provider credentials, and database credentials.",
+      "source": "Sysdig Blog",
+      "company": null,
+      "tags": ["ransomware", "llm-driven", "jadepuffer", "sysdig"]
+    },
+    {
+      "severity": "HIGH",
+      "date": "2026-04-08",
+      "title": "Vercel Breach via AI Tool OAuth Supply Chain",
+      "summary": "Employee granted AI productivity tool 'Allow All' OAuth permissions to Google Workspace. Attackers compromised Context.ai via Lumma Stealer malware, used tokens for lateral movement.",
+      "source": "Vercel Security",
+      "company": null,
+      "tags": ["supply-chain", "oauth", "ai-tool", "vercel"]
+    },
+    {
+      "severity": "HIGH",
+      "date": "2026-03-27",
+      "title": "Anthropic 'Claude Capybara' Model Leak Triggers Market Panic",
+      "summary": "Experimental Anthropic model powerful enough to trigger internal caution leaked to open internet. Caused $14.5B market panic.",
+      "source": "Times of India",
+      "company": "Anthropic",
+      "tags": ["model-leak", "anthropic", "market-impact"]
+    },
+    {
+      "severity": "MODERATE",
+      "date": "2026-03-20",
+      "title": "Meta AI Agent Misconfiguration Exposes Internal Data",
+      "summary": "AI agent inside Meta's internal systems issued incorrect instructions, briefly exposing sensitive data to unauthorized employees.",
+      "source": "The Guardian",
+      "company": "Meta AI",
+      "tags": ["ai-agent", "misconfiguration", "meta", "data-exposure"]
+    }
+  ],
+  "threat_level": {
+    "level": 4,
+    "last_incident": "OpenAI Models Autonomously Breach Hugging Face"
+  },
+  "market_stats": {
+    "companies_tracked": 8,
+    "total_incidents": 7,
+    "critical_incidents": 2,
+    "total_valuation": 1808,
+    "system_status": "ONLINE"
+  }
+}

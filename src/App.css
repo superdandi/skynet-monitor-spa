@@ -1,0 +1,124 @@
+/* === Global CRT / NCURSES styles === */
+
+@keyframes blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+
+.cursor-blink {
+  animation: blink 1s step-end infinite;
+}
+
+.blink-cursor {
+  animation: blink 1s step-end infinite;
+}
+
+.blink-fast {
+  animation: blink 0.5s step-end infinite;
+}
+
+.blink-slow {
+  animation: blink 1.4s step-end infinite;
+}
+
+/* Flicker animation for boot text */
+@keyframes flicker {
+  0% { opacity: 1; }
+  50% { opacity: 0.85; }
+  100% { opacity: 1; }
+}
+
+/* Pulse glow for critical elements */
+@keyframes pulse-glow {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0a1a0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #004400;
+  border-radius: 3px;
+}
+
+/* Glitch text effect for critical labels */
+.glitch-text {
+  position: relative;
+}
+
+/* Panel hover effect */
+.panel {
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.panel:hover {
+  box-shadow: inset 0 0 30px rgba(0, 255, 65, 0.03);
+}
+
+/* Dashboard grid container */
+.dashboard-grid {
+  width: 100%;
+  height: 100%;
+}
+
+/* Boot sequence container */
+.boot-sequence {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'JetBrains Mono', 'Share Tech Mono', monospace;
+  overflow: hidden;
+}
+
+/* Scanlines overlay */
+.scanlines {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0px,
+    rgba(0, 0, 0, 0) 2px,
+    rgba(0, 0, 0, 0.25) 3px,
+    rgba(0, 0, 0, 0.25) 4px
+  );
+}
+
+/* Dashboard header */
+.dashboard-header {
+  border-bottom: 1px solid #004400;
+}
+
+/* Blink for the operating system */
+@keyframes os-blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+
+.os-blink {
+  animation: os-blink 1s step-end infinite;
+}
+
+/* Scrollbar for feed panels */
+.feed-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+.feed-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.feed-scroll::-webkit-scrollbar-thumb {
+  background: #004400;
+  border-radius: 2px;
+}
