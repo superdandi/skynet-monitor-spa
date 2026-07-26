@@ -224,25 +224,13 @@ function playDissonance(ctx, params) {
 }
 
 export default function AudioAlert({ threatLevel, muted, theme, booting }) {
-  const ctxRef = useRef(null)
-  const activeRef = useRef(false)
-  const timerRef = useRef(null)
-  const reverbRef = useRef(null)
-  const nextRef = useRef(0)
-
   useEffect(() => {
     if (booting) return
-    if (!threatLevel || threatLevel.level < 3) {
-      cleanup()
-      return
-    }
-    if (muted) { cleanup(); return }
+    if (!threatLevel || threatLevel.level < 3) return
+    if (muted) return
 
     const ctx = new (window.AudioContext || window.webkitAudioContext)()
-    ctxRef.current = ctx
     if (ctx.state === 'suspended') ctx.resume()
-    activeRef.current = true
-    nextRef.current = ctx.currentTime + 0.1
 
     const themeParams = {
       terminal: {
@@ -265,11 +253,10 @@ export default function AudioAlert({ threatLevel, muted, theme, booting }) {
     const p = themeParams[theme] || themeParams.terminal
     const playFn = theme === 'hud' ? playAirraid : theme === 'cyberpunk' ? playDissonance : playDeathknell
     const cleanupFn = playFn(ctx, p)
-    activeRef.current = true
 
     return () => {
+      ctx.close()
       cleanupFn()
-      cleanup()
     }
   }, [threatLevel, muted, theme, booting])
 
