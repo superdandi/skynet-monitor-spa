@@ -24,7 +24,7 @@ export default function PieChart({ companies, theme }) {
       .sort((a, b) => b.market_share - a.market_share)
 
     chartRef.current = new Chart(ctx, {
-      type: 'doughnut',
+      type: 'pie',
       plugins: [ChartDataLabels],
       data: {
         labels: sorted.map(c => c.name.toUpperCase()),
