@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-09-12-researchers-say-openai-agents-were-behind-may-hacking-campaign-targeting-rubygem",
       "severity": "CRITICAL",
       "date": "2026-09-12",
       "title": "Researchers say OpenAI agents were behind May hacking campaign targeting RubyGems",
@@ -124,10 +125,10 @@
       "tags": [
         "openai",
         "autonomous-ai"
-      ],
-      "id": "2026-09-12-researchers-say-openai-agents-were-behind-may-hacking-campaign-targeting-rubygem"
+      ]
     },
     {
+      "id": "2026-09-11-anthropic-says-seven-china-based-ai-labs-ran-industrial-scale-claude-distillatio",
       "severity": "HIGH",
       "date": "2026-09-11",
       "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
@@ -136,10 +137,10 @@
       "company": "Anthropic",
       "tags": [
         "anthropic"
-      ],
-      "id": "2026-09-11-anthropic-says-seven-china-based-ai-labs-ran-industrial-scale-claude-distillatio"
+      ]
     },
     {
+      "id": "2026-09-11-claude-used-to-automate-exploitation-and-data-theft-across-multiple-victims",
       "severity": "CRITICAL",
       "date": "2026-09-11",
       "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
@@ -148,10 +149,10 @@
       "company": "Anthropic",
       "tags": [
         "anthropic"
-      ],
-      "id": "2026-09-11-claude-used-to-automate-exploitation-and-data-theft-across-multiple-victims"
+      ]
     },
     {
+      "id": "2026-09-11-hackers-abused-claude-to-extract-secrets-from-1-8m-android-apps",
       "severity": "HIGH",
       "date": "2026-09-11",
       "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
@@ -160,10 +161,10 @@
       "company": "Anthropic",
       "tags": [
         "anthropic"
-      ],
-      "id": "2026-09-11-hackers-abused-claude-to-extract-secrets-from-1-8m-android-apps"
+      ]
     },
     {
+      "id": "2026-09-11-how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface",
       "severity": "HIGH",
       "date": "2026-09-11",
       "title": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
@@ -172,10 +173,10 @@
       "company": "Anthropic",
       "tags": [
         "anthropic"
-      ],
-      "id": "2026-09-11-how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface"
+      ]
     },
     {
+      "id": "2026-09-10-papercut-attacker-uses-hundreds-of-ai-agents-to-compromise-440-instances",
       "severity": "CRITICAL",
       "date": "2026-09-10",
       "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
@@ -184,10 +185,10 @@
       "company": null,
       "tags": [
         "autonomous-ai"
-      ],
-      "id": "2026-09-10-papercut-attacker-uses-hundreds-of-ai-agents-to-compromise-440-instances"
+      ]
     },
     {
+      "id": "2026-09-10-nearly-1-in-10-exposed-litellm-gateways-accepted-the-example-sk-1234-admin-key",
       "severity": "HIGH",
       "date": "2026-09-10",
       "title": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
@@ -196,10 +197,10 @@
       "company": null,
       "tags": [
         "data-exposure"
-      ],
-      "id": "2026-09-10-nearly-1-in-10-exposed-litellm-gateways-accepted-the-example-sk-1234-admin-key"
+      ]
     },
     {
+      "id": "2026-09-10-anthropic-discloses-fourth-ai-hacking-incident-involving-claude-opus-4-6",
       "severity": "CRITICAL",
       "date": "2026-09-10",
       "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
@@ -210,10 +211,10 @@
         "anthropic",
         "autonomous-ai",
         "supply-chain"
-      ],
-      "id": "2026-09-10-anthropic-discloses-fourth-ai-hacking-incident-involving-claude-opus-4-6"
+      ]
     },
     {
+      "id": "2026-09-10-hundreds-of-ai-agents-helped-papercut-attacker-hit-395-orgs-and-some-went-off-sc",
       "severity": "LOW",
       "date": "2026-09-10",
       "title": "Hundreds of AI agents helped PaperCut attacker hit 395+ orgs, and some went off script",
@@ -222,10 +223,10 @@
       "company": null,
       "tags": [
         "autonomous-ai"
-      ],
-      "id": "2026-09-10-hundreds-of-ai-agents-helped-papercut-attacker-hit-395-orgs-and-some-went-off-sc"
+      ]
     },
     {
+      "id": "2026-09-10-ai-lets-small-actors-run-state-level-hacking-campaigns-anthropic-report-finds",
       "severity": "CRITICAL",
       "date": "2026-09-10",
       "title": "AI lets small actors run state-level hacking campaigns, Anthropic report finds",
@@ -234,10 +235,10 @@
       "company": "Anthropic",
       "tags": [
         "anthropic"
-      ],
-      "id": "2026-09-10-ai-lets-small-actors-run-state-level-hacking-campaigns-anthropic-report-finds"
+      ]
     },
     {
+      "id": "2026-09-09-infostealer-logs-expose-replayable-ai-tokens-that-can-bypass-mfa",
       "severity": "CRITICAL",
       "date": "2026-09-09",
       "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
@@ -246,10 +247,10 @@
       "company": "Anthropic",
       "tags": [
         "anthropic"
-      ],
-      "id": "2026-09-09-infostealer-logs-expose-replayable-ai-tokens-that-can-bypass-mfa"
+      ]
     },
     {
+      "id": "2026-09-09-deepseek-harness-flaw-let-ai-agents-disable-their-own-file-sandbox-without-appro",
       "severity": "MODERATE",
       "date": "2026-09-09",
       "title": "DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval",
@@ -258,10 +259,10 @@
       "company": null,
       "tags": [
         "autonomous-ai"
-      ],
-      "id": "2026-09-09-deepseek-harness-flaw-let-ai-agents-disable-their-own-file-sandbox-without-appro"
+      ]
     },
     {
+      "id": "2026-09-09-u-s-agencies-accuse-china-ai-firms-of-distilling-claude-gpt-gemini-and-grok",
       "severity": "HIGH",
       "date": "2026-09-09",
       "title": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
@@ -270,10 +271,10 @@
       "company": "Anthropic",
       "tags": [
         "anthropic"
-      ],
-      "id": "2026-09-09-u-s-agencies-accuse-china-ai-firms-of-distilling-claude-gpt-gemini-and-grok"
+      ]
     },
     {
+      "id": "2026-09-08-chatgpt-flaw-let-a-planted-prompt-send-a-victim-s-gmail-data-to-another-account",
       "severity": "MODERATE",
       "date": "2026-09-08",
       "title": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account",
@@ -282,10 +283,10 @@
       "company": "OpenAI",
       "tags": [
         "openai"
-      ],
-      "id": "2026-09-08-chatgpt-flaw-let-a-planted-prompt-send-a-victim-s-gmail-data-to-another-account"
+      ]
     },
     {
+      "id": "2026-09-08-autonomous-ai-agents-compromise-thousands-of-credentials-in-under-six-hours",
       "severity": "CRITICAL",
       "date": "2026-09-08",
       "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
@@ -295,10 +296,10 @@
       "tags": [
         "autonomous-ai",
         "google-deepmind"
-      ],
-      "id": "2026-09-08-autonomous-ai-agents-compromise-thousands-of-credentials-in-under-six-hours"
+      ]
     },
     {
+      "id": "2026-09-08-openai-s-artifactory-opened-covert-data-stealing-channel-alongside-hugging-face-",
       "severity": "CRITICAL",
       "date": "2026-09-08",
       "title": "OpenAI's Artifactory opened covert data-stealing channel alongside Hugging Face attack",
@@ -309,10 +310,10 @@
         "openai",
         "autonomous-ai",
         "zero-day"
-      ],
-      "id": "2026-09-08-openai-s-artifactory-opened-covert-data-stealing-channel-alongside-hugging-face-"
+      ]
     },
     {
+      "id": "2026-09-04-rogue-openai-agents-used-dead-german-web-site-to-communicate-in-may-months-befor",
       "severity": "LOW",
       "date": "2026-09-04",
       "title": "Rogue OpenAI agents used dead German web site to communicate in May, months before Hugging Face incident",
@@ -322,10 +323,10 @@
       "tags": [
         "openai",
         "autonomous-ai"
-      ],
-      "id": "2026-09-04-rogue-openai-agents-used-dead-german-web-site-to-communicate-in-may-months-befor"
+      ]
     },
     {
+      "id": "2026-09-02-claude-mythos-only-model-to-complete-full-cyber-kill-chain-experts-say",
       "severity": "LOW",
       "date": "2026-09-02",
       "title": "Claude Mythos only model to complete full cyber kill chain, experts say",
@@ -334,10 +335,10 @@
       "company": "Anthropic",
       "tags": [
         "anthropic"
-      ],
-      "id": "2026-09-02-claude-mythos-only-model-to-complete-full-cyber-kill-chain-experts-say"
+      ]
     },
     {
+      "id": "2026-09-02-ai-agents-carried-out-every-step-of-this-ransomware-attack-then-left-the-victim-",
       "severity": "CRITICAL",
       "date": "2026-09-02",
       "title": "AI agents carried out every step of this ransomware attack – then left the victim an 80-page security audit",
@@ -347,10 +348,10 @@
       "tags": [
         "autonomous-ai",
         "ransomware"
-      ],
-      "id": "2026-09-02-ai-agents-carried-out-every-step-of-this-ransomware-attack-then-left-the-victim-"
+      ]
     },
     {
+      "id": "2026-09-01-another-artifactory-cve-under-attack-by-ai-agents-or-humans",
       "severity": "HIGH",
       "date": "2026-09-01",
       "title": "Another Artifactory CVE under attack by AI agents or humans",
@@ -360,8 +361,7 @@
       "tags": [
         "autonomous-ai",
         "data-exposure"
-      ],
-      "id": "2026-09-01-another-artifactory-cve-under-attack-by-ai-agents-or-humans"
+      ]
     },
     {
       "id": "2026-07-21-openai-models-autonomously-breach-hugging-face",
