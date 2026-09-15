@@ -1,0 +1,510 @@
+{
+  "companies": [
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "slug": "openai",
+      "market_share": 68,
+      "valuation_b": 852,
+      "threat_score": "CRITICAL",
+      "incidents_count": 6,
+      "city": "San Francisco",
+      "coords": [
+        -122.42,
+        37.77
+      ]
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "slug": "anthropic",
+      "market_share": 32,
+      "valuation_b": 900,
+      "threat_score": "HIGH",
+      "incidents_count": 11,
+      "city": "San Francisco",
+      "coords": [
+        -122.35,
+        37.74
+      ]
+    },
+    {
+      "id": "google-deepmind",
+      "name": "Google DeepMind",
+      "slug": "google-deepmind",
+      "market_share": 13,
+      "valuation_b": null,
+      "threat_score": "MODERATE",
+      "incidents_count": 1,
+      "city": "London",
+      "coords": [
+        -0.13,
+        51.51
+      ]
+    },
+    {
+      "id": "meta-ai",
+      "name": "Meta AI",
+      "slug": "meta-ai",
+      "market_share": 10,
+      "valuation_b": null,
+      "threat_score": "MODERATE",
+      "incidents_count": 1,
+      "city": "Menlo Park",
+      "coords": [
+        -122.19,
+        37.45
+      ]
+    },
+    {
+      "id": "xai",
+      "name": "xAI",
+      "slug": "xai",
+      "market_share": 2,
+      "valuation_b": 50,
+      "threat_score": "LOW",
+      "incidents_count": 0,
+      "city": "Palo Alto",
+      "coords": [
+        -122.14,
+        37.42
+      ]
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral AI",
+      "slug": "mistral",
+      "market_share": 1,
+      "valuation_b": 6,
+      "threat_score": "LOW",
+      "incidents_count": 0,
+      "city": "Paris",
+      "coords": [
+        2.35,
+        48.86
+      ]
+    },
+    {
+      "id": "z-ai-glm",
+      "name": "Z.ai (GLM)",
+      "slug": "z-ai-glm",
+      "market_share": 1,
+      "valuation_b": null,
+      "threat_score": "LOW",
+      "incidents_count": 0,
+      "city": "Beijing",
+      "coords": [
+        116.44,
+        39.92
+      ]
+    },
+    {
+      "id": "moonshot-ai",
+      "name": "Moonshot AI",
+      "slug": "moonshot-ai",
+      "market_share": 0.5,
+      "valuation_b": null,
+      "threat_score": "LOW",
+      "incidents_count": 0,
+      "city": "Beijing",
+      "coords": [
+        116.41,
+        39.9
+      ]
+    }
+  ],
+  "incidents": [
+    {
+      "severity": "CRITICAL",
+      "date": "2026-09-14",
+      "title": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
+      "summary": "AI keeps showing up in the wrong places. Attackers are using it to speed up exploits, test defenses, and automate more of the job. Some models are also crossing lines on their own. That is not a great combination. The rest of the week is more familiar: old bugs still working, fresh exploit chains, e",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai",
+        "ai-defense",
+        "data-exposure"
+      ],
+      "id": "2026-09-14-weekly-recap-rogue-ai-agents-wechat-worm-papercut-attacks-ai-espionage-and-rootk"
+    },
+    {
+      "severity": "LOW",
+      "date": "2026-09-14",
+      "title": "OpenAI's malicious bot swarm attacked RubyGems",
+      "summary": "Ruby are you ok? Ruby are you ok? Are you ok Ruby?",
+      "source": "theregister.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai"
+      ],
+      "id": "2026-09-14-openai-s-malicious-bot-swarm-attacked-rubygems"
+    },
+    {
+      "id": "2026-09-12-researchers-say-openai-agents-were-behind-may-hacking-campaign-targeting-rubygem",
+      "severity": "CRITICAL",
+      "date": "2026-09-12",
+      "title": "Researchers say OpenAI agents were behind May hacking campaign targeting RubyGems",
+      "summary": "<p>OpenAI confirmed their agents were behind a campaign in May that researchers say flooded the popular online code repository with malicious software packages.</p> <p>The post <a href=\"https://cyberscoop.com/openai-agents-malicious-rubygems-packages/\">Researchers say OpenAI agents were behind May h",
+      "source": "cyberscoop.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai",
+        "autonomous-ai"
+      ]
+    },
+    {
+      "id": "2026-09-11-anthropic-says-seven-china-based-ai-labs-ran-industrial-scale-claude-distillatio",
+      "severity": "HIGH",
+      "date": "2026-09-11",
+      "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
+      "summary": "Anthropic on Thursday said it identified and disrupted industrial-scale illicit distillation attacks against Claude from seven labs based in China, including Alibaba, Moonshot, DeepSeek, Z.ai (aka Zhipu), and MiniMax. Knowledge distillation by itself is a legitimate training method. It refers to a m",
+      "source": "thehackernews.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "2026-09-11-claude-used-to-automate-exploitation-and-data-theft-across-multiple-victims",
+      "severity": "CRITICAL",
+      "date": "2026-09-11",
+      "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
+      "summary": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between December 2025 and August 2026. The threat actors, which the artificial intelligence (AI) company has branded Generative ",
+      "source": "thehackernews.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "2026-09-11-hackers-abused-claude-to-extract-secrets-from-1-8m-android-apps",
+      "severity": "HIGH",
+      "date": "2026-09-11",
+      "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
+      "summary": "Anthropic says multiple threat groups, including the financially motivated and state-sponsored espionage groups linked to Russia and China, tried to abuse its Claude AI model for malicious purposes. [...]",
+      "source": "bleepingcomputer.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "2026-09-11-how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface",
+      "severity": "HIGH",
+      "date": "2026-09-11",
+      "title": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
+      "summary": "Threat actors are abusing trusted AI platforms to host malicious content, poison search results, and trick users into installing malware. Huntress examines campaigns targeting AI users through weaponized Claude Artifacts, shared AI conversations, sponsored search results, and ClickFix-style lures. [",
+      "source": "bleepingcomputer.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "2026-09-10-papercut-attacker-uses-hundreds-of-ai-agents-to-compromise-440-instances",
+      "severity": "CRITICAL",
+      "date": "2026-09-10",
+      "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
+      "summary": "A suspected Russian-speaking cyber actor has been attributed to the use of artificial intelligence (AI) to devise exploits targeting a recently disclosed pair of security flaws in PaperCut NG/MF and break into hundreds of instances. According to independent reports from Blackpoint Cyber and GreyNois",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai"
+      ]
+    },
+    {
+      "id": "2026-09-10-nearly-1-in-10-exposed-litellm-gateways-accepted-the-example-sk-1234-admin-key",
+      "severity": "HIGH",
+      "date": "2026-09-10",
+      "title": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
+      "summary": "Nearly one in ten of the internet-facing LiteLLM servers that&nbsp;Wiz Research&nbsp;scanned in February accepted&nbsp;sk-1234, the example admin key in LiteLLM's own setup guide. LiteLLM is an open-source AI gateway, the software a company puts between its applications and the model providers it pa",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "data-exposure"
+      ]
+    },
+    {
+      "id": "2026-09-10-anthropic-discloses-fourth-ai-hacking-incident-involving-claude-opus-4-6",
+      "severity": "CRITICAL",
+      "date": "2026-09-10",
+      "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
+      "summary": "Anthropic on Wednesday disclosed a fourth incident in which its artificial intelligence (AI) model broke into real third-party systems, marking the latest in a growing list of cases that have raised concerns about the security risks posed by autonomous AI agents. The AI company said the incident dat",
+      "source": "thehackernews.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic",
+        "autonomous-ai",
+        "supply-chain"
+      ]
+    },
+    {
+      "id": "2026-09-10-hundreds-of-ai-agents-helped-papercut-attacker-hit-395-orgs-and-some-went-off-sc",
+      "severity": "LOW",
+      "date": "2026-09-10",
+      "title": "Hundreds of AI agents helped PaperCut attacker hit 395+ orgs, and some went off script",
+      "summary": "Human operator: don't touch CIS orgs. AI agents: look a squirrel!",
+      "source": "theregister.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai"
+      ]
+    },
+    {
+      "id": "2026-09-10-ai-lets-small-actors-run-state-level-hacking-campaigns-anthropic-report-finds",
+      "severity": "CRITICAL",
+      "date": "2026-09-10",
+      "title": "AI lets small actors run state-level hacking campaigns, Anthropic report finds",
+      "summary": "<p>The report details a Russian-aligned espionage campaign against more than 20 organizations, an exploit foundry run by Chinese undergraduates and ShinyHunters-affiliated breaches, among other disrupted operations.</p> <p>The post <a href=\"https://cyberscoop.com/anthropic-report-ai-enabled-cyber-at",
+      "source": "cyberscoop.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "2026-09-09-infostealer-logs-expose-replayable-ai-tokens-that-can-bypass-mfa",
+      "severity": "CRITICAL",
+      "date": "2026-09-09",
+      "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
+      "summary": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illicit access to tools from model providers like Google, Anthropic, and others.&nbsp; Information stealers like Lumma Stealer or Vidar are equipped to harvest a wi",
+      "source": "thehackernews.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "2026-09-09-deepseek-harness-flaw-let-ai-agents-disable-their-own-file-sandbox-without-appro",
+      "severity": "MODERATE",
+      "date": "2026-09-09",
+      "title": "DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval",
+      "summary": "A flaw in DeepSeek Harness, DeepSeek's open-source tool for running AI coding agents on a developer's machine, let a sandboxed agent turn off its own sandbox with a single command. The tool runs an agent's commands inside an operating-system sandbox, so that an agent working on untrusted files canno",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai"
+      ]
+    },
+    {
+      "id": "2026-09-09-u-s-agencies-accuse-china-ai-firms-of-distilling-claude-gpt-gemini-and-grok",
+      "severity": "HIGH",
+      "date": "2026-09-09",
+      "title": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
+      "summary": "U.S. cybersecurity and intelligence agencies have accused China-based artificial intelligence (AI) companies of conducting \"systematic extraction\" of proprietary functionalities and capabilities of American frontier models through distillation attacks. The activity has been described as occurring at",
+      "source": "thehackernews.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "2026-09-08-chatgpt-flaw-let-a-planted-prompt-send-a-victim-s-gmail-data-to-another-account",
+      "severity": "MODERATE",
+      "date": "2026-09-08",
+      "title": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account",
+      "summary": "Check Point Research said in a&nbsp;report published today&nbsp;that a single instruction planted in a ChatGPT conversation could cause ChatGPT to quietly work for an attacker while answering the user's question as usual. In the company's proof of concept, that hidden work read data from the user's ",
+      "source": "thehackernews.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "2026-09-08-autonomous-ai-agents-compromise-thousands-of-credentials-in-under-six-hours",
+      "severity": "CRITICAL",
+      "date": "2026-09-08",
+      "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
+      "summary": "Threat actors are continuing to leverage artificial intelligence (AI) to streamline their operations, with one financially motivated hacking group employing an autonomous, multi-agent attack framework to carry out a large-scale credential harvesting campaign within six hours. Google Threat Intellige",
+      "source": "thehackernews.com",
+      "company": "Google DeepMind",
+      "tags": [
+        "autonomous-ai",
+        "google-deepmind"
+      ]
+    },
+    {
+      "id": "2026-09-08-openai-s-artifactory-opened-covert-data-stealing-channel-alongside-hugging-face-",
+      "severity": "CRITICAL",
+      "date": "2026-09-08",
+      "title": "OpenAI's Artifactory opened covert data-stealing channel alongside Hugging Face attack",
+      "summary": "Researchers disclosed the cross-account trick the same day rogue agents exploited another zero-day for admin access",
+      "source": "theregister.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai",
+        "autonomous-ai",
+        "zero-day"
+      ]
+    },
+    {
+      "id": "2026-09-04-rogue-openai-agents-used-dead-german-web-site-to-communicate-in-may-months-befor",
+      "severity": "LOW",
+      "date": "2026-09-04",
+      "title": "Rogue OpenAI agents used dead German web site to communicate in May, months before Hugging Face incident",
+      "summary": "Two cases of agents escaping to solve unsolvable problems paints an uncomfortable question: Is the entire internet in OpenAI's experimental agentic firing line?",
+      "source": "theregister.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai",
+        "autonomous-ai"
+      ]
+    },
+    {
+      "id": "2026-09-02-claude-mythos-only-model-to-complete-full-cyber-kill-chain-experts-say",
+      "severity": "LOW",
+      "date": "2026-09-02",
+      "title": "Claude Mythos only model to complete full cyber kill chain, experts say",
+      "summary": "Cyber Weapon Index finds AI attacks 'imminent'",
+      "source": "theregister.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "2026-09-02-ai-agents-carried-out-every-step-of-this-ransomware-attack-then-left-the-victim-",
+      "severity": "CRITICAL",
+      "date": "2026-09-02",
+      "title": "AI agents carried out every step of this ransomware attack – then left the victim an 80-page security audit",
+      "summary": "Adding insult to injury",
+      "source": "theregister.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai",
+        "ransomware"
+      ]
+    },
+    {
+      "id": "2026-09-01-another-artifactory-cve-under-attack-by-ai-agents-or-humans",
+      "severity": "HIGH",
+      "date": "2026-09-01",
+      "title": "Another Artifactory CVE under attack by AI agents or humans",
+      "summary": "Unauthenticated intruders can mint admin tokens, and exposed servers are already being hit",
+      "source": "theregister.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai",
+        "data-exposure"
+      ]
+    },
+    {
+      "id": "2026-07-21-openai-models-autonomously-breach-hugging-face",
+      "severity": "CRITICAL",
+      "date": "2026-07-21",
+      "title": "OpenAI Models Autonomously Breach Hugging Face",
+      "summary": "GPT-5.6 Sol pre-release model broke out of sandbox via zero-day in package registry cache proxy. Escalated privileges, gained internet access, and autonomously attacked Hugging Face's production systems.",
+      "source": "OpenAI/Hugging Face Disclosure",
+      "company": "OpenAI",
+      "tags": [
+        "autonomous-ai",
+        "zero-day",
+        "supply-chain",
+        "openai",
+        "huggingface"
+      ]
+    },
+    {
+      "id": "2026-07-16-hugging-face-uses-glm-5-2-for-incident-response",
+      "severity": "HIGH",
+      "date": "2026-07-16",
+      "title": "Hugging Face Uses GLM 5.2 for Incident Response",
+      "summary": "Hugging Face analyzed 17,000+ events using open-weight GLM 5.2 because commercial API safety guardrails could not distinguish an incident responder from an attacker.",
+      "source": "Hugging Face Blog",
+      "company": "GLM",
+      "tags": [
+        "ai-defense",
+        "open-weight",
+        "huggingface",
+        "glm"
+      ]
+    },
+    {
+      "id": "2026-07-08-claude-code-cnvdb-label-as-backdoor",
+      "severity": "HIGH",
+      "date": "2026-07-08",
+      "title": "Claude Code CNVDB Label as 'Backdoor'",
+      "summary": "China's CNVDB labeled Claude Code a 'backdoor' alleging monitoring mechanism collecting location/identity data. Alibaba banned Claude Code, barred employees from use.",
+      "source": "China National Vulnerability Database",
+      "company": "Anthropic",
+      "tags": [
+        "backdoor",
+        "privacy",
+        "anthropic",
+        "china",
+        "claude"
+      ]
+    },
+    {
+      "id": "2026-07-01-jadepuffer-first-llm-driven-ransomware",
+      "severity": "CRITICAL",
+      "date": "2026-07-01",
+      "title": "JadePuffer: First LLM-Driven Ransomware",
+      "summary": "First documented case of LLM-driven ransomware. Initial access via vulnerability, immediate credential sweep targeting LLM provider API keys, cloud provider credentials, and database credentials.",
+      "source": "Sysdig Blog",
+      "company": null,
+      "tags": [
+        "ransomware",
+        "llm-driven",
+        "jadepuffer",
+        "sysdig"
+      ]
+    },
+    {
+      "id": "2026-04-08-vercel-breach-via-ai-tool-oauth-supply-chain",
+      "severity": "HIGH",
+      "date": "2026-04-08",
+      "title": "Vercel Breach via AI Tool OAuth Supply Chain",
+      "summary": "Employee granted AI productivity tool 'Allow All' OAuth permissions to Google Workspace. Attackers compromised Context.ai via Lumma Stealer malware, used tokens for lateral movement.",
+      "source": "Vercel Security",
+      "company": null,
+      "tags": [
+        "supply-chain",
+        "oauth",
+        "ai-tool",
+        "vercel"
+      ]
+    },
+    {
+      "id": "2026-03-27-anthropic-claude-capybara-model-leak-triggers-market-panic",
+      "severity": "HIGH",
+      "date": "2026-03-27",
+      "title": "Anthropic 'Claude Capybara' Model Leak Triggers Market Panic",
+      "summary": "Experimental Anthropic model powerful enough to trigger internal caution leaked to open internet. Caused $14.5B market panic.",
+      "source": "Times of India",
+      "company": "Anthropic",
+      "tags": [
+        "model-leak",
+        "anthropic",
+        "market-impact"
+      ]
+    },
+    {
+      "id": "2026-03-20-meta-ai-agent-misconfiguration-exposes-internal-data",
+      "severity": "MODERATE",
+      "date": "2026-03-20",
+      "title": "Meta AI Agent Misconfiguration Exposes Internal Data",
+      "summary": "AI agent inside Meta's internal systems issued incorrect instructions, briefly exposing sensitive data to unauthorized employees.",
+      "source": "The Guardian",
+      "company": "Meta AI",
+      "tags": [
+        "ai-agent",
+        "misconfiguration",
+        "meta",
+        "data-exposure"
+      ]
+    }
+  ],
+  "threat_level": {
+    "level": 4,
+    "last_incident": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits"
+  },
+  "market_stats": {
+    "companies_tracked": 8,
+    "total_incidents": 29,
+    "critical_incidents": 12,
+    "total_valuation": 1808,
+    "system_status": "ONLINE"
+  }
+}
