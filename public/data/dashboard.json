@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-09-14-weekly-recap-rogue-ai-agents-wechat-worm-papercut-attacks-ai-espionage-and-rootk",
       "severity": "CRITICAL",
       "date": "2026-09-14",
       "title": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
@@ -125,10 +126,10 @@
         "autonomous-ai",
         "ai-defense",
         "data-exposure"
-      ],
-      "id": "2026-09-14-weekly-recap-rogue-ai-agents-wechat-worm-papercut-attacks-ai-espionage-and-rootk"
+      ]
     },
     {
+      "id": "2026-09-14-openai-s-malicious-bot-swarm-attacked-rubygems",
       "severity": "LOW",
       "date": "2026-09-14",
       "title": "OpenAI's malicious bot swarm attacked RubyGems",
@@ -137,8 +138,7 @@
       "company": "OpenAI",
       "tags": [
         "openai"
-      ],
-      "id": "2026-09-14-openai-s-malicious-bot-swarm-attacked-rubygems"
+      ]
     },
     {
       "id": "2026-09-12-researchers-say-openai-agents-were-behind-may-hacking-campaign-targeting-rubygem",
