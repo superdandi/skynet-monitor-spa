@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 5,
+      "incidents_count": 6,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -114,6 +114,32 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "CRITICAL",
+      "date": "2026-09-14",
+      "title": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
+      "summary": "AI keeps showing up in the wrong places. Attackers are using it to speed up exploits, test defenses, and automate more of the job. Some models are also crossing lines on their own. That is not a great combination. The rest of the week is more familiar: old bugs still working, fresh exploit chains, e",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai",
+        "ai-defense",
+        "data-exposure"
+      ],
+      "id": "2026-09-14-weekly-recap-rogue-ai-agents-wechat-worm-papercut-attacks-ai-espionage-and-rootk"
+    },
+    {
+      "severity": "LOW",
+      "date": "2026-09-14",
+      "title": "OpenAI's malicious bot swarm attacked RubyGems",
+      "summary": "Ruby are you ok? Ruby are you ok? Are you ok Ruby?",
+      "source": "theregister.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai"
+      ],
+      "id": "2026-09-14-openai-s-malicious-bot-swarm-attacked-rubygems"
+    },
     {
       "id": "2026-09-12-researchers-say-openai-agents-were-behind-may-hacking-campaign-targeting-rubygem",
       "severity": "CRITICAL",
@@ -472,12 +498,12 @@
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Researchers say OpenAI agents were behind May hacking campaign targeting RubyGems"
+    "last_incident": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits"
   },
   "market_stats": {
     "companies_tracked": 8,
-    "total_incidents": 27,
-    "critical_incidents": 11,
+    "total_incidents": 29,
+    "critical_incidents": 12,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
