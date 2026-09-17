@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-09-16-one-extension-could-hijack-ai-assistants-across-chrome-comet-edge-opera-neon-and",
       "severity": "LOW",
       "date": "2026-09-16",
       "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
@@ -123,10 +124,10 @@
       "company": "Anthropic",
       "tags": [
         "anthropic"
-      ],
-      "id": "2026-09-16-one-extension-could-hijack-ai-assistants-across-chrome-comet-edge-opera-neon-and"
+      ]
     },
     {
+      "id": "2026-09-16-spain-s-data-agency-gets-first-report-of-ai-powered-data-breach",
       "severity": "CRITICAL",
       "date": "2026-09-16",
       "title": "Spain's data agency gets first report of AI-powered data breach",
@@ -135,8 +136,7 @@
       "company": null,
       "tags": [
         "autonomous-ai"
-      ],
-      "id": "2026-09-16-spain-s-data-agency-gets-first-report-of-ai-powered-data-breach"
+      ]
     },
     {
       "id": "2026-09-15-human-attacker-exploits-marimo-rce-reaches-ssh-bastion-in-eight-seconds",
