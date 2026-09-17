@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 11,
+      "incidents_count": 12,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -114,6 +114,30 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "LOW",
+      "date": "2026-09-16",
+      "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
+      "summary": "Security researchers at&nbsp;Forever Security&nbsp;have shown that one ordinary browser extension could take control of the AI assistants built into five Chromium-based products: Gemini Live in Chrome, Perplexity Comet, Microsoft Edge, Opera Neon and the Claude in Chrome extension. Once the extensio",
+      "source": "thehackernews.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic"
+      ],
+      "id": "2026-09-16-one-extension-could-hijack-ai-assistants-across-chrome-comet-edge-opera-neon-and"
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-09-16",
+      "title": "Spain's data agency gets first report of AI-powered data breach",
+      "summary": "The Spanish Data Protection Agency (AEPD) was notified of an attack allegedly carried out with an AI agent powered by a known large language model (LLM). [...]",
+      "source": "bleepingcomputer.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai"
+      ],
+      "id": "2026-09-16-spain-s-data-agency-gets-first-report-of-ai-powered-data-breach"
+    },
     {
       "id": "2026-09-15-human-attacker-exploits-marimo-rce-reaches-ssh-bastion-in-eight-seconds",
       "severity": "CRITICAL",
@@ -508,12 +532,12 @@
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds"
+    "last_incident": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude"
   },
   "market_stats": {
     "companies_tracked": 8,
-    "total_incidents": 30,
-    "critical_incidents": 13,
+    "total_incidents": 32,
+    "critical_incidents": 14,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
