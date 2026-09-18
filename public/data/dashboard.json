@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 6,
+      "incidents_count": 7,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -114,6 +114,42 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "LOW",
+      "date": "2026-09-17",
+      "title": "Small AI models let drones autonomously identify and attack battlefield targets",
+      "summary": "Scaleout deploys decentralized AI-driven learning to military bases and drones.",
+      "source": "arstechnica.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai"
+      ],
+      "id": "2026-09-17-small-ai-models-let-drones-autonomously-identify-and-attack-battlefield-targets"
+    },
+    {
+      "severity": "LOW",
+      "date": "2026-09-17",
+      "title": "Microsoft exec called AI scraping the “largest theft of labor in human history”",
+      "summary": "Microsoft, OpenAI emails reveal fear of AI “doom loop” killing news orgs.",
+      "source": "arstechnica.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai"
+      ],
+      "id": "2026-09-17-microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history"
+    },
+    {
+      "severity": "LOW",
+      "date": "2026-09-17",
+      "title": "The AI hacking apocalypse is not inevitable",
+      "summary": "<p>While large language models present real risks to society, experts say they can be tested and largely controlled using well-worn cybersecurity and policy choices.</p> <p>The post <a href=\"https://cyberscoop.com/ai-agent-hacking-apocalypse-cybersecurity/\">The AI hacking apocalypse is not inevitabl",
+      "source": "cyberscoop.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai"
+      ],
+      "id": "2026-09-17-the-ai-hacking-apocalypse-is-not-inevitable"
+    },
     {
       "id": "2026-09-16-one-extension-could-hijack-ai-assistants-across-chrome-comet-edge-opera-neon-and",
       "severity": "LOW",
@@ -532,11 +568,11 @@
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude"
+    "last_incident": "Small AI models let drones autonomously identify and attack battlefield targets"
   },
   "market_stats": {
     "companies_tracked": 8,
-    "total_incidents": 32,
+    "total_incidents": 35,
     "critical_incidents": 14,
     "total_valuation": 1808,
     "system_status": "ONLINE"
