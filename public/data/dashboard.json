@@ -127,6 +127,7 @@
       ]
     },
     {
+      "id": "2026-09-18-claimed-bug-bounty-hunter-likely-used-llm-to-build-phantomraven-npm-stealer",
       "severity": "HIGH",
       "date": "2026-09-18",
       "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
@@ -135,10 +136,10 @@
       "company": null,
       "tags": [
         "supply-chain"
-      ],
-      "id": "2026-09-18-claimed-bug-bounty-hunter-likely-used-llm-to-build-phantomraven-npm-stealer"
+      ]
     },
     {
+      "id": "2026-09-18-researchers-used-claude-to-hack-openai",
       "severity": "LOW",
       "date": "2026-09-18",
       "title": "Researchers used Claude to hack OpenAI",
@@ -147,10 +148,10 @@
       "company": "OpenAI",
       "tags": [
         "openai"
-      ],
-      "id": "2026-09-18-researchers-used-claude-to-hack-openai"
+      ]
     },
     {
+      "id": "2026-09-18-researchers-use-ai-to-find-widespread-software-decoder-flaw",
       "severity": "MODERATE",
       "date": "2026-09-18",
       "title": "Researchers use AI to find widespread software decoder flaw",
@@ -159,8 +160,7 @@
       "company": "OpenAI",
       "tags": [
         "openai"
-      ],
-      "id": "2026-09-18-researchers-use-ai-to-find-widespread-software-decoder-flaw"
+      ]
     },
     {
       "id": "2026-09-17-small-ai-models-let-drones-autonomously-identify-and-attack-battlefield-targets",
