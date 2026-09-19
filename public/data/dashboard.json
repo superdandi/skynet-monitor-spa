@@ -115,6 +115,19 @@
   ],
   "incidents": [
     {
+      "severity": "CRITICAL",
+      "date": "2026-09-18",
+      "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
+      "summary": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control compromised devices. \"Distributed primarily via targeted smishing (SMS/text phish",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "supply-chain"
+      ],
+      "id": "2026-09-18-rathat-android-malware-abuses-adb-to-retain-shell-access-after-uninstall"
+    },
+    {
+      "id": "2026-09-17-small-ai-models-let-drones-autonomously-identify-and-attack-battlefield-targets",
       "severity": "LOW",
       "date": "2026-09-17",
       "title": "Small AI models let drones autonomously identify and attack battlefield targets",
@@ -123,10 +136,10 @@
       "company": null,
       "tags": [
         "autonomous-ai"
-      ],
-      "id": "2026-09-17-small-ai-models-let-drones-autonomously-identify-and-attack-battlefield-targets"
+      ]
     },
     {
+      "id": "2026-09-17-microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history",
       "severity": "LOW",
       "date": "2026-09-17",
       "title": "Microsoft exec called AI scraping the “largest theft of labor in human history”",
@@ -135,10 +148,10 @@
       "company": "OpenAI",
       "tags": [
         "openai"
-      ],
-      "id": "2026-09-17-microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history"
+      ]
     },
     {
+      "id": "2026-09-17-the-ai-hacking-apocalypse-is-not-inevitable",
       "severity": "LOW",
       "date": "2026-09-17",
       "title": "The AI hacking apocalypse is not inevitable",
@@ -147,8 +160,7 @@
       "company": null,
       "tags": [
         "autonomous-ai"
-      ],
-      "id": "2026-09-17-the-ai-hacking-apocalypse-is-not-inevitable"
+      ]
     },
     {
       "id": "2026-09-16-one-extension-could-hijack-ai-assistants-across-chrome-comet-edge-opera-neon-and",
@@ -568,12 +580,12 @@
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Small AI models let drones autonomously identify and attack battlefield targets"
+    "last_incident": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall"
   },
   "market_stats": {
     "companies_tracked": 8,
-    "total_incidents": 35,
-    "critical_incidents": 14,
+    "total_incidents": 36,
+    "critical_incidents": 15,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
