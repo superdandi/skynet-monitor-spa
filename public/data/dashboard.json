@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 7,
+      "incidents_count": 9,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-09-18-rathat-android-malware-abuses-adb-to-retain-shell-access-after-uninstall",
       "severity": "CRITICAL",
       "date": "2026-09-18",
       "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
@@ -123,8 +124,43 @@
       "company": null,
       "tags": [
         "supply-chain"
+      ]
+    },
+    {
+      "severity": "HIGH",
+      "date": "2026-09-18",
+      "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
+      "summary": "A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package registry. \"The developer likely wrote the malware using a large language model (LLM), an assessment made with high confide",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "supply-chain"
       ],
-      "id": "2026-09-18-rathat-android-malware-abuses-adb-to-retain-shell-access-after-uninstall"
+      "id": "2026-09-18-claimed-bug-bounty-hunter-likely-used-llm-to-build-phantomraven-npm-stealer"
+    },
+    {
+      "severity": "LOW",
+      "date": "2026-09-18",
+      "title": "Researchers used Claude to hack OpenAI",
+      "summary": "Researchers used Claude to reach an OpenAI employee account and sensitive GitHub data.",
+      "source": "arstechnica.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai"
+      ],
+      "id": "2026-09-18-researchers-used-claude-to-hack-openai"
+    },
+    {
+      "severity": "MODERATE",
+      "date": "2026-09-18",
+      "title": "Researchers use AI to find widespread software decoder flaw",
+      "summary": "<p>The bug, since patched, gave attackers remote code execution privileges and access to user accounts and production environments, including Meta’s core product suite and an OpenAI software repository.</p> <p>The post <a href=\"https://cyberscoop.com/hacktron-ai-heif-heist-vulnerability/\">Researcher",
+      "source": "cyberscoop.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai"
+      ],
+      "id": "2026-09-18-researchers-use-ai-to-find-widespread-software-decoder-flaw"
     },
     {
       "id": "2026-09-17-small-ai-models-let-drones-autonomously-identify-and-attack-battlefield-targets",
@@ -584,7 +620,7 @@
   },
   "market_stats": {
     "companies_tracked": 8,
-    "total_incidents": 36,
+    "total_incidents": 39,
     "critical_incidents": 15,
     "total_valuation": 1808,
     "system_status": "ONLINE"
