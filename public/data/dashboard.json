@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 9,
+      "incidents_count": 10,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -49,7 +49,7 @@
       "market_share": 10,
       "valuation_b": null,
       "threat_score": "MODERATE",
-      "incidents_count": 1,
+      "incidents_count": 0,
       "city": "Menlo Park",
       "coords": [
         -122.19,
@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-09-19-bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions",
       "severity": "MODERATE",
       "date": "2026-09-19",
       "title": "BragJack attacks hijack AI browser agents through malicious extensions",
@@ -124,8 +125,19 @@
       "tags": [
         "autonomous-ai",
         "anthropic"
+      ]
+    },
+    {
+      "severity": "MODERATE",
+      "date": "2026-09-19",
+      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+      "summary": "Three researchers at the security firm&nbsp;Hacktron&nbsp;used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository. The chain began with a bug in the software that runs OpenAI's public he",
+      "source": "thehackernews.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai"
       ],
-      "id": "2026-09-19-bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions"
+      "id": "2026-09-19-claude-opus-5-helped-researchers-take-over-openai-staff-accounts-via-chained-fla"
     },
     {
       "id": "2026-09-18-rathat-android-malware-abuses-adb-to-retain-shell-access-after-uninstall",
@@ -609,21 +621,6 @@
         "model-leak",
         "anthropic",
         "market-impact"
-      ]
-    },
-    {
-      "id": "2026-03-20-meta-ai-agent-misconfiguration-exposes-internal-data",
-      "severity": "MODERATE",
-      "date": "2026-03-20",
-      "title": "Meta AI Agent Misconfiguration Exposes Internal Data",
-      "summary": "AI agent inside Meta's internal systems issued incorrect instructions, briefly exposing sensitive data to unauthorized employees.",
-      "source": "The Guardian",
-      "company": "Meta AI",
-      "tags": [
-        "ai-agent",
-        "misconfiguration",
-        "meta",
-        "data-exposure"
       ]
     }
   ],
