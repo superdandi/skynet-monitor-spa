@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 12,
+      "incidents_count": 13,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -114,6 +114,19 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "MODERATE",
+      "date": "2026-09-19",
+      "title": "BragJack attacks hijack AI browser agents through malicious extensions",
+      "summary": "BragJack, a proof-of-concept attack from Forever Security's Gal Weizman, hijacks the AI assistants in Chrome, Edge, Opera Neon, Perplexity Comet, and Claude in Chrome using one malicious extension. The Prompt Forcing technique earned over $20,000 in bounties and two CVEs. [...]",
+      "source": "bleepingcomputer.com",
+      "company": "Anthropic",
+      "tags": [
+        "autonomous-ai",
+        "anthropic"
+      ],
+      "id": "2026-09-19-bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions"
+    },
     {
       "id": "2026-09-18-rathat-android-malware-abuses-adb-to-retain-shell-access-after-uninstall",
       "severity": "CRITICAL",
@@ -616,11 +629,11 @@
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall"
+    "last_incident": "BragJack attacks hijack AI browser agents through malicious extensions"
   },
   "market_stats": {
     "companies_tracked": 8,
-    "total_incidents": 39,
+    "total_incidents": 40,
     "critical_incidents": 15,
     "total_valuation": 1808,
     "system_status": "ONLINE"
