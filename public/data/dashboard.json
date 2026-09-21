@@ -128,6 +128,7 @@
       ]
     },
     {
+      "id": "2026-09-19-claude-opus-5-helped-researchers-take-over-openai-staff-accounts-via-chained-fla",
       "severity": "MODERATE",
       "date": "2026-09-19",
       "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
@@ -136,8 +137,7 @@
       "company": "OpenAI",
       "tags": [
         "openai"
-      ],
-      "id": "2026-09-19-claude-opus-5-helped-researchers-take-over-openai-staff-accounts-via-chained-fla"
+      ]
     },
     {
       "id": "2026-09-18-rathat-android-malware-abuses-adb-to-retain-shell-access-after-uninstall",
