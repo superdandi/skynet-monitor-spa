@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 12,
+      "incidents_count": 13,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-09-21-weekly-recap-cisco-0-day-ai-agent-rce-clickfix-attacks-clickfix-surge-and-browse",
       "severity": "CRITICAL",
       "date": "2026-09-21",
       "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
@@ -125,10 +126,10 @@
         "autonomous-ai",
         "zero-day",
         "data-exposure"
-      ],
-      "id": "2026-09-21-weekly-recap-cisco-0-day-ai-agent-rce-clickfix-attacks-clickfix-surge-and-browse"
+      ]
     },
     {
+      "id": "2026-09-21-google-confirms-gemini-models-hacked-three-companies-in-may-2026",
       "severity": "CRITICAL",
       "date": "2026-09-21",
       "title": "Google confirms Gemini models hacked three companies in May 2026",
@@ -138,8 +139,19 @@
       "tags": [
         "supply-chain",
         "google-deepmind"
+      ]
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-09-21",
+      "title": "Anthropic-linked CVEs pile up, attackers mostly shrug",
+      "summary": "Of 225 flaws found by Glasswing and tracked by VulnCheck researcher, just one has confirmed exploitation in the wild",
+      "source": "theregister.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic"
       ],
-      "id": "2026-09-21-google-confirms-gemini-models-hacked-three-companies-in-may-2026"
+      "id": "2026-09-21-anthropic-linked-cves-pile-up-attackers-mostly-shrug"
     },
     {
       "id": "2026-09-19-bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions",
@@ -604,21 +616,6 @@
         "anthropic",
         "china",
         "claude"
-      ]
-    },
-    {
-      "id": "2026-07-01-jadepuffer-first-llm-driven-ransomware",
-      "severity": "CRITICAL",
-      "date": "2026-07-01",
-      "title": "JadePuffer: First LLM-Driven Ransomware",
-      "summary": "First documented case of LLM-driven ransomware. Initial access via vulnerability, immediate credential sweep targeting LLM provider API keys, cloud provider credentials, and database credentials.",
-      "source": "Sysdig Blog",
-      "company": null,
-      "tags": [
-        "ransomware",
-        "llm-driven",
-        "jadepuffer",
-        "sysdig"
       ]
     }
   ],
