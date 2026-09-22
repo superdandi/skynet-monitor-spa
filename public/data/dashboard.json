@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 13,
+      "incidents_count": 12,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -35,7 +35,7 @@
       "market_share": 13,
       "valuation_b": null,
       "threat_score": "MODERATE",
-      "incidents_count": 1,
+      "incidents_count": 2,
       "city": "London",
       "coords": [
         -0.13,
@@ -114,6 +114,33 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "CRITICAL",
+      "date": "2026-09-21",
+      "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
+      "summary": "A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week. The trouble keeps showing up inside things people already trust: code that takes a bad turn, old payloads coming back, exposed systems, weak checks, fake fixes, and attack paths that look almost to",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai",
+        "zero-day",
+        "data-exposure"
+      ],
+      "id": "2026-09-21-weekly-recap-cisco-0-day-ai-agent-rce-clickfix-attacks-clickfix-surge-and-browse"
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-09-21",
+      "title": "Google confirms Gemini models hacked three companies in May 2026",
+      "summary": "A third-party cybersecurity firm accidentally gave experimental Gemini models access to the Internet.",
+      "source": "arstechnica.com",
+      "company": "Google DeepMind",
+      "tags": [
+        "supply-chain",
+        "google-deepmind"
+      ],
+      "id": "2026-09-21-google-confirms-gemini-models-hacked-three-companies-in-may-2026"
+    },
     {
       "id": "2026-09-19-bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions",
       "severity": "MODERATE",
@@ -593,45 +620,16 @@
         "jadepuffer",
         "sysdig"
       ]
-    },
-    {
-      "id": "2026-04-08-vercel-breach-via-ai-tool-oauth-supply-chain",
-      "severity": "HIGH",
-      "date": "2026-04-08",
-      "title": "Vercel Breach via AI Tool OAuth Supply Chain",
-      "summary": "Employee granted AI productivity tool 'Allow All' OAuth permissions to Google Workspace. Attackers compromised Context.ai via Lumma Stealer malware, used tokens for lateral movement.",
-      "source": "Vercel Security",
-      "company": null,
-      "tags": [
-        "supply-chain",
-        "oauth",
-        "ai-tool",
-        "vercel"
-      ]
-    },
-    {
-      "id": "2026-03-27-anthropic-claude-capybara-model-leak-triggers-market-panic",
-      "severity": "HIGH",
-      "date": "2026-03-27",
-      "title": "Anthropic 'Claude Capybara' Model Leak Triggers Market Panic",
-      "summary": "Experimental Anthropic model powerful enough to trigger internal caution leaked to open internet. Caused $14.5B market panic.",
-      "source": "Times of India",
-      "company": "Anthropic",
-      "tags": [
-        "model-leak",
-        "anthropic",
-        "market-impact"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "BragJack attacks hijack AI browser agents through malicious extensions"
+    "last_incident": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 15,
+    "critical_incidents": 17,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
