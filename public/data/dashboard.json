@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-09-22-microsoft-takes-down-eviltokens-device-code-phishing-service-tied-to-12-000-inbo",
       "severity": "CRITICAL",
       "date": "2026-09-22",
       "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
@@ -123,20 +124,20 @@
       "company": "OpenAI",
       "tags": [
         "openai"
-      ],
-      "id": "2026-09-22-microsoft-takes-down-eviltokens-device-code-phishing-service-tied-to-12-000-inbo"
+      ]
     },
     {
+      "id": "2026-09-22-critical-bifrost-ai-gateway-flaw-lets-attackers-run-commands-without-credentials",
       "severity": "CRITICAL",
       "date": "2026-09-22",
       "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
       "summary": "A critical vulnerability in&nbsp;Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP request. The flaw, tracked as&nbsp;CVE-2026-90898&nbsp;(CVSS score: 9.8), affe",
       "source": "thehackernews.com",
       "company": null,
-      "tags": [],
-      "id": "2026-09-22-critical-bifrost-ai-gateway-flaw-lets-attackers-run-commands-without-credentials"
+      "tags": []
     },
     {
+      "id": "2026-09-22-new-closedquorum-windows-malware-uses-ai-for-attack-decisions",
       "severity": "CRITICAL",
       "date": "2026-09-22",
       "title": "New ClosedQuorum Windows malware uses AI for attack decisions",
@@ -146,8 +147,7 @@
       "tags": [
         "autonomous-ai",
         "google-deepmind"
-      ],
-      "id": "2026-09-22-new-closedquorum-windows-malware-uses-ai-for-attack-decisions"
+      ]
     },
     {
       "id": "2026-09-21-weekly-recap-cisco-0-day-ai-agent-rce-clickfix-attacks-clickfix-surge-and-browse",
