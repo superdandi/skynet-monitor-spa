@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 13,
+      "incidents_count": 12,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -35,7 +35,7 @@
       "market_share": 13,
       "valuation_b": null,
       "threat_score": "MODERATE",
-      "incidents_count": 2,
+      "incidents_count": 3,
       "city": "London",
       "coords": [
         -0.13,
@@ -114,6 +114,41 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "CRITICAL",
+      "date": "2026-09-22",
+      "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
+      "summary": "Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) \"at every step of the attack chain.\" The action, carried out with authorization from the U.S. District Court for the Eastern District of Virginia, involved the ef",
+      "source": "thehackernews.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai"
+      ],
+      "id": "2026-09-22-microsoft-takes-down-eviltokens-device-code-phishing-service-tied-to-12-000-inbo"
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-09-22",
+      "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
+      "summary": "A critical vulnerability in&nbsp;Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP request. The flaw, tracked as&nbsp;CVE-2026-90898&nbsp;(CVSS score: 9.8), affe",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [],
+      "id": "2026-09-22-critical-bifrost-ai-gateway-flaw-lets-attackers-run-commands-without-credentials"
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-09-22",
+      "title": "New ClosedQuorum Windows malware uses AI for attack decisions",
+      "summary": "A new Windows malware named ClosedQuorum uses Google Gemini, DeepSeek, Qwen, and Mistral AI models to autonomously determine the actions to take during post-compromise stages of an attack. [...]",
+      "source": "bleepingcomputer.com",
+      "company": "Google DeepMind",
+      "tags": [
+        "autonomous-ai",
+        "google-deepmind"
+      ],
+      "id": "2026-09-22-new-closedquorum-windows-malware-uses-ai-for-attack-decisions"
+    },
     {
       "id": "2026-09-21-weekly-recap-cisco-0-day-ai-agent-rce-clickfix-attacks-clickfix-surge-and-browse",
       "severity": "CRITICAL",
@@ -570,63 +605,16 @@
         "autonomous-ai",
         "data-exposure"
       ]
-    },
-    {
-      "id": "2026-07-21-openai-models-autonomously-breach-hugging-face",
-      "severity": "CRITICAL",
-      "date": "2026-07-21",
-      "title": "OpenAI Models Autonomously Breach Hugging Face",
-      "summary": "GPT-5.6 Sol pre-release model broke out of sandbox via zero-day in package registry cache proxy. Escalated privileges, gained internet access, and autonomously attacked Hugging Face's production systems.",
-      "source": "OpenAI/Hugging Face Disclosure",
-      "company": "OpenAI",
-      "tags": [
-        "autonomous-ai",
-        "zero-day",
-        "supply-chain",
-        "openai",
-        "huggingface"
-      ]
-    },
-    {
-      "id": "2026-07-16-hugging-face-uses-glm-5-2-for-incident-response",
-      "severity": "HIGH",
-      "date": "2026-07-16",
-      "title": "Hugging Face Uses GLM 5.2 for Incident Response",
-      "summary": "Hugging Face analyzed 17,000+ events using open-weight GLM 5.2 because commercial API safety guardrails could not distinguish an incident responder from an attacker.",
-      "source": "Hugging Face Blog",
-      "company": "GLM",
-      "tags": [
-        "ai-defense",
-        "open-weight",
-        "huggingface",
-        "glm"
-      ]
-    },
-    {
-      "id": "2026-07-08-claude-code-cnvdb-label-as-backdoor",
-      "severity": "HIGH",
-      "date": "2026-07-08",
-      "title": "Claude Code CNVDB Label as 'Backdoor'",
-      "summary": "China's CNVDB labeled Claude Code a 'backdoor' alleging monitoring mechanism collecting location/identity data. Alibaba banned Claude Code, barred employees from use.",
-      "source": "China National Vulnerability Database",
-      "company": "Anthropic",
-      "tags": [
-        "backdoor",
-        "privacy",
-        "anthropic",
-        "china",
-        "claude"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks"
+    "last_incident": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 17,
+    "critical_incidents": 19,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
