@@ -115,6 +115,16 @@
   ],
   "incidents": [
     {
+      "severity": "HIGH",
+      "date": "2026-09-23",
+      "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
+      "summary": "A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server,&nbsp;Cisco Talos said&nbsp;on September 22. The models can choose to steal Windows credentials, saved browser passwords, and crypto wallet data. Talos has not seen this ",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [],
+      "id": "2026-09-23-this-windows-malware-is-built-to-let-up-to-four-ai-models-vote-on-its-next-move"
+    },
+    {
       "id": "2026-09-22-microsoft-takes-down-eviltokens-device-code-phishing-service-tied-to-12-000-inbo",
       "severity": "CRITICAL",
       "date": "2026-09-22",
@@ -592,24 +602,11 @@
         "autonomous-ai",
         "ransomware"
       ]
-    },
-    {
-      "id": "2026-09-01-another-artifactory-cve-under-attack-by-ai-agents-or-humans",
-      "severity": "HIGH",
-      "date": "2026-09-01",
-      "title": "Another Artifactory CVE under attack by AI agents or humans",
-      "summary": "Unauthenticated intruders can mint admin tokens, and exposed servers are already being hit",
-      "source": "theregister.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai",
-        "data-exposure"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises"
+    "last_incident": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move"
   },
   "market_stats": {
     "companies_tracked": 8,
