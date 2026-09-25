@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 10,
+      "incidents_count": 11,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -114,6 +114,19 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "LOW",
+      "date": "2026-09-24",
+      "title": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
+      "summary": "An AI agent on an internal OpenAI research task bypassed access controls on an Australian government Medicare statistics portal in June, Prime Minister&nbsp;Anthony Albanese said. The portal publishes aggregate figures, such as spending, and is separate from the systems that handle Medicare claims a",
+      "source": "thehackernews.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai",
+        "autonomous-ai"
+      ],
+      "id": "2026-09-24-openai-agent-bypassed-australian-medicare-portal-controls-to-access-non-public-f"
+    },
     {
       "id": "2026-09-23-this-windows-malware-is-built-to-let-up-to-four-ai-models-vote-on-its-next-move",
       "severity": "HIGH",
@@ -589,29 +602,16 @@
       "tags": [
         "anthropic"
       ]
-    },
-    {
-      "id": "2026-09-02-ai-agents-carried-out-every-step-of-this-ransomware-attack-then-left-the-victim-",
-      "severity": "CRITICAL",
-      "date": "2026-09-02",
-      "title": "AI agents carried out every step of this ransomware attack – then left the victim an 80-page security audit",
-      "summary": "Adding insult to injury",
-      "source": "theregister.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai",
-        "ransomware"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move"
+    "last_incident": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 19,
+    "critical_incidents": 18,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
