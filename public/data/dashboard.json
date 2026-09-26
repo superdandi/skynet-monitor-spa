@@ -167,6 +167,7 @@
       ]
     },
     {
+      "id": "2026-09-24-new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts",
       "severity": "HIGH",
       "date": "2026-09-24",
       "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
@@ -176,8 +177,7 @@
       "tags": [
         "autonomous-ai",
         "data-exposure"
-      ],
-      "id": "2026-09-24-new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts"
+      ]
     },
     {
       "id": "2026-09-23-this-windows-malware-is-built-to-let-up-to-four-ai-models-vote-on-its-next-move",
