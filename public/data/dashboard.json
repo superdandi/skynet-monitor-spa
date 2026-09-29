@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 11,
+      "incidents_count": 8,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -35,7 +35,7 @@
       "market_share": 13,
       "valuation_b": null,
       "threat_score": "MODERATE",
-      "incidents_count": 2,
+      "incidents_count": 3,
       "city": "London",
       "coords": [
         -0.13,
@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-09-28-openai-pauses-some-training-amid-allegations-its-rogue-agents-behaved-more-badly",
       "severity": "LOW",
       "date": "2026-09-28",
       "title": "OpenAI pauses some training amid allegations its rogue agents behaved more badly than first thought",
@@ -124,8 +125,58 @@
       "tags": [
         "openai",
         "autonomous-ai"
+      ]
+    },
+    {
+      "severity": "HIGH",
+      "date": "2026-09-28",
+      "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
+      "summary": "RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has&nbsp;traced nearly 100 deployments&nbsp;of that console since April 2026. It said this fits a malware-as-a-service model, in which each cus",
+      "source": "thehackernews.com",
+      "company": "Google DeepMind",
+      "tags": [
+        "google-deepmind"
       ],
-      "id": "2026-09-28-openai-pauses-some-training-amid-allegations-its-rogue-agents-behaved-more-badly"
+      "id": "2026-09-28-rathat-android-malware-console-uses-gemini-to-identify-higher-value-victims"
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-09-28",
+      "title": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
+      "summary": "A domain used as harmless placeholder text showed up in roughly 1,700 repositories. Then somebody registered it and started serving malicious lures. That is the kind of week this was: forgotten assumptions turning into live attack surface. Elsewhere, weak service accounts, old bugs, exposed systems,",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai",
+        "data-exposure"
+      ],
+      "id": "2026-09-28-weekly-recap-387m-crypto-hack-citrix-exploits-ai-agents-go-off-script-and-more-t"
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-09-28",
+      "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
+      "summary": "Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework called Hermes Agent. \"The implant installs the framework unchanged, then overwrites its SOUL.md pers",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai",
+        "data-exposure"
+      ],
+      "id": "2026-09-28-carbonato-botnet-compromises-docker-hosts-to-deploy-telegram-controlled-hermes-a"
+    },
+    {
+      "severity": "HIGH",
+      "date": "2026-09-28",
+      "title": "80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking",
+      "summary": "Infostealer logs exposed AI account credentials and sessions tied to more than 80,000 corporate domains, creating risks ranging from stolen conversations to LLMjacking. SOCRadar examines the growing market for stolen AI logins and how organizations can identify their exposure. [...]",
+      "source": "bleepingcomputer.com",
+      "company": null,
+      "tags": [
+        "market-impact",
+        "data-exposure"
+      ],
+      "id": "2026-09-28-80-000-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking"
     },
     {
       "id": "2026-09-24-openai-agent-bypassed-australian-medicare-portal-controls-to-access-non-public-f",
@@ -554,54 +605,6 @@
       "company": null,
       "tags": [
         "autonomous-ai"
-      ]
-    },
-    {
-      "id": "2026-09-10-ai-lets-small-actors-run-state-level-hacking-campaigns-anthropic-report-finds",
-      "severity": "CRITICAL",
-      "date": "2026-09-10",
-      "title": "AI lets small actors run state-level hacking campaigns, Anthropic report finds",
-      "summary": "<p>The report details a Russian-aligned espionage campaign against more than 20 organizations, an exploit foundry run by Chinese undergraduates and ShinyHunters-affiliated breaches, among other disrupted operations.</p> <p>The post <a href=\"https://cyberscoop.com/anthropic-report-ai-enabled-cyber-at",
-      "source": "cyberscoop.com",
-      "company": "Anthropic",
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "2026-09-09-infostealer-logs-expose-replayable-ai-tokens-that-can-bypass-mfa",
-      "severity": "CRITICAL",
-      "date": "2026-09-09",
-      "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
-      "summary": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illicit access to tools from model providers like Google, Anthropic, and others.&nbsp; Information stealers like Lumma Stealer or Vidar are equipped to harvest a wi",
-      "source": "thehackernews.com",
-      "company": "Anthropic",
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "2026-09-09-deepseek-harness-flaw-let-ai-agents-disable-their-own-file-sandbox-without-appro",
-      "severity": "MODERATE",
-      "date": "2026-09-09",
-      "title": "DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval",
-      "summary": "A flaw in DeepSeek Harness, DeepSeek's open-source tool for running AI coding agents on a developer's machine, let a sandboxed agent turn off its own sandbox with a single command. The tool runs an agent's commands inside an operating-system sandbox, so that an agent working on untrusted files canno",
-      "source": "thehackernews.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai"
-      ]
-    },
-    {
-      "id": "2026-09-09-u-s-agencies-accuse-china-ai-firms-of-distilling-claude-gpt-gemini-and-grok",
-      "severity": "HIGH",
-      "date": "2026-09-09",
-      "title": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
-      "summary": "U.S. cybersecurity and intelligence agencies have accused China-based artificial intelligence (AI) companies of conducting \"systematic extraction\" of proprietary functionalities and capabilities of American frontier models through distillation attacks. The activity has been described as occurring at",
-      "source": "thehackernews.com",
-      "company": "Anthropic",
-      "tags": [
-        "anthropic"
       ]
     }
   ],
