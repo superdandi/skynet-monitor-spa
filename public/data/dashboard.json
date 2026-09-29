@@ -115,6 +115,19 @@
   ],
   "incidents": [
     {
+      "severity": "LOW",
+      "date": "2026-09-28",
+      "title": "OpenAI pauses some training amid allegations its rogue agents behaved more badly than first thought",
+      "summary": "Amid allegations that agents may have gone off the rails thousands of times, China set up some kind of agentic incident hotline",
+      "source": "theregister.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai",
+        "autonomous-ai"
+      ],
+      "id": "2026-09-28-openai-pauses-some-training-amid-allegations-its-rogue-agents-behaved-more-badly"
+    },
+    {
       "id": "2026-09-24-openai-agent-bypassed-australian-medicare-portal-controls-to-access-non-public-f",
       "severity": "LOW",
       "date": "2026-09-24",
@@ -590,23 +603,11 @@
       "tags": [
         "anthropic"
       ]
-    },
-    {
-      "id": "2026-09-08-chatgpt-flaw-let-a-planted-prompt-send-a-victim-s-gmail-data-to-another-account",
-      "severity": "MODERATE",
-      "date": "2026-09-08",
-      "title": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account",
-      "summary": "Check Point Research said in a&nbsp;report published today&nbsp;that a single instruction planted in a ChatGPT conversation could cause ChatGPT to quietly work for an attacker while answering the user's question as usual. In the company's proof of concept, that hidden work read data from the user's ",
-      "source": "thehackernews.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files"
+    "last_incident": "OpenAI pauses some training amid allegations its rogue agents behaved more badly than first thought"
   },
   "market_stats": {
     "companies_tracked": 8,
