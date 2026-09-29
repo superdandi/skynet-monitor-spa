@@ -128,6 +128,7 @@
       ]
     },
     {
+      "id": "2026-09-28-rathat-android-malware-console-uses-gemini-to-identify-higher-value-victims",
       "severity": "HIGH",
       "date": "2026-09-28",
       "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
@@ -136,10 +137,10 @@
       "company": "Google DeepMind",
       "tags": [
         "google-deepmind"
-      ],
-      "id": "2026-09-28-rathat-android-malware-console-uses-gemini-to-identify-higher-value-victims"
+      ]
     },
     {
+      "id": "2026-09-28-weekly-recap-387m-crypto-hack-citrix-exploits-ai-agents-go-off-script-and-more-t",
       "severity": "CRITICAL",
       "date": "2026-09-28",
       "title": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
@@ -149,10 +150,10 @@
       "tags": [
         "autonomous-ai",
         "data-exposure"
-      ],
-      "id": "2026-09-28-weekly-recap-387m-crypto-hack-citrix-exploits-ai-agents-go-off-script-and-more-t"
+      ]
     },
     {
+      "id": "2026-09-28-carbonato-botnet-compromises-docker-hosts-to-deploy-telegram-controlled-hermes-a",
       "severity": "CRITICAL",
       "date": "2026-09-28",
       "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
@@ -162,10 +163,10 @@
       "tags": [
         "autonomous-ai",
         "data-exposure"
-      ],
-      "id": "2026-09-28-carbonato-botnet-compromises-docker-hosts-to-deploy-telegram-controlled-hermes-a"
+      ]
     },
     {
+      "id": "2026-09-28-80-000-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking",
       "severity": "HIGH",
       "date": "2026-09-28",
       "title": "80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking",
@@ -175,8 +176,7 @@
       "tags": [
         "market-impact",
         "data-exposure"
-      ],
-      "id": "2026-09-28-80-000-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking"
+      ]
     },
     {
       "id": "2026-09-24-openai-agent-bypassed-australian-medicare-portal-controls-to-access-non-public-f",
