@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 15,
+      "incidents_count": 16,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 7,
+      "incidents_count": 6,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -142,6 +142,7 @@
       ]
     },
     {
+      "id": "2026-09-29-automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd",
       "severity": "CRITICAL",
       "date": "2026-09-29",
       "title": "Automated AI agent used to breach cybersecurity nonprofit DIVD",
@@ -150,10 +151,10 @@
       "company": null,
       "tags": [
         "autonomous-ai"
-      ],
-      "id": "2026-09-29-automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd"
+      ]
     },
     {
+      "id": "2026-09-29-here-s-what-actually-happened-in-openai-s-australian-gov-t-server-hack",
       "severity": "LOW",
       "date": "2026-09-29",
       "title": "Here's what actually happened in OpenAI's Australian gov't server hack",
@@ -163,8 +164,19 @@
       "tags": [
         "openai",
         "autonomous-ai"
+      ]
+    },
+    {
+      "severity": "HIGH",
+      "date": "2026-09-29",
+      "title": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
+      "summary": "Custom variants of OpenAI's ChatGPT promoted in sponsored Google results are directing unsuspecting users to malicious sites that use ClickFix attacks to deliver malware. [...]",
+      "source": "bleepingcomputer.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai"
       ],
-      "id": "2026-09-29-here-s-what-actually-happened-in-openai-s-australian-gov-t-server-hack"
+      "id": "2026-09-29-custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware"
     },
     {
       "id": "2026-09-28-openai-pauses-some-training-amid-allegations-its-rogue-agents-behaved-more-badly",
@@ -591,18 +603,6 @@
       "date": "2026-09-11",
       "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
       "summary": "Anthropic says multiple threat groups, including the financially motivated and state-sponsored espionage groups linked to Russia and China, tried to abuse its Claude AI model for malicious purposes. [...]",
-      "source": "bleepingcomputer.com",
-      "company": "Anthropic",
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "2026-09-11-how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface",
-      "severity": "HIGH",
-      "date": "2026-09-11",
-      "title": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
-      "summary": "Threat actors are abusing trusted AI platforms to host malicious content, poison search results, and trick users into installing malware. Huntress examines campaigns targeting AI users through weaponized Claude Artifacts, shared AI conversations, sponsored search results, and ClickFix-style lures. [",
       "source": "bleepingcomputer.com",
       "company": "Anthropic",
       "tags": [
