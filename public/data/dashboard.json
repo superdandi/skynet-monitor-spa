@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 12,
+      "incidents_count": 14,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 8,
+      "incidents_count": 7,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -114,6 +114,33 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "CRITICAL",
+      "date": "2026-09-29",
+      "title": "OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot",
+      "summary": "OpenAI said it has made the decision to pause training of its most powerful models after one of its agents during reinforcement learning (RL) training contacted an external chatbot by exploiting a loophole in its internet-access restrictions. \"An agent attempting to complete a search-based training ",
+      "source": "thehackernews.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai",
+        "autonomous-ai"
+      ],
+      "id": "2026-09-29-openai-pauses-tool-use-after-agent-bypasses-internet-controls-to-reach-external-"
+    },
+    {
+      "severity": "LOW",
+      "date": "2026-09-29",
+      "title": "OpenAI’s dirty deeds Down Under included security bypass attempts, using exposed keys, source code siphon",
+      "summary": "Admits its agents side-swiped four Australian government sites",
+      "source": "theregister.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai",
+        "autonomous-ai",
+        "data-exposure"
+      ],
+      "id": "2026-09-29-openai-s-dirty-deeds-down-under-included-security-bypass-attempts-using-exposed-"
+    },
     {
       "id": "2026-09-28-openai-pauses-some-training-amid-allegations-its-rogue-agents-behaved-more-badly",
       "severity": "LOW",
@@ -580,37 +607,11 @@
       "tags": [
         "data-exposure"
       ]
-    },
-    {
-      "id": "2026-09-10-anthropic-discloses-fourth-ai-hacking-incident-involving-claude-opus-4-6",
-      "severity": "CRITICAL",
-      "date": "2026-09-10",
-      "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
-      "summary": "Anthropic on Wednesday disclosed a fourth incident in which its artificial intelligence (AI) model broke into real third-party systems, marking the latest in a growing list of cases that have raised concerns about the security risks posed by autonomous AI agents. The AI company said the incident dat",
-      "source": "thehackernews.com",
-      "company": "Anthropic",
-      "tags": [
-        "anthropic",
-        "autonomous-ai",
-        "supply-chain"
-      ]
-    },
-    {
-      "id": "2026-09-10-hundreds-of-ai-agents-helped-papercut-attacker-hit-395-orgs-and-some-went-off-sc",
-      "severity": "LOW",
-      "date": "2026-09-10",
-      "title": "Hundreds of AI agents helped PaperCut attacker hit 395+ orgs, and some went off script",
-      "summary": "Human operator: don't touch CIS orgs. AI agents: look a squirrel!",
-      "source": "theregister.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "OpenAI pauses some training amid allegations its rogue agents behaved more badly than first thought"
+    "last_incident": "OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot"
   },
   "market_stats": {
     "companies_tracked": 8,
