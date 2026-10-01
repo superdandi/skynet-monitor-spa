@@ -167,6 +167,7 @@
       ]
     },
     {
+      "id": "2026-09-29-custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware",
       "severity": "HIGH",
       "date": "2026-09-29",
       "title": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
@@ -175,8 +176,7 @@
       "company": "OpenAI",
       "tags": [
         "openai"
-      ],
-      "id": "2026-09-29-custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware"
+      ]
     },
     {
       "id": "2026-09-28-openai-pauses-some-training-amid-allegations-its-rogue-agents-behaved-more-badly",
