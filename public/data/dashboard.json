@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 16,
+      "incidents_count": 18,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 6,
+      "incidents_count": 4,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -114,6 +114,31 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "HIGH",
+      "date": "2026-09-30",
+      "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
+      "summary": "Threat actors are abusing ChatGPT Custom GPTs to disguise them as legitimate product offerings and direct unsuspecting victims to malicious sites that employ ClickFix lures to deliver malware. Huntress, which observed the activity in late September 2026, said it marks the abuse of yet another featur",
+      "source": "thehackernews.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai"
+      ],
+      "id": "2026-09-30-attackers-abuse-chatgpt-custom-gpts-to-deliver-rat-via-clickfix-lures"
+    },
+    {
+      "severity": "LOW",
+      "date": "2026-09-30",
+      "title": "\"An AI did it\" is no defense, says nonprofit suing OpenAI over Hugging Face hack",
+      "summary": "OpenAI makes others suffer \"the harms of its unsafe decision-making,\" nonprofit says.",
+      "source": "arstechnica.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai",
+        "ai-defense"
+      ],
+      "id": "2026-09-30-an-ai-did-it-is-no-defense-says-nonprofit-suing-openai-over-hugging-face-hack"
+    },
     {
       "id": "2026-09-29-openai-pauses-tool-use-after-agent-bypasses-internet-controls-to-reach-external-",
       "severity": "CRITICAL",
@@ -584,40 +609,16 @@
       "tags": [
         "anthropic"
       ]
-    },
-    {
-      "id": "2026-09-11-claude-used-to-automate-exploitation-and-data-theft-across-multiple-victims",
-      "severity": "CRITICAL",
-      "date": "2026-09-11",
-      "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
-      "summary": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between December 2025 and August 2026. The threat actors, which the artificial intelligence (AI) company has branded Generative ",
-      "source": "thehackernews.com",
-      "company": "Anthropic",
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "2026-09-11-hackers-abused-claude-to-extract-secrets-from-1-8m-android-apps",
-      "severity": "HIGH",
-      "date": "2026-09-11",
-      "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
-      "summary": "Anthropic says multiple threat groups, including the financially motivated and state-sponsored espionage groups linked to Russia and China, tried to abuse its Claude AI model for malicious purposes. [...]",
-      "source": "bleepingcomputer.com",
-      "company": "Anthropic",
-      "tags": [
-        "anthropic"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot"
+    "last_incident": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 18,
+    "critical_incidents": 17,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
