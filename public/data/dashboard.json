@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 18,
+      "incidents_count": 19,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 4,
+      "incidents_count": 3,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-09-30-attackers-abuse-chatgpt-custom-gpts-to-deliver-rat-via-clickfix-lures",
       "severity": "HIGH",
       "date": "2026-09-30",
       "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
@@ -123,10 +124,10 @@
       "company": "OpenAI",
       "tags": [
         "openai"
-      ],
-      "id": "2026-09-30-attackers-abuse-chatgpt-custom-gpts-to-deliver-rat-via-clickfix-lures"
+      ]
     },
     {
+      "id": "2026-09-30-an-ai-did-it-is-no-defense-says-nonprofit-suing-openai-over-hugging-face-hack",
       "severity": "LOW",
       "date": "2026-09-30",
       "title": "\"An AI did it\" is no defense, says nonprofit suing OpenAI over Hugging Face hack",
@@ -136,8 +137,31 @@
       "tags": [
         "openai",
         "ai-defense"
+      ]
+    },
+    {
+      "severity": "HIGH",
+      "date": "2026-09-30",
+      "title": "Irony alert: OpenAI whines that Chinese model stole its special IP that it stole from everybody else",
+      "summary": "US model makers can train on web data - but distilling theirs is a 'national security risk'",
+      "source": "theregister.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai"
       ],
-      "id": "2026-09-30-an-ai-did-it-is-no-defense-says-nonprofit-suing-openai-over-hugging-face-hack"
+      "id": "2026-09-30-irony-alert-openai-whines-that-chinese-model-stole-its-special-ip-that-it-stole-"
+    },
+    {
+      "severity": "HIGH",
+      "date": "2026-09-30",
+      "title": "OpenAI reveals ‘novel’ encryption bypass used in distillation attack",
+      "summary": "<p>The company said individuals associated with Chinese company MoonshotAI were behind parts of the attack, but did not offer hard evidence for the claim.</p> <p>The post <a href=\"https://cyberscoop.com/openai-moonshot-ai-model-distillation-attack/\">OpenAI reveals ‘novel’ encryption bypass used in d",
+      "source": "cyberscoop.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai"
+      ],
+      "id": "2026-09-30-openai-reveals-novel-encryption-bypass-used-in-distillation-attack"
     },
     {
       "id": "2026-09-29-openai-pauses-tool-use-after-agent-bypasses-internet-controls-to-reach-external-",
@@ -584,31 +608,6 @@
       "tags": [
         "openai"
       ]
-    },
-    {
-      "id": "2026-09-12-researchers-say-openai-agents-were-behind-may-hacking-campaign-targeting-rubygem",
-      "severity": "CRITICAL",
-      "date": "2026-09-12",
-      "title": "Researchers say OpenAI agents were behind May hacking campaign targeting RubyGems",
-      "summary": "<p>OpenAI confirmed their agents were behind a campaign in May that researchers say flooded the popular online code repository with malicious software packages.</p> <p>The post <a href=\"https://cyberscoop.com/openai-agents-malicious-rubygems-packages/\">Researchers say OpenAI agents were behind May h",
-      "source": "cyberscoop.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai",
-        "autonomous-ai"
-      ]
-    },
-    {
-      "id": "2026-09-11-anthropic-says-seven-china-based-ai-labs-ran-industrial-scale-claude-distillatio",
-      "severity": "HIGH",
-      "date": "2026-09-11",
-      "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
-      "summary": "Anthropic on Thursday said it identified and disrupted industrial-scale illicit distillation attacks against Claude from seven labs based in China, including Alibaba, Moonshot, DeepSeek, Z.ai (aka Zhipu), and MiniMax. Knowledge distillation by itself is a legitimate training method. It refers to a m",
-      "source": "thehackernews.com",
-      "company": "Anthropic",
-      "tags": [
-        "anthropic"
-      ]
     }
   ],
   "threat_level": {
@@ -618,7 +617,7 @@
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 17,
+    "critical_incidents": 16,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
