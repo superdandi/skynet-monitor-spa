@@ -140,6 +140,7 @@
       ]
     },
     {
+      "id": "2026-09-30-irony-alert-openai-whines-that-chinese-model-stole-its-special-ip-that-it-stole-",
       "severity": "HIGH",
       "date": "2026-09-30",
       "title": "Irony alert: OpenAI whines that Chinese model stole its special IP that it stole from everybody else",
@@ -148,10 +149,10 @@
       "company": "OpenAI",
       "tags": [
         "openai"
-      ],
-      "id": "2026-09-30-irony-alert-openai-whines-that-chinese-model-stole-its-special-ip-that-it-stole-"
+      ]
     },
     {
+      "id": "2026-09-30-openai-reveals-novel-encryption-bypass-used-in-distillation-attack",
       "severity": "HIGH",
       "date": "2026-09-30",
       "title": "OpenAI reveals ‘novel’ encryption bypass used in distillation attack",
@@ -160,8 +161,7 @@
       "company": "OpenAI",
       "tags": [
         "openai"
-      ],
-      "id": "2026-09-30-openai-reveals-novel-encryption-bypass-used-in-distillation-attack"
+      ]
     },
     {
       "id": "2026-09-29-openai-pauses-tool-use-after-agent-bypasses-internet-controls-to-reach-external-",
