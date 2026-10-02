@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 19,
+      "incidents_count": 18,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 3,
+      "incidents_count": 4,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -114,6 +114,42 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "LOW",
+      "date": "2026-10-01",
+      "title": "Autonomous AI agents tried to hack US, Canadian government websites",
+      "summary": "Autonomous AI agents using aggressive strategies attempted to hack U.S. and Canadian government websites to find school and divorce statistics. [...]",
+      "source": "bleepingcomputer.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai"
+      ],
+      "id": "2026-10-01-autonomous-ai-agents-tried-to-hack-us-canadian-government-websites"
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-10-01",
+      "title": "AI agents hacked the hackers, stealing email addresses from security research org",
+      "summary": "Chained Zammad flaws enabled session hijacking, code execution, and root escalation in seconds",
+      "source": "theregister.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai"
+      ],
+      "id": "2026-10-01-ai-agents-hacked-the-hackers-stealing-email-addresses-from-security-research-org"
+    },
+    {
+      "severity": "MODERATE",
+      "date": "2026-10-01",
+      "title": "Suspected Chinese spies spoofed an Anthropic exec, ex-White House official in AI phishing",
+      "summary": "Your invite to a fake AI policy advisory committee has strings attached",
+      "source": "theregister.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic"
+      ],
+      "id": "2026-10-01-suspected-chinese-spies-spoofed-an-anthropic-exec-ex-white-house-official-in-ai-"
+    },
     {
       "id": "2026-09-30-attackers-abuse-chatgpt-custom-gpts-to-deliver-rat-via-clickfix-lures",
       "severity": "HIGH",
@@ -572,52 +608,16 @@
       "tags": [
         "autonomous-ai"
       ]
-    },
-    {
-      "id": "2026-09-15-human-attacker-exploits-marimo-rce-reaches-ssh-bastion-in-eight-seconds",
-      "severity": "CRITICAL",
-      "date": "2026-09-15",
-      "title": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
-      "summary": "With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled human operators can move just as swiftly after gaining initial access. In one instance highlighted by t",
-      "source": "thehackernews.com",
-      "company": null,
-      "tags": []
-    },
-    {
-      "id": "2026-09-14-weekly-recap-rogue-ai-agents-wechat-worm-papercut-attacks-ai-espionage-and-rootk",
-      "severity": "CRITICAL",
-      "date": "2026-09-14",
-      "title": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
-      "summary": "AI keeps showing up in the wrong places. Attackers are using it to speed up exploits, test defenses, and automate more of the job. Some models are also crossing lines on their own. That is not a great combination. The rest of the week is more familiar: old bugs still working, fresh exploit chains, e",
-      "source": "thehackernews.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai",
-        "ai-defense",
-        "data-exposure"
-      ]
-    },
-    {
-      "id": "2026-09-14-openai-s-malicious-bot-swarm-attacked-rubygems",
-      "severity": "LOW",
-      "date": "2026-09-14",
-      "title": "OpenAI's malicious bot swarm attacked RubyGems",
-      "summary": "Ruby are you ok? Ruby are you ok? Are you ok Ruby?",
-      "source": "theregister.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures"
+    "last_incident": "Autonomous AI agents tried to hack US, Canadian government websites"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 16,
+    "critical_incidents": 15,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
