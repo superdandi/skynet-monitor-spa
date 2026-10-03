@@ -115,6 +115,18 @@
   ],
   "incidents": [
     {
+      "severity": "CRITICAL",
+      "date": "2026-10-02",
+      "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
+      "summary": "A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab&nbsp;said in an advisory. The gateway is the service that connects a GitLab instance to AI models, and only organizations that host their own ",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai"
+      ],
+      "id": "2026-10-02-gitlab-patches-critical-9-9-ai-gateway-flaw-allowing-command-execution-on-self-h"
+    },
+    {
       "id": "2026-10-01-autonomous-ai-agents-tried-to-hack-us-canadian-government-websites",
       "severity": "LOW",
       "date": "2026-10-01",
@@ -596,23 +608,11 @@
       "tags": [
         "anthropic"
       ]
-    },
-    {
-      "id": "2026-09-16-spain-s-data-agency-gets-first-report-of-ai-powered-data-breach",
-      "severity": "CRITICAL",
-      "date": "2026-09-16",
-      "title": "Spain's data agency gets first report of AI-powered data breach",
-      "summary": "The Spanish Data Protection Agency (AEPD) was notified of an attack allegedly carried out with an AI agent powered by a known large language model (LLM). [...]",
-      "source": "bleepingcomputer.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Autonomous AI agents tried to hack US, Canadian government websites"
+    "last_incident": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers"
   },
   "market_stats": {
     "companies_tracked": 8,
