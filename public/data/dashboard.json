@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-10-02-gitlab-patches-critical-9-9-ai-gateway-flaw-allowing-command-execution-on-self-h",
       "severity": "CRITICAL",
       "date": "2026-10-02",
       "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
@@ -123,8 +124,7 @@
       "company": null,
       "tags": [
         "autonomous-ai"
-      ],
-      "id": "2026-10-02-gitlab-patches-critical-9-9-ai-gateway-flaw-allowing-command-execution-on-self-h"
+      ]
     },
     {
       "id": "2026-10-01-autonomous-ai-agents-tried-to-hack-us-canadian-government-websites",
