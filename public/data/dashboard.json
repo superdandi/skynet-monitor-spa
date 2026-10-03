@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-10-01-autonomous-ai-agents-tried-to-hack-us-canadian-government-websites",
       "severity": "LOW",
       "date": "2026-10-01",
       "title": "Autonomous AI agents tried to hack US, Canadian government websites",
@@ -123,10 +124,10 @@
       "company": null,
       "tags": [
         "autonomous-ai"
-      ],
-      "id": "2026-10-01-autonomous-ai-agents-tried-to-hack-us-canadian-government-websites"
+      ]
     },
     {
+      "id": "2026-10-01-ai-agents-hacked-the-hackers-stealing-email-addresses-from-security-research-org",
       "severity": "CRITICAL",
       "date": "2026-10-01",
       "title": "AI agents hacked the hackers, stealing email addresses from security research org",
@@ -135,10 +136,10 @@
       "company": null,
       "tags": [
         "autonomous-ai"
-      ],
-      "id": "2026-10-01-ai-agents-hacked-the-hackers-stealing-email-addresses-from-security-research-org"
+      ]
     },
     {
+      "id": "2026-10-01-suspected-chinese-spies-spoofed-an-anthropic-exec-ex-white-house-official-in-ai-",
       "severity": "MODERATE",
       "date": "2026-10-01",
       "title": "Suspected Chinese spies spoofed an Anthropic exec, ex-White House official in AI phishing",
@@ -147,8 +148,7 @@
       "company": "Anthropic",
       "tags": [
         "anthropic"
-      ],
-      "id": "2026-10-01-suspected-chinese-spies-spoofed-an-anthropic-exec-ex-white-house-official-in-ai-"
+      ]
     },
     {
       "id": "2026-09-30-attackers-abuse-chatgpt-custom-gpts-to-deliver-rat-via-clickfix-lures",
