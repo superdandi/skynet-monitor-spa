@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-10-03-anthropic-s-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vu",
       "severity": "CRITICAL",
       "date": "2026-10-03",
       "title": "Anthropic's super bug-hunting model Mythos is hardcore good at math, as latest vuln under attack shows",
@@ -123,8 +124,7 @@
       "company": "Anthropic",
       "tags": [
         "anthropic"
-      ],
-      "id": "2026-10-03-anthropic-s-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vu"
+      ]
     },
     {
       "id": "2026-10-02-gitlab-patches-critical-9-9-ai-gateway-flaw-allowing-command-execution-on-self-h",
