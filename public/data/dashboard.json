@@ -115,6 +115,18 @@
   ],
   "incidents": [
     {
+      "severity": "CRITICAL",
+      "date": "2026-10-03",
+      "title": "Anthropic's super bug-hunting model Mythos is hardcore good at math, as latest vuln under attack shows",
+      "summary": "Exploitation attempts came from China-hosted IP, VulnCheck researcher says",
+      "source": "theregister.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic"
+      ],
+      "id": "2026-10-03-anthropic-s-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vu"
+    },
+    {
       "id": "2026-10-02-gitlab-patches-critical-9-9-ai-gateway-flaw-allowing-command-execution-on-self-h",
       "severity": "CRITICAL",
       "date": "2026-10-02",
@@ -596,28 +608,16 @@
       "tags": [
         "autonomous-ai"
       ]
-    },
-    {
-      "id": "2026-09-16-one-extension-could-hijack-ai-assistants-across-chrome-comet-edge-opera-neon-and",
-      "severity": "LOW",
-      "date": "2026-09-16",
-      "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
-      "summary": "Security researchers at&nbsp;Forever Security&nbsp;have shown that one ordinary browser extension could take control of the AI assistants built into five Chromium-based products: Gemini Live in Chrome, Perplexity Comet, Microsoft Edge, Opera Neon and the Claude in Chrome extension. Once the extensio",
-      "source": "thehackernews.com",
-      "company": "Anthropic",
-      "tags": [
-        "anthropic"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers"
+    "last_incident": "Anthropic's super bug-hunting model Mythos is hardcore good at math, as latest vuln under attack shows"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 15,
+    "critical_incidents": 16,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
