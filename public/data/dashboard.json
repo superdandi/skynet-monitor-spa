@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-10-04-china-aligned-ta419-targets-u-s-ai-policy-experts-with-microsoft-aitm-phishing",
       "severity": "HIGH",
       "date": "2026-10-04",
       "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
@@ -123,8 +124,7 @@
       "company": "Anthropic",
       "tags": [
         "anthropic"
-      ],
-      "id": "2026-10-04-china-aligned-ta419-targets-u-s-ai-policy-experts-with-microsoft-aitm-phishing"
+      ]
     },
     {
       "id": "2026-10-03-anthropic-s-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vu",
