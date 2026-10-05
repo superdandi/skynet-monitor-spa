@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 4,
+      "incidents_count": 5,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -114,6 +114,18 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "HIGH",
+      "date": "2026-10-04",
+      "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
+      "summary": "A new China-nexus cyber espionage group known as TA419 has been attributed to multiple credential phishing campaigns targeting artificial intelligence (AI) experts working for U.S. think tanks, universities, and legal sector organizations. The campaigns have impersonated prominent economists and AI ",
+      "source": "thehackernews.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic"
+      ],
+      "id": "2026-10-04-china-aligned-ta419-targets-u-s-ai-policy-experts-with-microsoft-aitm-phishing"
+    },
     {
       "id": "2026-10-03-anthropic-s-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vu",
       "severity": "CRITICAL",
@@ -596,23 +608,11 @@
       "tags": [
         "openai"
       ]
-    },
-    {
-      "id": "2026-09-17-the-ai-hacking-apocalypse-is-not-inevitable",
-      "severity": "LOW",
-      "date": "2026-09-17",
-      "title": "The AI hacking apocalypse is not inevitable",
-      "summary": "<p>While large language models present real risks to society, experts say they can be tested and largely controlled using well-worn cybersecurity and policy choices.</p> <p>The post <a href=\"https://cyberscoop.com/ai-agent-hacking-apocalypse-cybersecurity/\">The AI hacking apocalypse is not inevitabl",
-      "source": "cyberscoop.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Anthropic's super bug-hunting model Mythos is hardcore good at math, as latest vuln under attack shows"
+    "last_incident": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing"
   },
   "market_stats": {
     "companies_tracked": 8,
