@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 18,
+      "incidents_count": 19,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -114,6 +114,58 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "HIGH",
+      "date": "2026-10-06",
+      "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
+      "summary": "Cybersecurity researchers have disclosed details of a \"human-operated phishing platform\" that impersonates advertising products for artificial intelligence (AI) chatbots like Google Gemini, Anthropic Claude, OpenAI ChatGPT, Perplexity, Meta Muse, and Manus. The products, which claim to offer campaig",
+      "source": "thehackernews.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai"
+      ],
+      "id": "2026-10-06-fake-chatgpt-gemini-and-claude-ad-portals-capture-credentials-and-mfa-codes"
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-10-06",
+      "title": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies",
+      "summary": "The Wikimedia Foundation, which hosts Wikipedia, has confirmed that it has discovered activity by rogue OpenAI agents on its platforms, including unsuccessful efforts to compromise Etherpad, a public note-taking tool, and edit Wikipedia pages. \"The unauthorized bot activities included edits to our w",
+      "source": "thehackernews.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai",
+        "autonomous-ai"
+      ],
+      "id": "2026-10-06-wikimedia-says-openai-agents-tried-to-compromise-etherpad-and-use-wiki-tools-as-"
+    },
+    {
+      "severity": "LOW",
+      "date": "2026-10-06",
+      "title": "Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits",
+      "summary": "The Wikimedia Foundation says rogue OpenAI agents made unauthorized Wikipedia edits and may have been partially responsible for a May outage. [...]",
+      "source": "bleepingcomputer.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai",
+        "autonomous-ai"
+      ],
+      "id": "2026-10-06-wikimedia-rogue-openai-agents-behind-unauthorized-wikipedia-edits"
+    },
+    {
+      "severity": "LOW",
+      "date": "2026-10-06",
+      "title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
+      "summary": "The reports of OpenAI agents harming third-party sites keep coming.",
+      "source": "arstechnica.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai",
+        "autonomous-ai",
+        "supply-chain"
+      ],
+      "id": "2026-10-06-openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic"
+    },
     {
       "id": "2026-10-04-china-aligned-ta419-targets-u-s-ai-policy-experts-with-microsoft-aitm-phishing",
       "severity": "HIGH",
@@ -560,64 +612,16 @@
       "tags": [
         "supply-chain"
       ]
-    },
-    {
-      "id": "2026-09-18-researchers-used-claude-to-hack-openai",
-      "severity": "LOW",
-      "date": "2026-09-18",
-      "title": "Researchers used Claude to hack OpenAI",
-      "summary": "Researchers used Claude to reach an OpenAI employee account and sensitive GitHub data.",
-      "source": "arstechnica.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "2026-09-18-researchers-use-ai-to-find-widespread-software-decoder-flaw",
-      "severity": "MODERATE",
-      "date": "2026-09-18",
-      "title": "Researchers use AI to find widespread software decoder flaw",
-      "summary": "<p>The bug, since patched, gave attackers remote code execution privileges and access to user accounts and production environments, including Meta’s core product suite and an OpenAI software repository.</p> <p>The post <a href=\"https://cyberscoop.com/hacktron-ai-heif-heist-vulnerability/\">Researcher",
-      "source": "cyberscoop.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "2026-09-17-small-ai-models-let-drones-autonomously-identify-and-attack-battlefield-targets",
-      "severity": "LOW",
-      "date": "2026-09-17",
-      "title": "Small AI models let drones autonomously identify and attack battlefield targets",
-      "summary": "Scaleout deploys decentralized AI-driven learning to military bases and drones.",
-      "source": "arstechnica.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai"
-      ]
-    },
-    {
-      "id": "2026-09-17-microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history",
-      "severity": "LOW",
-      "date": "2026-09-17",
-      "title": "Microsoft exec called AI scraping the “largest theft of labor in human history”",
-      "summary": "Microsoft, OpenAI emails reveal fear of AI “doom loop” killing news orgs.",
-      "source": "arstechnica.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing"
+    "last_incident": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 16,
+    "critical_incidents": 17,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
