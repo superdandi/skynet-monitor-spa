@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-10-06-fake-chatgpt-gemini-and-claude-ad-portals-capture-credentials-and-mfa-codes",
       "severity": "HIGH",
       "date": "2026-10-06",
       "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
@@ -123,10 +124,10 @@
       "company": "OpenAI",
       "tags": [
         "openai"
-      ],
-      "id": "2026-10-06-fake-chatgpt-gemini-and-claude-ad-portals-capture-credentials-and-mfa-codes"
+      ]
     },
     {
+      "id": "2026-10-06-wikimedia-says-openai-agents-tried-to-compromise-etherpad-and-use-wiki-tools-as-",
       "severity": "CRITICAL",
       "date": "2026-10-06",
       "title": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies",
@@ -136,10 +137,10 @@
       "tags": [
         "openai",
         "autonomous-ai"
-      ],
-      "id": "2026-10-06-wikimedia-says-openai-agents-tried-to-compromise-etherpad-and-use-wiki-tools-as-"
+      ]
     },
     {
+      "id": "2026-10-06-wikimedia-rogue-openai-agents-behind-unauthorized-wikipedia-edits",
       "severity": "LOW",
       "date": "2026-10-06",
       "title": "Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits",
@@ -149,10 +150,10 @@
       "tags": [
         "openai",
         "autonomous-ai"
-      ],
-      "id": "2026-10-06-wikimedia-rogue-openai-agents-behind-unauthorized-wikipedia-edits"
+      ]
     },
     {
+      "id": "2026-10-06-openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic",
       "severity": "LOW",
       "date": "2026-10-06",
       "title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
@@ -163,8 +164,7 @@
         "openai",
         "autonomous-ai",
         "supply-chain"
-      ],
-      "id": "2026-10-06-openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic"
+      ]
     },
     {
       "id": "2026-10-04-china-aligned-ta419-targets-u-s-ai-policy-experts-with-microsoft-aitm-phishing",
