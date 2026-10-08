@@ -127,6 +127,7 @@
       ]
     },
     {
+      "id": "2026-10-07-poellm-malware-infects-3-400-servers-to-expand-crypto-mining-botnet",
       "severity": "HIGH",
       "date": "2026-10-07",
       "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
@@ -135,10 +136,10 @@
       "company": null,
       "tags": [
         "data-exposure"
-      ],
-      "id": "2026-10-07-poellm-malware-infects-3-400-servers-to-expand-crypto-mining-botnet"
+      ]
     },
     {
+      "id": "2026-10-07-poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks",
       "severity": "CRITICAL",
       "date": "2026-10-07",
       "title": "PoeLLM malware infects exposed AI servers in cryptomining attacks",
@@ -147,18 +148,17 @@
       "company": null,
       "tags": [
         "data-exposure"
-      ],
-      "id": "2026-10-07-poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks"
+      ]
     },
     {
+      "id": "2026-10-07-poellm-malware-has-assembled-a-sweeping-botnet-taking-technical-cues-from-a-poem",
       "severity": "CRITICAL",
       "date": "2026-10-07",
       "title": "PoeLLM malware has assembled a sweeping botnet, taking technical cues from a poem",
       "summary": "<p>More than 3,400 servers have been compromised by malware that hides its infrastructure coordinates in a poem.</p> <p>The post <a href=\"https://cyberscoop.com/poellm-malware-botnet-poem-lumen-black-lotus-labs/\">PoeLLM malware has assembled a sweeping botnet, taking technical cues from a poem</a> a",
       "source": "cyberscoop.com",
       "company": null,
-      "tags": [],
-      "id": "2026-10-07-poellm-malware-has-assembled-a-sweeping-botnet-taking-technical-cues-from-a-poem"
+      "tags": []
     },
     {
       "id": "2026-10-06-fake-chatgpt-gemini-and-claude-ad-portals-capture-credentials-and-mfa-codes",
