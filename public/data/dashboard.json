@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 19,
+      "incidents_count": 18,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 6,
+      "incidents_count": 5,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-10-07-anthropic-expands-claude-access-for-vetted-cyber-teams-as-glasswing-finds-129-00",
       "severity": "MODERATE",
       "date": "2026-10-07",
       "title": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
@@ -123,8 +124,41 @@
       "company": "Anthropic",
       "tags": [
         "anthropic"
+      ]
+    },
+    {
+      "severity": "HIGH",
+      "date": "2026-10-07",
+      "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
+      "summary": "Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim to deploy cryptocurrency miners and further expand the scale of the botnet. The financially motivate",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "data-exposure"
       ],
-      "id": "2026-10-07-anthropic-expands-claude-access-for-vetted-cyber-teams-as-glasswing-finds-129-00"
+      "id": "2026-10-07-poellm-malware-infects-3-400-servers-to-expand-crypto-mining-botnet"
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-10-07",
+      "title": "PoeLLM malware infects exposed AI servers in cryptomining attacks",
+      "summary": "A cryptomining campaign targeting exposed AI services is using PoeLLM malware to turn compromised servers into scanners and exploit launchpads. [...]",
+      "source": "bleepingcomputer.com",
+      "company": null,
+      "tags": [
+        "data-exposure"
+      ],
+      "id": "2026-10-07-poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks"
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-10-07",
+      "title": "PoeLLM malware has assembled a sweeping botnet, taking technical cues from a poem",
+      "summary": "<p>More than 3,400 servers have been compromised by malware that hides its infrastructure coordinates in a poem.</p> <p>The post <a href=\"https://cyberscoop.com/poellm-malware-botnet-poem-lumen-black-lotus-labs/\">PoeLLM malware has assembled a sweeping botnet, taking technical cues from a poem</a> a",
+      "source": "cyberscoop.com",
+      "company": null,
+      "tags": [],
+      "id": "2026-10-07-poellm-malware-has-assembled-a-sweeping-botnet-taking-technical-cues-from-a-poem"
     },
     {
       "id": "2026-10-06-fake-chatgpt-gemini-and-claude-ad-portals-capture-credentials-and-mfa-codes",
@@ -575,43 +609,6 @@
       "tags": [
         "anthropic"
       ]
-    },
-    {
-      "id": "2026-09-19-bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions",
-      "severity": "MODERATE",
-      "date": "2026-09-19",
-      "title": "BragJack attacks hijack AI browser agents through malicious extensions",
-      "summary": "BragJack, a proof-of-concept attack from Forever Security's Gal Weizman, hijacks the AI assistants in Chrome, Edge, Opera Neon, Perplexity Comet, and Claude in Chrome using one malicious extension. The Prompt Forcing technique earned over $20,000 in bounties and two CVEs. [...]",
-      "source": "bleepingcomputer.com",
-      "company": "Anthropic",
-      "tags": [
-        "autonomous-ai",
-        "anthropic"
-      ]
-    },
-    {
-      "id": "2026-09-19-claude-opus-5-helped-researchers-take-over-openai-staff-accounts-via-chained-fla",
-      "severity": "MODERATE",
-      "date": "2026-09-19",
-      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
-      "summary": "Three researchers at the security firm&nbsp;Hacktron&nbsp;used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository. The chain began with a bug in the software that runs OpenAI's public he",
-      "source": "thehackernews.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "2026-09-18-rathat-android-malware-abuses-adb-to-retain-shell-access-after-uninstall",
-      "severity": "CRITICAL",
-      "date": "2026-09-18",
-      "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
-      "summary": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control compromised devices. \"Distributed primarily via targeted smishing (SMS/text phish",
-      "source": "thehackernews.com",
-      "company": null,
-      "tags": [
-        "supply-chain"
-      ]
     }
   ],
   "threat_level": {
@@ -621,7 +618,7 @@
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 17,
+    "critical_incidents": 18,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
