@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-10-08-artex-ai-pentesting-tool-used-in-data-theft-attacks-on-south-korean-financial-fi",
       "severity": "CRITICAL",
       "date": "2026-10-08",
       "title": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
@@ -123,8 +124,7 @@
       "company": "xAI",
       "tags": [
         "xai"
-      ],
-      "id": "2026-10-08-artex-ai-pentesting-tool-used-in-data-theft-attacks-on-south-korean-financial-fi"
+      ]
     },
     {
       "id": "2026-10-07-anthropic-expands-claude-access-for-vetted-cyber-teams-as-glasswing-finds-129-00",
