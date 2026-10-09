@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 5,
+      "incidents_count": 4,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -63,7 +63,7 @@
       "market_share": 2,
       "valuation_b": 50,
       "threat_score": "LOW",
-      "incidents_count": 0,
+      "incidents_count": 1,
       "city": "Palo Alto",
       "coords": [
         -122.14,
@@ -114,6 +114,18 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "CRITICAL",
+      "date": "2026-10-08",
+      "title": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
+      "summary": "Cybersecurity researchers have disclosed details of a targeted campaign aimed at South Korean financial organizations that used an artificial intelligence (AI) pen testing tool named ARTEX to carry out the attacks. The activity, per CrowdStrike Intelligence, was active from late September to early O",
+      "source": "thehackernews.com",
+      "company": "xAI",
+      "tags": [
+        "xai"
+      ],
+      "id": "2026-10-08-artex-ai-pentesting-tool-used-in-data-theft-attacks-on-south-korean-financial-fi"
+    },
     {
       "id": "2026-10-07-anthropic-expands-claude-access-for-vetted-cyber-teams-as-glasswing-finds-129-00",
       "severity": "MODERATE",
@@ -597,23 +609,11 @@
         "supply-chain",
         "google-deepmind"
       ]
-    },
-    {
-      "id": "2026-09-21-anthropic-linked-cves-pile-up-attackers-mostly-shrug",
-      "severity": "CRITICAL",
-      "date": "2026-09-21",
-      "title": "Anthropic-linked CVEs pile up, attackers mostly shrug",
-      "summary": "Of 225 flaws found by Glasswing and tracked by VulnCheck researcher, just one has confirmed exploitation in the wild",
-      "source": "theregister.com",
-      "company": "Anthropic",
-      "tags": [
-        "anthropic"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws"
+    "last_incident": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms"
   },
   "market_stats": {
     "companies_tracked": 8,
