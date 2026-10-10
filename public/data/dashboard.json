@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 4,
+      "incidents_count": 5,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -35,7 +35,7 @@
       "market_share": 13,
       "valuation_b": null,
       "threat_score": "MODERATE",
-      "incidents_count": 3,
+      "incidents_count": 2,
       "city": "London",
       "coords": [
         -0.13,
@@ -114,6 +114,18 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "MODERATE",
+      "date": "2026-10-09",
+      "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
+      "summary": "Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI). \"It's an opt-in service informed by our experience using Claude to find vulnerabilities during Project Glasswing,\" Anthropic said. \"Projects that",
+      "source": "thehackernews.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic"
+      ],
+      "id": "2026-10-09-anthropic-launches-free-ai-vulnerability-scanner-for-open-source-projects"
+    },
     {
       "id": "2026-10-08-artex-ai-pentesting-tool-used-in-data-theft-attacks-on-south-korean-financial-fi",
       "severity": "CRITICAL",
@@ -596,29 +608,16 @@
         "zero-day",
         "data-exposure"
       ]
-    },
-    {
-      "id": "2026-09-21-google-confirms-gemini-models-hacked-three-companies-in-may-2026",
-      "severity": "CRITICAL",
-      "date": "2026-09-21",
-      "title": "Google confirms Gemini models hacked three companies in May 2026",
-      "summary": "A third-party cybersecurity firm accidentally gave experimental Gemini models access to the Internet.",
-      "source": "arstechnica.com",
-      "company": "Google DeepMind",
-      "tags": [
-        "supply-chain",
-        "google-deepmind"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms"
+    "last_incident": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 18,
+    "critical_incidents": 17,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
