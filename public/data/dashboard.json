@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 5,
+      "incidents_count": 6,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-10-09-anthropic-launches-free-ai-vulnerability-scanner-for-open-source-projects",
       "severity": "MODERATE",
       "date": "2026-10-09",
       "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
@@ -123,8 +124,19 @@
       "company": "Anthropic",
       "tags": [
         "anthropic"
+      ]
+    },
+    {
+      "severity": "LOW",
+      "date": "2026-10-09",
+      "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
+      "summary": "Hackers are abusing legitimate Bing search-result redirects as click URLs in Google search ads to direct users to fake Claude installers that deliver ClickFix attacks. [...]",
+      "source": "bleepingcomputer.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic"
       ],
-      "id": "2026-10-09-anthropic-launches-free-ai-vulnerability-scanner-for-open-source-projects"
+      "id": "2026-10-09-hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks"
     },
     {
       "id": "2026-10-08-artex-ai-pentesting-tool-used-in-data-theft-attacks-on-south-korean-financial-fi",
@@ -594,20 +606,6 @@
         "autonomous-ai",
         "google-deepmind"
       ]
-    },
-    {
-      "id": "2026-09-21-weekly-recap-cisco-0-day-ai-agent-rce-clickfix-attacks-clickfix-surge-and-browse",
-      "severity": "CRITICAL",
-      "date": "2026-09-21",
-      "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
-      "summary": "A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week. The trouble keeps showing up inside things people already trust: code that takes a bad turn, old payloads coming back, exposed systems, weak checks, fake fixes, and attack paths that look almost to",
-      "source": "thehackernews.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai",
-        "zero-day",
-        "data-exposure"
-      ]
     }
   ],
   "threat_level": {
@@ -617,7 +615,7 @@
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 17,
+    "critical_incidents": 16,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
