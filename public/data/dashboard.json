@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 18,
+      "incidents_count": 17,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -128,6 +128,7 @@
       ]
     },
     {
+      "id": "2026-10-10-artex-ai-claude-agents-used-in-cyberattacks-on-south-korean-banks",
       "severity": "LOW",
       "date": "2026-10-10",
       "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
@@ -137,8 +138,7 @@
       "tags": [
         "autonomous-ai",
         "anthropic"
-      ],
-      "id": "2026-10-10-artex-ai-claude-agents-used-in-cyberattacks-on-south-korean-banks"
+      ]
     },
     {
       "id": "2026-10-09-anthropic-launches-free-ai-vulnerability-scanner-for-open-source-projects",
@@ -221,6 +221,16 @@
       "source": "cyberscoop.com",
       "company": null,
       "tags": []
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-10-07",
+      "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
+      "summary": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available. The flaw is in LMCache's&nbsp;multiprocess mode, where the cache runs as a st",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [],
+      "id": "2026-10-07-unpatched-critical-lmcache-flaw-lets-unauthenticated-attackers-run-code-remotely"
     },
     {
       "id": "2026-10-06-fake-chatgpt-gemini-and-claude-ad-portals-capture-credentials-and-mfa-codes",
@@ -597,18 +607,6 @@
       "source": "thehackernews.com",
       "company": null,
       "tags": []
-    },
-    {
-      "id": "2026-09-22-microsoft-takes-down-eviltokens-device-code-phishing-service-tied-to-12-000-inbo",
-      "severity": "CRITICAL",
-      "date": "2026-09-22",
-      "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
-      "summary": "Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) \"at every step of the attack chain.\" The action, carried out with authorization from the U.S. District Court for the Eastern District of Virginia, involved the ef",
-      "source": "thehackernews.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai"
-      ]
     }
   ],
   "threat_level": {
