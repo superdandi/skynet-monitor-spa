@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 7,
+      "incidents_count": 8,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-10-10-anthropic-cuts-live-internet-access-for-internal-ai-tests-after-claude-exploits-",
       "severity": "CRITICAL",
       "date": "2026-10-10",
       "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
@@ -124,8 +125,20 @@
       "tags": [
         "anthropic",
         "market-impact"
+      ]
+    },
+    {
+      "severity": "LOW",
+      "date": "2026-10-10",
+      "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
+      "summary": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]",
+      "source": "bleepingcomputer.com",
+      "company": "Anthropic",
+      "tags": [
+        "autonomous-ai",
+        "anthropic"
       ],
-      "id": "2026-10-10-anthropic-cuts-live-internet-access-for-internal-ai-tests-after-claude-exploits-"
+      "id": "2026-10-10-artex-ai-claude-agents-used-in-cyberattacks-on-south-korean-banks"
     },
     {
       "id": "2026-10-09-anthropic-launches-free-ai-vulnerability-scanner-for-open-source-projects",
@@ -596,16 +609,6 @@
       "tags": [
         "openai"
       ]
-    },
-    {
-      "id": "2026-09-22-critical-bifrost-ai-gateway-flaw-lets-attackers-run-commands-without-credentials",
-      "severity": "CRITICAL",
-      "date": "2026-09-22",
-      "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
-      "summary": "A critical vulnerability in&nbsp;Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP request. The flaw, tracked as&nbsp;CVE-2026-90898&nbsp;(CVSS score: 9.8), affe",
-      "source": "thehackernews.com",
-      "company": null,
-      "tags": []
     }
   ],
   "threat_level": {
@@ -615,7 +618,7 @@
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 16,
+    "critical_incidents": 15,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
