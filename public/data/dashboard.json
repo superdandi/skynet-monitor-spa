@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 6,
+      "incidents_count": 7,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -35,7 +35,7 @@
       "market_share": 13,
       "valuation_b": null,
       "threat_score": "MODERATE",
-      "incidents_count": 2,
+      "incidents_count": 1,
       "city": "London",
       "coords": [
         -0.13,
@@ -115,6 +115,19 @@
   ],
   "incidents": [
     {
+      "severity": "CRITICAL",
+      "date": "2026-10-10",
+      "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+      "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites. The AI company said it identified four broad categories ",
+      "source": "thehackernews.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic",
+        "market-impact"
+      ],
+      "id": "2026-10-10-anthropic-cuts-live-internet-access-for-internal-ai-tests-after-claude-exploits-"
+    },
+    {
       "id": "2026-10-09-anthropic-launches-free-ai-vulnerability-scanner-for-open-source-projects",
       "severity": "MODERATE",
       "date": "2026-10-09",
@@ -127,6 +140,7 @@
       ]
     },
     {
+      "id": "2026-10-09-hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks",
       "severity": "LOW",
       "date": "2026-10-09",
       "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
@@ -135,8 +149,7 @@
       "company": "Anthropic",
       "tags": [
         "anthropic"
-      ],
-      "id": "2026-10-09-hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks"
+      ]
     },
     {
       "id": "2026-10-08-artex-ai-pentesting-tool-used-in-data-theft-attacks-on-south-korean-financial-fi",
@@ -593,24 +606,11 @@
       "source": "thehackernews.com",
       "company": null,
       "tags": []
-    },
-    {
-      "id": "2026-09-22-new-closedquorum-windows-malware-uses-ai-for-attack-decisions",
-      "severity": "CRITICAL",
-      "date": "2026-09-22",
-      "title": "New ClosedQuorum Windows malware uses AI for attack decisions",
-      "summary": "A new Windows malware named ClosedQuorum uses Google Gemini, DeepSeek, Qwen, and Mistral AI models to autonomously determine the actions to take during post-compromise stages of an attack. [...]",
-      "source": "bleepingcomputer.com",
-      "company": "Google DeepMind",
-      "tags": [
-        "autonomous-ai",
-        "google-deepmind"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects"
+    "last_incident": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws"
   },
   "market_stats": {
     "companies_tracked": 8,
