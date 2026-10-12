@@ -115,6 +115,18 @@
   ],
   "incidents": [
     {
+      "severity": "LOW",
+      "date": "2026-10-11",
+      "title": "AI systems are fully capable of carrying out nightmare attacks against infrastructure and nobody's ready",
+      "summary": "Meanwhile, AI agents move robotic arms, 'make OT device operator screens lie'",
+      "source": "theregister.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai"
+      ],
+      "id": "2026-10-11-ai-systems-are-fully-capable-of-carrying-out-nightmare-attacks-against-infrastru"
+    },
+    {
       "id": "2026-10-10-anthropic-cuts-live-internet-access-for-internal-ai-tests-after-claude-exploits-",
       "severity": "CRITICAL",
       "date": "2026-10-10",
@@ -597,21 +609,11 @@
         "autonomous-ai",
         "data-exposure"
       ]
-    },
-    {
-      "id": "2026-09-23-this-windows-malware-is-built-to-let-up-to-four-ai-models-vote-on-its-next-move",
-      "severity": "HIGH",
-      "date": "2026-09-23",
-      "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
-      "summary": "A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server,&nbsp;Cisco Talos said&nbsp;on September 22. The models can choose to steal Windows credentials, saved browser passwords, and crypto wallet data. Talos has not seen this ",
-      "source": "thehackernews.com",
-      "company": null,
-      "tags": []
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws"
+    "last_incident": "AI systems are fully capable of carrying out nightmare attacks against infrastructure and nobody's ready"
   },
   "market_stats": {
     "companies_tracked": 8,
