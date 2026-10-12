@@ -223,14 +223,14 @@
       "tags": []
     },
     {
+      "id": "2026-10-07-unpatched-critical-lmcache-flaw-lets-unauthenticated-attackers-run-code-remotely",
       "severity": "CRITICAL",
       "date": "2026-10-07",
       "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
       "summary": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available. The flaw is in LMCache's&nbsp;multiprocess mode, where the cache runs as a st",
       "source": "thehackernews.com",
       "company": null,
-      "tags": [],
-      "id": "2026-10-07-unpatched-critical-lmcache-flaw-lets-unauthenticated-attackers-run-code-remotely"
+      "tags": []
     },
     {
       "id": "2026-10-06-fake-chatgpt-gemini-and-claude-ad-portals-capture-credentials-and-mfa-codes",
