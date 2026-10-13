@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 8,
+      "incidents_count": 9,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -115,6 +115,19 @@
   ],
   "incidents": [
     {
+      "severity": "CRITICAL",
+      "date": "2026-10-12",
+      "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
+      "summary": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine. The activity, which brings together commodity offensive tools like Cobalt",
+      "source": "thehackernews.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic"
+      ],
+      "id": "2026-10-12-cyberxero-uses-claude-code-in-campaign-that-stole-over-628-000-ukrainian-records"
+    },
+    {
+      "id": "2026-10-11-ai-systems-are-fully-capable-of-carrying-out-nightmare-attacks-against-infrastru",
       "severity": "LOW",
       "date": "2026-10-11",
       "title": "AI systems are fully capable of carrying out nightmare attacks against infrastructure and nobody's ready",
@@ -123,8 +136,7 @@
       "company": null,
       "tags": [
         "autonomous-ai"
-      ],
-      "id": "2026-10-11-ai-systems-are-fully-capable-of-carrying-out-nightmare-attacks-against-infrastru"
+      ]
     },
     {
       "id": "2026-10-10-anthropic-cuts-live-internet-access-for-internal-ai-tests-after-claude-exploits-",
@@ -596,29 +608,16 @@
         "openai",
         "autonomous-ai"
       ]
-    },
-    {
-      "id": "2026-09-24-new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts",
-      "severity": "HIGH",
-      "date": "2026-09-24",
-      "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
-      "summary": "A new botnet malware called Carbonato is targeting insecure hosts running Docker daemons to install the Hermes Agent AI framework and take control. [...]",
-      "source": "bleepingcomputer.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai",
-        "data-exposure"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "AI systems are fully capable of carrying out nightmare attacks against infrastructure and nobody's ready"
+    "last_incident": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 15,
+    "critical_incidents": 16,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
