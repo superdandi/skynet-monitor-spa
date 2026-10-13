@@ -127,6 +127,7 @@
       ]
     },
     {
+      "id": "2026-10-12-anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites",
       "severity": "CRITICAL",
       "date": "2026-10-12",
       "title": "Anthropic takes risky AI tests offline after models breach govt sites",
@@ -136,8 +137,7 @@
       "tags": [
         "anthropic",
         "market-impact"
-      ],
-      "id": "2026-10-12-anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites"
+      ]
     },
     {
       "id": "2026-10-11-ai-systems-are-fully-capable-of-carrying-out-nightmare-attacks-against-infrastru",
