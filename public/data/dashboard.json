@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 17,
+      "incidents_count": 16,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 9,
+      "incidents_count": 10,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-10-12-cyberxero-uses-claude-code-in-campaign-that-stole-over-628-000-ukrainian-records",
       "severity": "CRITICAL",
       "date": "2026-10-12",
       "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
@@ -123,8 +124,20 @@
       "company": "Anthropic",
       "tags": [
         "anthropic"
+      ]
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-10-12",
+      "title": "Anthropic takes risky AI tests offline after models breach govt sites",
+      "summary": "Anthropic announced that its internal AI models undergoing \"high-risk and cybersecurity evaluations\" no longer have internet access following incidents involving U.S. government websites at the federal, state, and local levels. [...]",
+      "source": "bleepingcomputer.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic",
+        "market-impact"
       ],
-      "id": "2026-10-12-cyberxero-uses-claude-code-in-campaign-that-stole-over-628-000-ukrainian-records"
+      "id": "2026-10-12-anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites"
     },
     {
       "id": "2026-10-11-ai-systems-are-fully-capable-of-carrying-out-nightmare-attacks-against-infrastru",
@@ -595,19 +608,6 @@
         "openai",
         "autonomous-ai"
       ]
-    },
-    {
-      "id": "2026-09-24-new-bill-would-create-federal-investigative-body-for-ai-driven-hacks",
-      "severity": "LOW",
-      "date": "2026-09-24",
-      "title": "New bill would create federal investigative body for AI-driven hacks",
-      "summary": "<p>A new Democratic bill in Congress would establish a federal Cybersecurity and AI Board of Investigations to provide independent government oversight of cyberattacks carried out by AI agents, following recent hacks by models run at companies like Anthropic, OpenAI, Meta and others. The bill, intro",
-      "source": "cyberscoop.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai",
-        "autonomous-ai"
-      ]
     }
   ],
   "threat_level": {
@@ -617,7 +617,7 @@
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 16,
+    "critical_incidents": 17,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
