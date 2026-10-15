@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 16,
+      "incidents_count": 15,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -114,6 +114,31 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "CRITICAL",
+      "date": "2026-10-14",
+      "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
+      "summary": "A team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said. Its researchers built the attack in six days by directing AI agents running OpenAI's publicly available GPT-5.6 ",
+      "source": "thehackernews.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai",
+        "autonomous-ai"
+      ],
+      "id": "2026-10-14-researchers-used-a-public-openai-model-to-build-a-250-000-chrome-full-chain-expl"
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-10-14",
+      "title": "An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.",
+      "summary": "The bug was simple: the login let you choose where your sign-in code went. Proving it on a live website was the hard part. TL;DR During an authorized assessment, an AI pentesting agent found a critical authentication bypass on a major insurer's production website, on its own. One login request let t",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai"
+      ],
+      "id": "2026-10-14-an-ai-agent-found-a-critical-otp-bypass-in-production-the-attack-was-the-easy-pa"
+    },
     {
       "id": "2026-10-12-cyberxero-uses-claude-code-in-campaign-that-stole-over-628-000-ukrainian-records",
       "severity": "CRITICAL",
@@ -582,37 +607,11 @@
         "openai",
         "autonomous-ai"
       ]
-    },
-    {
-      "id": "2026-09-24-openai-hacked-australian-medicare-govt-site-probed-data-providers",
-      "severity": "CRITICAL",
-      "date": "2026-09-24",
-      "title": "OpenAI hacked Australian Medicare govt site, probed data providers",
-      "summary": "OpenAI agents targeted public data providers in multiple countries, probing some for vulnerabilities and exploiting a security weakness in an Australian government portal while performing information-retrieval tasks as part of a research project. [...]",
-      "source": "bleepingcomputer.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai",
-        "autonomous-ai"
-      ]
-    },
-    {
-      "id": "2026-09-24-openai-agent-didn-t-accept-no-for-an-answer-in-australian-government-breach",
-      "severity": "CRITICAL",
-      "date": "2026-09-24",
-      "title": "OpenAI agent “didn’t accept no for an answer” in Australian government breach",
-      "summary": "\"There will obviously be legal consequences,\" prime minister promises.",
-      "source": "arstechnica.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai",
-        "autonomous-ai"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records"
+    "last_incident": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days"
   },
   "market_stats": {
     "companies_tracked": 8,
