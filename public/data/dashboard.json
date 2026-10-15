@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 15,
+      "incidents_count": 14,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-10-14-researchers-used-a-public-openai-model-to-build-a-250-000-chrome-full-chain-expl",
       "severity": "CRITICAL",
       "date": "2026-10-14",
       "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
@@ -124,10 +125,10 @@
       "tags": [
         "openai",
         "autonomous-ai"
-      ],
-      "id": "2026-10-14-researchers-used-a-public-openai-model-to-build-a-250-000-chrome-full-chain-expl"
+      ]
     },
     {
+      "id": "2026-10-14-an-ai-agent-found-a-critical-otp-bypass-in-production-the-attack-was-the-easy-pa",
       "severity": "CRITICAL",
       "date": "2026-10-14",
       "title": "An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.",
@@ -136,8 +137,17 @@
       "company": null,
       "tags": [
         "autonomous-ai"
-      ],
-      "id": "2026-10-14-an-ai-agent-found-a-critical-otp-bypass-in-production-the-attack-was-the-easy-pa"
+      ]
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-10-14",
+      "title": "Security researchers spent 6 days doing their Chromework, built 1B user exploit",
+      "summary": "Xbow earned a $250K bug bounty and all the AI model got was a lousy t-shirt",
+      "source": "theregister.com",
+      "company": null,
+      "tags": [],
+      "id": "2026-10-14-security-researchers-spent-6-days-doing-their-chromework-built-1b-user-exploit"
     },
     {
       "id": "2026-10-12-cyberxero-uses-claude-code-in-campaign-that-stole-over-628-000-ukrainian-records",
@@ -594,19 +604,6 @@
         "market-impact",
         "data-exposure"
       ]
-    },
-    {
-      "id": "2026-09-24-openai-agent-bypassed-australian-medicare-portal-controls-to-access-non-public-f",
-      "severity": "LOW",
-      "date": "2026-09-24",
-      "title": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
-      "summary": "An AI agent on an internal OpenAI research task bypassed access controls on an Australian government Medicare statistics portal in June, Prime Minister&nbsp;Anthony Albanese said. The portal publishes aggregate figures, such as spending, and is separate from the systems that handle Medicare claims a",
-      "source": "thehackernews.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai",
-        "autonomous-ai"
-      ]
     }
   ],
   "threat_level": {
@@ -616,7 +613,7 @@
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 17,
+    "critical_incidents": 18,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
