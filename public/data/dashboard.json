@@ -115,6 +115,18 @@
   ],
   "incidents": [
     {
+      "severity": "CRITICAL",
+      "date": "2026-10-15",
+      "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
+      "summary": "Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian. Langflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and agentic workflows. In February 2025, DataStax, the parent company of Langflow, wa",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai"
+      ],
+      "id": "2026-10-15-langflow-s-critical-authenticated-rce-flaw-targeted-in-1-423-honeypot-exploit-at"
+    },
+    {
       "id": "2026-10-14-researchers-used-a-public-openai-model-to-build-a-250-000-chrome-full-chain-expl",
       "severity": "CRITICAL",
       "date": "2026-10-14",
@@ -140,14 +152,14 @@
       ]
     },
     {
+      "id": "2026-10-14-security-researchers-spent-6-days-doing-their-chromework-built-1b-user-exploit",
       "severity": "CRITICAL",
       "date": "2026-10-14",
       "title": "Security researchers spent 6 days doing their Chromework, built 1B user exploit",
       "summary": "Xbow earned a $250K bug bounty and all the AI model got was a lousy t-shirt",
       "source": "theregister.com",
       "company": null,
-      "tags": [],
-      "id": "2026-10-14-security-researchers-spent-6-days-doing-their-chromework-built-1b-user-exploit"
+      "tags": []
     },
     {
       "id": "2026-10-12-cyberxero-uses-claude-code-in-campaign-that-stole-over-628-000-ukrainian-records",
@@ -591,29 +603,16 @@
         "autonomous-ai",
         "data-exposure"
       ]
-    },
-    {
-      "id": "2026-09-28-80-000-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking",
-      "severity": "HIGH",
-      "date": "2026-09-28",
-      "title": "80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking",
-      "summary": "Infostealer logs exposed AI account credentials and sessions tied to more than 80,000 corporate domains, creating risks ranging from stolen conversations to LLMjacking. SOCRadar examines the growing market for stolen AI logins and how organizations can identify their exposure. [...]",
-      "source": "bleepingcomputer.com",
-      "company": null,
-      "tags": [
-        "market-impact",
-        "data-exposure"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days"
+    "last_incident": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 18,
+    "critical_incidents": 19,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
