@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-10-15-langflow-s-critical-authenticated-rce-flaw-targeted-in-1-423-honeypot-exploit-at",
       "severity": "CRITICAL",
       "date": "2026-10-15",
       "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
@@ -123,8 +124,7 @@
       "company": null,
       "tags": [
         "autonomous-ai"
-      ],
-      "id": "2026-10-15-langflow-s-critical-authenticated-rce-flaw-targeted-in-1-423-honeypot-exploit-at"
+      ]
     },
     {
       "id": "2026-10-14-researchers-used-a-public-openai-model-to-build-a-250-000-chrome-full-chain-expl",
