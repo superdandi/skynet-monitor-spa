@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 14,
+      "incidents_count": 15,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -114,6 +114,20 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "HIGH",
+      "date": "2026-10-16",
+      "title": "Backdooring Open-Weight AI Models",
+      "summary": "<p><a href=\"https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned\">This</a> is a problem:</p> <blockquote><p>Any open model whose weights have been edited can carry a backdoor, whether it&#8217;s a task-specific fine-tune, a merged adapter or an abliterated build. We have abl",
+      "source": "RSS Feed",
+      "company": "OpenAI",
+      "tags": [
+        "openai",
+        "model-leak",
+        "backdoor"
+      ],
+      "id": "2026-10-16-backdooring-open-weight-ai-models"
+    },
     {
       "id": "2026-10-15-langflow-s-critical-authenticated-rce-flaw-targeted-in-1-423-honeypot-exploit-at",
       "severity": "CRITICAL",
@@ -590,29 +604,16 @@
         "autonomous-ai",
         "data-exposure"
       ]
-    },
-    {
-      "id": "2026-09-28-carbonato-botnet-compromises-docker-hosts-to-deploy-telegram-controlled-hermes-a",
-      "severity": "CRITICAL",
-      "date": "2026-09-28",
-      "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
-      "summary": "Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework called Hermes Agent. \"The implant installs the framework unchanged, then overwrites its SOUL.md pers",
-      "source": "thehackernews.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai",
-        "data-exposure"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts"
+    "last_incident": "Backdooring Open-Weight AI Models"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 19,
+    "critical_incidents": 18,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
