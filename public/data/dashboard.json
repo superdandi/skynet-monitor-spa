@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 15,
+      "incidents_count": 16,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-10-16-backdooring-open-weight-ai-models",
       "severity": "HIGH",
       "date": "2026-10-16",
       "title": "Backdooring Open-Weight AI Models",
@@ -125,8 +126,19 @@
         "openai",
         "model-leak",
         "backdoor"
+      ]
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-10-16",
+      "title": "OpenAI models hacked a crypto wallet and breached more websites",
+      "summary": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
+      "source": "arstechnica.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai"
       ],
-      "id": "2026-10-16-backdooring-open-weight-ai-models"
+      "id": "2026-10-16-openai-models-hacked-a-crypto-wallet-and-breached-more-websites"
     },
     {
       "id": "2026-10-15-langflow-s-critical-authenticated-rce-flaw-targeted-in-1-423-honeypot-exploit-at",
@@ -590,19 +602,6 @@
       "company": "Google DeepMind",
       "tags": [
         "google-deepmind"
-      ]
-    },
-    {
-      "id": "2026-09-28-weekly-recap-387m-crypto-hack-citrix-exploits-ai-agents-go-off-script-and-more-t",
-      "severity": "CRITICAL",
-      "date": "2026-09-28",
-      "title": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
-      "summary": "A domain used as harmless placeholder text showed up in roughly 1,700 repositories. Then somebody registered it and started serving malicious lures. That is the kind of week this was: forgotten assumptions turning into live attack surface. Elsewhere, weak service accounts, old bugs, exposed systems,",
-      "source": "thehackernews.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai",
-        "data-exposure"
       ]
     }
   ],
