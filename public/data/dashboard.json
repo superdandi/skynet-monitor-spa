@@ -129,6 +129,7 @@
       ]
     },
     {
+      "id": "2026-10-16-openai-models-hacked-a-crypto-wallet-and-breached-more-websites",
       "severity": "CRITICAL",
       "date": "2026-10-16",
       "title": "OpenAI models hacked a crypto wallet and breached more websites",
@@ -137,8 +138,7 @@
       "company": "OpenAI",
       "tags": [
         "openai"
-      ],
-      "id": "2026-10-16-openai-models-hacked-a-crypto-wallet-and-breached-more-websites"
+      ]
     },
     {
       "id": "2026-10-15-langflow-s-critical-authenticated-rce-flaw-targeted-in-1-423-honeypot-exploit-at",
