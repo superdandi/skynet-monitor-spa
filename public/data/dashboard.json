@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 16,
+      "incidents_count": 17,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -35,7 +35,7 @@
       "market_share": 13,
       "valuation_b": null,
       "threat_score": "MODERATE",
-      "incidents_count": 1,
+      "incidents_count": 0,
       "city": "London",
       "coords": [
         -0.13,
@@ -114,6 +114,20 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "CRITICAL",
+      "date": "2026-10-19",
+      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+      "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there",
+      "source": "thehackernews.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai",
+        "supply-chain",
+        "data-exposure"
+      ],
+      "id": "2026-10-19-opencode-console-breach-may-have-exposed-openai-anthropic-and-google-api-keys"
+    },
     {
       "id": "2026-10-16-backdooring-open-weight-ai-models",
       "severity": "HIGH",
@@ -591,28 +605,16 @@
         "openai",
         "autonomous-ai"
       ]
-    },
-    {
-      "id": "2026-09-28-rathat-android-malware-console-uses-gemini-to-identify-higher-value-victims",
-      "severity": "HIGH",
-      "date": "2026-09-28",
-      "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
-      "summary": "RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has&nbsp;traced nearly 100 deployments&nbsp;of that console since April 2026. It said this fits a malware-as-a-service model, in which each cus",
-      "source": "thehackernews.com",
-      "company": "Google DeepMind",
-      "tags": [
-        "google-deepmind"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Backdooring Open-Weight AI Models"
+    "last_incident": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 18,
+    "critical_incidents": 19,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
