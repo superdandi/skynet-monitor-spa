@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 17,
+      "incidents_count": 15,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 10,
+      "incidents_count": 11,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-10-19-opencode-console-breach-may-have-exposed-openai-anthropic-and-google-api-keys",
       "severity": "CRITICAL",
       "date": "2026-10-19",
       "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
@@ -125,8 +126,36 @@
         "openai",
         "supply-chain",
         "data-exposure"
+      ]
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-10-19",
+      "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
+      "summary": "The worst problems don't always come with a warning. Sometimes they arrive through a service everyone trusts, a device someone bought, or a system nobody thought to check. By the time something looks wrong, the damage may already be done. This week had plenty of that. Trusted connections became a pr",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai",
+        "zero-day",
+        "market-impact"
       ],
-      "id": "2026-10-19-opencode-console-breach-may-have-exposed-openai-anthropic-and-google-api-keys"
+      "id": "2026-10-19-weekly-recap-98-zero-days-rogue-ai-agents-100m-crypto-theft-700-supermarkets-hit"
+    },
+    {
+      "severity": "HIGH",
+      "date": "2026-10-19",
+      "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
+      "summary": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and security audits. \"The tools",
+      "source": "thehackernews.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic",
+        "autonomous-ai",
+        "supply-chain",
+        "backdoor"
+      ],
+      "id": "2026-10-19-fake-web3-accelerator-uses-npm-packages-to-spread-malware-and-hijack-ai-agent-tr"
     },
     {
       "id": "2026-10-16-backdooring-open-weight-ai-models",
@@ -580,31 +609,6 @@
         "openai",
         "autonomous-ai"
       ]
-    },
-    {
-      "id": "2026-09-29-custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware",
-      "severity": "HIGH",
-      "date": "2026-09-29",
-      "title": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
-      "summary": "Custom variants of OpenAI's ChatGPT promoted in sponsored Google results are directing unsuspecting users to malicious sites that use ClickFix attacks to deliver malware. [...]",
-      "source": "bleepingcomputer.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "2026-09-28-openai-pauses-some-training-amid-allegations-its-rogue-agents-behaved-more-badly",
-      "severity": "LOW",
-      "date": "2026-09-28",
-      "title": "OpenAI pauses some training amid allegations its rogue agents behaved more badly than first thought",
-      "summary": "Amid allegations that agents may have gone off the rails thousands of times, China set up some kind of agentic incident hotline",
-      "source": "theregister.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai",
-        "autonomous-ai"
-      ]
     }
   ],
   "threat_level": {
@@ -614,7 +618,7 @@
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 19,
+    "critical_incidents": 20,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
