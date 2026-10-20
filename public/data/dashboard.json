@@ -129,6 +129,7 @@
       ]
     },
     {
+      "id": "2026-10-19-weekly-recap-98-zero-days-rogue-ai-agents-100m-crypto-theft-700-supermarkets-hit",
       "severity": "CRITICAL",
       "date": "2026-10-19",
       "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
@@ -139,10 +140,10 @@
         "autonomous-ai",
         "zero-day",
         "market-impact"
-      ],
-      "id": "2026-10-19-weekly-recap-98-zero-days-rogue-ai-agents-100m-crypto-theft-700-supermarkets-hit"
+      ]
     },
     {
+      "id": "2026-10-19-fake-web3-accelerator-uses-npm-packages-to-spread-malware-and-hijack-ai-agent-tr",
       "severity": "HIGH",
       "date": "2026-10-19",
       "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
@@ -154,8 +155,7 @@
         "autonomous-ai",
         "supply-chain",
         "backdoor"
-      ],
-      "id": "2026-10-19-fake-web3-accelerator-uses-npm-packages-to-spread-malware-and-hijack-ai-agent-tr"
+      ]
     },
     {
       "id": "2026-10-16-backdooring-open-weight-ai-models",
