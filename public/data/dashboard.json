@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 15,
+      "incidents_count": 14,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -114,6 +114,18 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "CRITICAL",
+      "date": "2026-10-20",
+      "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
+      "summary": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet. The agents tried more than 1,200 sites and reached websites belong",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai"
+      ],
+      "id": "2026-10-20-hackers-use-autonomous-ai-agents-to-breach-company-websites-target-over-1-200-si"
+    },
     {
       "id": "2026-10-19-opencode-console-breach-may-have-exposed-openai-anthropic-and-google-api-keys",
       "severity": "CRITICAL",
@@ -596,29 +608,16 @@
       "tags": [
         "autonomous-ai"
       ]
-    },
-    {
-      "id": "2026-09-29-here-s-what-actually-happened-in-openai-s-australian-gov-t-server-hack",
-      "severity": "LOW",
-      "date": "2026-09-29",
-      "title": "Here's what actually happened in OpenAI's Australian gov't server hack",
-      "summary": "Without a \"full set of safeguards,\" agent accessed \"system information and source code.\"",
-      "source": "arstechnica.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai",
-        "autonomous-ai"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys"
+    "last_incident": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 20,
+    "critical_incidents": 21,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
