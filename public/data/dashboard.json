@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-10-20-hackers-use-autonomous-ai-agents-to-breach-company-websites-target-over-1-200-si",
       "severity": "CRITICAL",
       "date": "2026-10-20",
       "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
@@ -123,8 +124,7 @@
       "company": null,
       "tags": [
         "autonomous-ai"
-      ],
-      "id": "2026-10-20-hackers-use-autonomous-ai-agents-to-breach-company-websites-target-over-1-200-si"
+      ]
     },
     {
       "id": "2026-10-19-opencode-console-breach-may-have-exposed-openai-anthropic-and-google-api-keys",
