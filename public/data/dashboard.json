@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 14,
+      "incidents_count": 13,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -114,6 +114,31 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "CRITICAL",
+      "date": "2026-10-21",
+      "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+      "summary": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind. The compromise affects LiteLLM 1.107.0, distributed through PyPI wheels and Docke",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "supply-chain",
+        "backdoor"
+      ],
+      "id": "2026-10-21-litellm-compromised-in-supply-chain-attack-delivering-credential-stealer-and-bac"
+    },
+    {
+      "severity": "HIGH",
+      "date": "2026-10-21",
+      "title": "LiteLLM supply chain attack hoovers up passwords and secrets",
+      "summary": "Plus a RAT for good measure - get threat hunting now",
+      "source": "theregister.com",
+      "company": null,
+      "tags": [
+        "supply-chain"
+      ],
+      "id": "2026-10-21-litellm-supply-chain-attack-hoovers-up-passwords-and-secrets"
+    },
     {
       "id": "2026-10-20-hackers-use-autonomous-ai-agents-to-breach-company-websites-target-over-1-200-si",
       "severity": "CRITICAL",
@@ -582,37 +607,11 @@
         "openai",
         "autonomous-ai"
       ]
-    },
-    {
-      "id": "2026-09-29-openai-s-dirty-deeds-down-under-included-security-bypass-attempts-using-exposed-",
-      "severity": "LOW",
-      "date": "2026-09-29",
-      "title": "OpenAI’s dirty deeds Down Under included security bypass attempts, using exposed keys, source code siphon",
-      "summary": "Admits its agents side-swiped four Australian government sites",
-      "source": "theregister.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai",
-        "autonomous-ai",
-        "data-exposure"
-      ]
-    },
-    {
-      "id": "2026-09-29-automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd",
-      "severity": "CRITICAL",
-      "date": "2026-09-29",
-      "title": "Automated AI agent used to breach cybersecurity nonprofit DIVD",
-      "summary": "The Dutch Institute for Vulnerability Disclosure (DIVD) suffered an AI-driven cyberattack that the organization described as \"loud and very, very messy.\" [...]",
-      "source": "bleepingcomputer.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites"
+    "last_incident": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor"
   },
   "market_stats": {
     "companies_tracked": 8,
