@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 13,
+      "incidents_count": 12,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -35,7 +35,7 @@
       "market_share": 13,
       "valuation_b": null,
       "threat_score": "MODERATE",
-      "incidents_count": 0,
+      "incidents_count": 1,
       "city": "London",
       "coords": [
         -0.13,
@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-10-21-litellm-compromised-in-supply-chain-attack-delivering-credential-stealer-and-bac",
       "severity": "CRITICAL",
       "date": "2026-10-21",
       "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
@@ -124,10 +125,10 @@
       "tags": [
         "supply-chain",
         "backdoor"
-      ],
-      "id": "2026-10-21-litellm-compromised-in-supply-chain-attack-delivering-credential-stealer-and-bac"
+      ]
     },
     {
+      "id": "2026-10-21-litellm-supply-chain-attack-hoovers-up-passwords-and-secrets",
       "severity": "HIGH",
       "date": "2026-10-21",
       "title": "LiteLLM supply chain attack hoovers up passwords and secrets",
@@ -136,8 +137,19 @@
       "company": null,
       "tags": [
         "supply-chain"
+      ]
+    },
+    {
+      "severity": "LOW",
+      "date": "2026-10-21",
+      "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
+      "summary": "Chrome is getting new scam protections that use Gemini to detect deceptive websites and warn users when they copy suspicious commands from ClickFix attacks. [...]",
+      "source": "bleepingcomputer.com",
+      "company": "Google DeepMind",
+      "tags": [
+        "google-deepmind"
       ],
-      "id": "2026-10-21-litellm-supply-chain-attack-hoovers-up-passwords-and-secrets"
+      "id": "2026-10-21-google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks"
     },
     {
       "id": "2026-10-20-hackers-use-autonomous-ai-agents-to-breach-company-websites-target-over-1-200-si",
@@ -594,19 +606,6 @@
       "tags": [
         "openai"
       ]
-    },
-    {
-      "id": "2026-09-29-openai-pauses-tool-use-after-agent-bypasses-internet-controls-to-reach-external-",
-      "severity": "CRITICAL",
-      "date": "2026-09-29",
-      "title": "OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot",
-      "summary": "OpenAI said it has made the decision to pause training of its most powerful models after one of its agents during reinforcement learning (RL) training contacted an external chatbot by exploiting a loophole in its internet-access restrictions. \"An agent attempting to complete a search-based training ",
-      "source": "thehackernews.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai",
-        "autonomous-ai"
-      ]
     }
   ],
   "threat_level": {
@@ -616,7 +615,7 @@
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 21,
+    "critical_incidents": 20,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
