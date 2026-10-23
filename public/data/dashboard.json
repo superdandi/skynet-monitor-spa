@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 12,
+      "incidents_count": 10,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -63,7 +63,7 @@
       "market_share": 2,
       "valuation_b": 50,
       "threat_score": "LOW",
-      "incidents_count": 1,
+      "incidents_count": 2,
       "city": "Palo Alto",
       "coords": [
         -122.14,
@@ -115,6 +115,32 @@
   ],
   "incidents": [
     {
+      "severity": "CRITICAL",
+      "date": "2026-10-22",
+      "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+      "summary": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor. On October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.0 to the Docker Hub r",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "backdoor"
+      ],
+      "id": "2026-10-22-litellm-suspects-github-token-leak-in-ai-gateway-logs-behind-malicious-package-r"
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-10-22",
+      "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
+      "summary": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application. During the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was made closed-source i",
+      "source": "thehackernews.com",
+      "company": "xAI",
+      "tags": [
+        "autonomous-ai",
+        "supply-chain",
+        "xai"
+      ],
+      "id": "2026-10-22-china-linked-hackers-use-artex-ai-agents-in-connectwise-supply-chain-attack"
+    },
+    {
       "id": "2026-10-21-litellm-compromised-in-supply-chain-attack-delivering-credential-stealer-and-bac",
       "severity": "CRITICAL",
       "date": "2026-10-21",
@@ -140,6 +166,7 @@
       ]
     },
     {
+      "id": "2026-10-21-google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks",
       "severity": "LOW",
       "date": "2026-10-21",
       "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
@@ -148,8 +175,7 @@
       "company": "Google DeepMind",
       "tags": [
         "google-deepmind"
-      ],
-      "id": "2026-10-21-google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks"
+      ]
     },
     {
       "id": "2026-10-20-hackers-use-autonomous-ai-agents-to-breach-company-websites-target-over-1-200-si",
@@ -582,40 +608,16 @@
         "openai",
         "ai-defense"
       ]
-    },
-    {
-      "id": "2026-09-30-irony-alert-openai-whines-that-chinese-model-stole-its-special-ip-that-it-stole-",
-      "severity": "HIGH",
-      "date": "2026-09-30",
-      "title": "Irony alert: OpenAI whines that Chinese model stole its special IP that it stole from everybody else",
-      "summary": "US model makers can train on web data - but distilling theirs is a 'national security risk'",
-      "source": "theregister.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "2026-09-30-openai-reveals-novel-encryption-bypass-used-in-distillation-attack",
-      "severity": "HIGH",
-      "date": "2026-09-30",
-      "title": "OpenAI reveals ‘novel’ encryption bypass used in distillation attack",
-      "summary": "<p>The company said individuals associated with Chinese company MoonshotAI were behind parts of the attack, but did not offer hard evidence for the claim.</p> <p>The post <a href=\"https://cyberscoop.com/openai-moonshot-ai-model-distillation-attack/\">OpenAI reveals ‘novel’ encryption bypass used in d",
-      "source": "cyberscoop.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor"
+    "last_incident": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 20,
+    "critical_incidents": 22,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
