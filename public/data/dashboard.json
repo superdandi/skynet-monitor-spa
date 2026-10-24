@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-10-23-critical-x402-sdk-flaw-could-let-malicious-apis-drain-ai-agents-token-balances",
       "severity": "CRITICAL",
       "date": "2026-10-23",
       "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
@@ -123,8 +124,7 @@
       "company": null,
       "tags": [
         "autonomous-ai"
-      ],
-      "id": "2026-10-23-critical-x402-sdk-flaw-could-let-malicious-apis-drain-ai-agents-token-balances"
+      ]
     },
     {
       "id": "2026-10-22-litellm-suspects-github-token-leak-in-ai-gateway-logs-behind-malicious-package-r",
