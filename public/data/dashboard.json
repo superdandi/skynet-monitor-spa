@@ -115,6 +115,18 @@
   ],
   "incidents": [
     {
+      "severity": "CRITICAL",
+      "date": "2026-10-23",
+      "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
+      "summary": "AI agents paying for API calls with the&nbsp;x402 SDKs&nbsp;could sign a payment for their full balance of a supported token if a malicious API asked for it,&nbsp;security firm V12 said&nbsp;on October 22. The cause was the SDKs' default client, which set no spending limit until releases on August 1",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai"
+      ],
+      "id": "2026-10-23-critical-x402-sdk-flaw-could-let-malicious-apis-drain-ai-agents-token-balances"
+    },
+    {
       "id": "2026-10-22-litellm-suspects-github-token-leak-in-ai-gateway-logs-behind-malicious-package-r",
       "severity": "CRITICAL",
       "date": "2026-10-22",
@@ -165,14 +177,14 @@
       ]
     },
     {
+      "id": "2026-10-22-litellm-release-pipeline-hacked-to-distribute-info-stealer-malware",
       "severity": "CRITICAL",
       "date": "2026-10-22",
       "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
       "summary": "Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables. [...]",
       "source": "bleepingcomputer.com",
       "company": null,
-      "tags": [],
-      "id": "2026-10-22-litellm-release-pipeline-hacked-to-distribute-info-stealer-malware"
+      "tags": []
     },
     {
       "id": "2026-10-21-litellm-compromised-in-supply-chain-attack-delivering-credential-stealer-and-bac",
@@ -593,23 +605,11 @@
       "tags": [
         "autonomous-ai"
       ]
-    },
-    {
-      "id": "2026-10-01-ai-agents-hacked-the-hackers-stealing-email-addresses-from-security-research-org",
-      "severity": "CRITICAL",
-      "date": "2026-10-01",
-      "title": "AI agents hacked the hackers, stealing email addresses from security research org",
-      "summary": "Chained Zammad flaws enabled session hijacking, code execution, and root escalation in seconds",
-      "source": "theregister.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release"
+    "last_incident": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances"
   },
   "market_stats": {
     "companies_tracked": 8,
