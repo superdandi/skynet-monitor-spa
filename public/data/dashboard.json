@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 8,
+      "incidents_count": 9,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -125,6 +125,33 @@
       "tags": [
         "autonomous-ai"
       ]
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-10-23",
+      "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+      "summary": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an \"Autonomous Red Team Kill Chain Framework\" referred to as Phantom. The threat actor is assessed to be ",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai",
+        "ransomware",
+        "data-exposure"
+      ],
+      "id": "2026-10-23-exposed-infrastructure-reveals-how-ransomware-affiliates-used-ai-agents-to-execu"
+    },
+    {
+      "severity": "LOW",
+      "date": "2026-10-23",
+      "title": "Red-team report found OpenAI utterly failed to monitor its agents during Hugging Face attack",
+      "summary": "Monitoring was only partial and was easily bypassed",
+      "source": "theregister.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai",
+        "autonomous-ai"
+      ],
+      "id": "2026-10-23-red-team-report-found-openai-utterly-failed-to-monitor-its-agents-during-hugging"
     },
     {
       "id": "2026-10-22-litellm-suspects-github-token-leak-in-ai-gateway-logs-behind-malicious-package-r",
@@ -580,30 +607,6 @@
       "company": "Anthropic",
       "tags": [
         "anthropic"
-      ]
-    },
-    {
-      "id": "2026-10-02-gitlab-patches-critical-9-9-ai-gateway-flaw-allowing-command-execution-on-self-h",
-      "severity": "CRITICAL",
-      "date": "2026-10-02",
-      "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
-      "summary": "A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab&nbsp;said in an advisory. The gateway is the service that connects a GitLab instance to AI models, and only organizations that host their own ",
-      "source": "thehackernews.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai"
-      ]
-    },
-    {
-      "id": "2026-10-01-autonomous-ai-agents-tried-to-hack-us-canadian-government-websites",
-      "severity": "LOW",
-      "date": "2026-10-01",
-      "title": "Autonomous AI agents tried to hack US, Canadian government websites",
-      "summary": "Autonomous AI agents using aggressive strategies attempted to hack U.S. and Canadian government websites to find school and divorce statistics. [...]",
-      "source": "bleepingcomputer.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai"
       ]
     }
   ],
