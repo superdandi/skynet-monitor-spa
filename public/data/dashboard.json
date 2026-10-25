@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 10,
+      "incidents_count": 9,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -114,6 +114,18 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "HIGH",
+      "date": "2026-10-24",
+      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+      "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 2026, a configuration file was committed to the public LiteLLM",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai"
+      ],
+      "id": "2026-10-24-leaked-litellm-master-key-let-attackers-steal-github-tokens-and-hijack-release-p"
+    },
     {
       "id": "2026-10-23-critical-x402-sdk-flaw-could-let-malicious-apis-drain-ai-agents-token-balances",
       "severity": "CRITICAL",
@@ -596,28 +608,16 @@
       "tags": [
         "anthropic"
       ]
-    },
-    {
-      "id": "2026-10-03-anthropic-s-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vu",
-      "severity": "CRITICAL",
-      "date": "2026-10-03",
-      "title": "Anthropic's super bug-hunting model Mythos is hardcore good at math, as latest vuln under attack shows",
-      "summary": "Exploitation attempts came from China-hosted IP, VulnCheck researcher says",
-      "source": "theregister.com",
-      "company": "Anthropic",
-      "tags": [
-        "anthropic"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances"
+    "last_incident": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 25,
+    "critical_incidents": 24,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
