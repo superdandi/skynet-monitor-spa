@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-10-24-leaked-litellm-master-key-let-attackers-steal-github-tokens-and-hijack-release-p",
       "severity": "HIGH",
       "date": "2026-10-24",
       "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
@@ -123,8 +124,7 @@
       "company": null,
       "tags": [
         "autonomous-ai"
-      ],
-      "id": "2026-10-24-leaked-litellm-master-key-let-attackers-steal-github-tokens-and-hijack-release-p"
+      ]
     },
     {
       "id": "2026-10-23-critical-x402-sdk-flaw-could-let-malicious-apis-drain-ai-agents-token-balances",
