@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 10,
+      "incidents_count": 8,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-10-27-openai-compaction-flaw-let-researchers-bypass-hidden-reasoning-protections",
       "severity": "MODERATE",
       "date": "2026-10-27",
       "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
@@ -123,8 +124,34 @@
       "company": "OpenAI",
       "tags": [
         "openai"
+      ]
+    },
+    {
+      "severity": "LOW",
+      "date": "2026-10-27",
+      "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+      "summary": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator. TrendAI, which analyzed three exposed server environments used by threat actors ",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai",
+        "data-exposure"
       ],
-      "id": "2026-10-27-openai-compaction-flaw-let-researchers-bypass-hidden-reasoning-protections"
+      "id": "2026-10-27-cyberstrikeai-uses-44-ai-agents-to-automate-hacking-operations-against-japan-tar"
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-10-27",
+      "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
+      "summary": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. [...]",
+      "source": "bleepingcomputer.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai",
+        "supply-chain",
+        "data-exposure"
+      ],
+      "id": "2026-10-27-warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data"
     },
     {
       "id": "2026-10-24-leaked-litellm-master-key-let-attackers-steal-github-tokens-and-hijack-release-p",
@@ -581,33 +608,6 @@
         "openai",
         "autonomous-ai"
       ]
-    },
-    {
-      "id": "2026-10-06-wikimedia-rogue-openai-agents-behind-unauthorized-wikipedia-edits",
-      "severity": "LOW",
-      "date": "2026-10-06",
-      "title": "Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits",
-      "summary": "The Wikimedia Foundation says rogue OpenAI agents made unauthorized Wikipedia edits and may have been partially responsible for a May outage. [...]",
-      "source": "bleepingcomputer.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai",
-        "autonomous-ai"
-      ]
-    },
-    {
-      "id": "2026-10-06-openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic",
-      "severity": "LOW",
-      "date": "2026-10-06",
-      "title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
-      "summary": "The reports of OpenAI agents harming third-party sites keep coming.",
-      "source": "arstechnica.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai",
-        "autonomous-ai",
-        "supply-chain"
-      ]
     }
   ],
   "threat_level": {
@@ -617,7 +617,7 @@
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 24,
+    "critical_incidents": 25,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
