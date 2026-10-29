@@ -127,6 +127,7 @@
       ]
     },
     {
+      "id": "2026-10-28-php2shell-attack-roots-25-servers-breaches-u-s-government-affiliated-network",
       "severity": "CRITICAL",
       "date": "2026-10-28",
       "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
@@ -135,10 +136,10 @@
       "company": null,
       "tags": [
         "data-exposure"
-      ],
-      "id": "2026-10-28-php2shell-attack-roots-25-servers-breaches-u-s-government-affiliated-network"
+      ]
     },
     {
+      "id": "2026-10-28-cisco-open-sources-tool-for-detecting-ai-agents-on-hacking-sprees",
       "severity": "LOW",
       "date": "2026-10-28",
       "title": "Cisco open sources tool for detecting AI agents on hacking sprees",
@@ -147,8 +148,7 @@
       "company": null,
       "tags": [
         "autonomous-ai"
-      ],
-      "id": "2026-10-28-cisco-open-sources-tool-for-detecting-ai-agents-on-hacking-sprees"
+      ]
     },
     {
       "id": "2026-10-27-openai-compaction-flaw-let-researchers-bypass-hidden-reasoning-protections",
