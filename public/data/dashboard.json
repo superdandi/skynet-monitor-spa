@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 8,
+      "incidents_count": 7,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 8,
+      "incidents_count": 9,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -114,6 +114,18 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "CRITICAL",
+      "date": "2026-10-28",
+      "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
+      "summary": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report. The exploits were built in the lab after the model was prompted, not seen in any real attack, and Anthr",
+      "source": "thehackernews.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic"
+      ],
+      "id": "2026-10-28-anthropic-s-unreleased-ai-model-chains-flaws-into-working-chrome-safari-windows-"
+    },
     {
       "id": "2026-10-27-openai-compaction-flaw-let-researchers-bypass-hidden-reasoning-protections",
       "severity": "MODERATE",
@@ -595,24 +607,11 @@
       "tags": [
         "openai"
       ]
-    },
-    {
-      "id": "2026-10-06-wikimedia-says-openai-agents-tried-to-compromise-etherpad-and-use-wiki-tools-as-",
-      "severity": "CRITICAL",
-      "date": "2026-10-06",
-      "title": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies",
-      "summary": "The Wikimedia Foundation, which hosts Wikipedia, has confirmed that it has discovered activity by rogue OpenAI agents on its platforms, including unsuccessful efforts to compromise Etherpad, a public note-taking tool, and edit Wikipedia pages. \"The unauthorized bot activities included edits to our w",
-      "source": "thehackernews.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai",
-        "autonomous-ai"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections"
+    "last_incident": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits"
   },
   "market_stats": {
     "companies_tracked": 8,
