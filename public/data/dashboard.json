@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 6,
+      "incidents_count": 7,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 10,
+      "incidents_count": 9,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-10-29-linux-kernel-tcp-flaw-with-9-8-cvss-score-affects-ubuntu-red-hat-and-other-distr",
       "severity": "CRITICAL",
       "date": "2026-10-29",
       "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
@@ -123,10 +124,10 @@
       "company": "Anthropic",
       "tags": [
         "anthropic"
-      ],
-      "id": "2026-10-29-linux-kernel-tcp-flaw-with-9-8-cvss-score-affects-ubuntu-red-hat-and-other-distr"
+      ]
     },
     {
+      "id": "2026-10-29-google-s-gemini-4-carbon-leads-benchmarks-for-finding-exploiting-and-patching-vu",
       "severity": "CRITICAL",
       "date": "2026-10-29",
       "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
@@ -137,8 +138,32 @@
         "autonomous-ai",
         "ai-defense",
         "google-deepmind"
+      ]
+    },
+    {
+      "severity": "HIGH",
+      "date": "2026-10-29",
+      "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
+      "summary": "A crypto-mining campaign abusing Hugging Face models returned days after takedown, hijacking GPU servers and planting backdoors, with one model downloaded over 28,000 times. Separately, a fake Solana starter kit on GitHub is positioned to trick AI coding agents into installing a NetSupport RAT. [...",
+      "source": "bleepingcomputer.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai",
+        "backdoor"
       ],
-      "id": "2026-10-29-google-s-gemini-4-carbon-leads-benchmarks-for-finding-exploiting-and-patching-vu"
+      "id": "2026-10-29-hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining"
+    },
+    {
+      "severity": "MODERATE",
+      "date": "2026-10-29",
+      "title": "Researchers find bugs in 5 AI developer tools, with OpenAI and Microsoft flaws still unpatched",
+      "summary": "Embedded browsers are at the heart of the problem",
+      "source": "theregister.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai"
+      ],
+      "id": "2026-10-29-researchers-find-bugs-in-5-ai-developer-tools-with-openai-and-microsoft-flaws-st"
     },
     {
       "id": "2026-10-28-anthropic-s-unreleased-ai-model-chains-flaws-into-working-chrome-safari-windows-",
@@ -588,30 +613,6 @@
       "company": "xAI",
       "tags": [
         "xai"
-      ]
-    },
-    {
-      "id": "2026-10-07-anthropic-expands-claude-access-for-vetted-cyber-teams-as-glasswing-finds-129-00",
-      "severity": "MODERATE",
-      "date": "2026-10-07",
-      "title": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
-      "summary": "Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards and blocking classifiers, as the company claimed its Project Glasswing initiative uncovered at least 129,000 verified sof",
-      "source": "thehackernews.com",
-      "company": "Anthropic",
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "2026-10-07-poellm-malware-infects-3-400-servers-to-expand-crypto-mining-botnet",
-      "severity": "HIGH",
-      "date": "2026-10-07",
-      "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
-      "summary": "Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim to deploy cryptocurrency miners and further expand the scale of the botnet. The financially motivate",
-      "source": "thehackernews.com",
-      "company": null,
-      "tags": [
-        "data-exposure"
       ]
     }
   ],
