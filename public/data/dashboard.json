@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 9,
+      "incidents_count": 10,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -35,7 +35,7 @@
       "market_share": 13,
       "valuation_b": null,
       "threat_score": "MODERATE",
-      "incidents_count": 1,
+      "incidents_count": 2,
       "city": "London",
       "coords": [
         -0.13,
@@ -114,6 +114,32 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "CRITICAL",
+      "date": "2026-10-29",
+      "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+      "summary": "A flaw in the Linux kernel's TCP code, tracked as&nbsp;CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said&nbsp;on October 27 that its AI model wrote an exploit that uses th",
+      "source": "thehackernews.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic"
+      ],
+      "id": "2026-10-29-linux-kernel-tcp-flaw-with-9-8-cvss-score-affects-ubuntu-red-hat-and-other-distr"
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-10-29",
+      "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
+      "summary": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. \"It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead ",
+      "source": "thehackernews.com",
+      "company": "Google DeepMind",
+      "tags": [
+        "autonomous-ai",
+        "ai-defense",
+        "google-deepmind"
+      ],
+      "id": "2026-10-29-google-s-gemini-4-carbon-leads-benchmarks-for-finding-exploiting-and-patching-vu"
+    },
     {
       "id": "2026-10-28-anthropic-s-unreleased-ai-model-chains-flaws-into-working-chrome-safari-windows-",
       "severity": "CRITICAL",
@@ -587,33 +613,11 @@
       "tags": [
         "data-exposure"
       ]
-    },
-    {
-      "id": "2026-10-07-poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks",
-      "severity": "CRITICAL",
-      "date": "2026-10-07",
-      "title": "PoeLLM malware infects exposed AI servers in cryptomining attacks",
-      "summary": "A cryptomining campaign targeting exposed AI services is using PoeLLM malware to turn compromised servers into scanners and exploit launchpads. [...]",
-      "source": "bleepingcomputer.com",
-      "company": null,
-      "tags": [
-        "data-exposure"
-      ]
-    },
-    {
-      "id": "2026-10-07-poellm-malware-has-assembled-a-sweeping-botnet-taking-technical-cues-from-a-poem",
-      "severity": "CRITICAL",
-      "date": "2026-10-07",
-      "title": "PoeLLM malware has assembled a sweeping botnet, taking technical cues from a poem",
-      "summary": "<p>More than 3,400 servers have been compromised by malware that hides its infrastructure coordinates in a poem.</p> <p>The post <a href=\"https://cyberscoop.com/poellm-malware-botnet-poem-lumen-black-lotus-labs/\">PoeLLM malware has assembled a sweeping botnet, taking technical cues from a poem</a> a",
-      "source": "cyberscoop.com",
-      "company": null,
-      "tags": []
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits"
+    "last_incident": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions"
   },
   "market_stats": {
     "companies_tracked": 8,
