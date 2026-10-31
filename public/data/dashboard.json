@@ -129,16 +129,17 @@
       ]
     },
     {
+      "id": "2026-10-30-chinese-hackers-use-ai-powered-artex-to-target-over-200-organizations-worldwide",
       "severity": "LOW",
       "date": "2026-10-30",
       "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
       "summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously. The activity has been attributed by CrowdStrike to a China-based \"targeted intrusion advers",
       "source": "thehackernews.com",
       "company": null,
-      "tags": [],
-      "id": "2026-10-30-chinese-hackers-use-ai-powered-artex-to-target-over-200-organizations-worldwide"
+      "tags": []
     },
     {
+      "id": "2026-10-30-anthropic-that-claude-code-extension-compromise-couldn-t-be-us",
       "severity": "CRITICAL",
       "date": "2026-10-30",
       "title": "Anthropic: That Claude Code extension compromise… couldn't be us",
@@ -147,8 +148,32 @@
       "company": "Anthropic",
       "tags": [
         "anthropic"
+      ]
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-10-30",
+      "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+      "summary": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]",
+      "source": "bleepingcomputer.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic"
       ],
-      "id": "2026-10-30-anthropic-that-claude-code-extension-compromise-couldn-t-be-us"
+      "id": "2026-10-30-critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers"
+    },
+    {
+      "severity": "HIGH",
+      "date": "2026-10-30",
+      "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+      "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
+      "source": "arstechnica.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic",
+        "backdoor"
+      ],
+      "id": "2026-10-30-anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours"
     },
     {
       "id": "2026-10-29-linux-kernel-tcp-flaw-with-9-8-cvss-score-affects-ubuntu-red-hat-and-other-distr",
@@ -587,32 +612,6 @@
       "company": null,
       "tags": [
         "autonomous-ai"
-      ]
-    },
-    {
-      "id": "2026-10-10-anthropic-cuts-live-internet-access-for-internal-ai-tests-after-claude-exploits-",
-      "severity": "CRITICAL",
-      "date": "2026-10-10",
-      "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
-      "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites. The AI company said it identified four broad categories ",
-      "source": "thehackernews.com",
-      "company": "Anthropic",
-      "tags": [
-        "anthropic",
-        "market-impact"
-      ]
-    },
-    {
-      "id": "2026-10-10-artex-ai-claude-agents-used-in-cyberattacks-on-south-korean-banks",
-      "severity": "LOW",
-      "date": "2026-10-10",
-      "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
-      "summary": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]",
-      "source": "bleepingcomputer.com",
-      "company": "Anthropic",
-      "tags": [
-        "autonomous-ai",
-        "anthropic"
       ]
     }
   ],
