@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 10,
+      "incidents_count": 9,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-10-30-official-claude-code-extension-on-cursor-marketplace-trojanized-with-persistent-",
       "severity": "HIGH",
       "date": "2026-10-30",
       "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
@@ -125,8 +126,29 @@
         "anthropic",
         "backdoor",
         "market-impact"
+      ]
+    },
+    {
+      "severity": "LOW",
+      "date": "2026-10-30",
+      "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+      "summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously. The activity has been attributed by CrowdStrike to a China-based \"targeted intrusion advers",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [],
+      "id": "2026-10-30-chinese-hackers-use-ai-powered-artex-to-target-over-200-organizations-worldwide"
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-10-30",
+      "title": "Anthropic: That Claude Code extension compromise… couldn't be us",
+      "summary": "Claudeshop fingers 'malicious actor' in targeted supply-chain attack on Cursor",
+      "source": "theregister.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic"
       ],
-      "id": "2026-10-30-official-claude-code-extension-on-cursor-marketplace-trojanized-with-persistent-"
+      "id": "2026-10-30-anthropic-that-claude-code-extension-compromise-couldn-t-be-us"
     },
     {
       "id": "2026-10-29-linux-kernel-tcp-flaw-with-9-8-cvss-score-affects-ubuntu-red-hat-and-other-distr",
@@ -592,30 +614,6 @@
         "autonomous-ai",
         "anthropic"
       ]
-    },
-    {
-      "id": "2026-10-09-anthropic-launches-free-ai-vulnerability-scanner-for-open-source-projects",
-      "severity": "MODERATE",
-      "date": "2026-10-09",
-      "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
-      "summary": "Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI). \"It's an opt-in service informed by our experience using Claude to find vulnerabilities during Project Glasswing,\" Anthropic said. \"Projects that",
-      "source": "thehackernews.com",
-      "company": "Anthropic",
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "2026-10-09-hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks",
-      "severity": "LOW",
-      "date": "2026-10-09",
-      "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
-      "summary": "Hackers are abusing legitimate Bing search-result redirects as click URLs in Google search ads to direct users to fake Claude installers that deliver ClickFix attacks. [...]",
-      "source": "bleepingcomputer.com",
-      "company": "Anthropic",
-      "tags": [
-        "anthropic"
-      ]
     }
   ],
   "threat_level": {
@@ -625,7 +623,7 @@
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 24,
+    "critical_incidents": 25,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
