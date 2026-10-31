@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 9,
+      "incidents_count": 10,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -63,7 +63,7 @@
       "market_share": 2,
       "valuation_b": 50,
       "threat_score": "LOW",
-      "incidents_count": 2,
+      "incidents_count": 1,
       "city": "Palo Alto",
       "coords": [
         -122.14,
@@ -115,6 +115,20 @@
   ],
   "incidents": [
     {
+      "severity": "HIGH",
+      "date": "2026-10-30",
+      "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+      "summary": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems. The malicious update, version 2.1.313, was dist",
+      "source": "thehackernews.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic",
+        "backdoor",
+        "market-impact"
+      ],
+      "id": "2026-10-30-official-claude-code-extension-on-cursor-marketplace-trojanized-with-persistent-"
+    },
+    {
       "id": "2026-10-29-linux-kernel-tcp-flaw-with-9-8-cvss-score-affects-ubuntu-red-hat-and-other-distr",
       "severity": "CRITICAL",
       "date": "2026-10-29",
@@ -141,6 +155,7 @@
       ]
     },
     {
+      "id": "2026-10-29-hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining",
       "severity": "HIGH",
       "date": "2026-10-29",
       "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
@@ -150,10 +165,10 @@
       "tags": [
         "autonomous-ai",
         "backdoor"
-      ],
-      "id": "2026-10-29-hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining"
+      ]
     },
     {
+      "id": "2026-10-29-researchers-find-bugs-in-5-ai-developer-tools-with-openai-and-microsoft-flaws-st",
       "severity": "MODERATE",
       "date": "2026-10-29",
       "title": "Researchers find bugs in 5 AI developer tools, with OpenAI and Microsoft flaws still unpatched",
@@ -162,8 +177,7 @@
       "company": "OpenAI",
       "tags": [
         "openai"
-      ],
-      "id": "2026-10-29-researchers-find-bugs-in-5-ai-developer-tools-with-openai-and-microsoft-flaws-st"
+      ]
     },
     {
       "id": "2026-10-28-anthropic-s-unreleased-ai-model-chains-flaws-into-working-chrome-safari-windows-",
@@ -602,28 +616,16 @@
       "tags": [
         "anthropic"
       ]
-    },
-    {
-      "id": "2026-10-08-artex-ai-pentesting-tool-used-in-data-theft-attacks-on-south-korean-financial-fi",
-      "severity": "CRITICAL",
-      "date": "2026-10-08",
-      "title": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
-      "summary": "Cybersecurity researchers have disclosed details of a targeted campaign aimed at South Korean financial organizations that used an artificial intelligence (AI) pen testing tool named ARTEX to carry out the attacks. The activity, per CrowdStrike Intelligence, was active from late September to early O",
-      "source": "thehackernews.com",
-      "company": "xAI",
-      "tags": [
-        "xai"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions"
+    "last_incident": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 25,
+    "critical_incidents": 24,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
