@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-10-31-a-shared-chatgpt-link-could-run-attacker-code-in-your-session-and-read-private-c",
       "severity": "MODERATE",
       "date": "2026-10-31",
       "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
@@ -123,8 +124,7 @@
       "company": "OpenAI",
       "tags": [
         "openai"
-      ],
-      "id": "2026-10-31-a-shared-chatgpt-link-could-run-attacker-code-in-your-session-and-read-private-c"
+      ]
     },
     {
       "id": "2026-10-30-official-claude-code-extension-on-cursor-marketplace-trojanized-with-persistent-",
