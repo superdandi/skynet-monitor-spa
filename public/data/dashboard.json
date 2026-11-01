@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 7,
+      "incidents_count": 8,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -115,6 +115,18 @@
   ],
   "incidents": [
     {
+      "severity": "MODERATE",
+      "date": "2026-10-31",
+      "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+      "summary": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at&nbsp;the security firm Parameter&nbsp;showed. The researchers reported the flaw through&nbsp;OpenAI's bug bounty program&nbs",
+      "source": "thehackernews.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai"
+      ],
+      "id": "2026-10-31-a-shared-chatgpt-link-could-run-attacker-code-in-your-session-and-read-private-c"
+    },
+    {
       "id": "2026-10-30-official-claude-code-extension-on-cursor-marketplace-trojanized-with-persistent-",
       "severity": "HIGH",
       "date": "2026-10-30",
@@ -151,6 +163,7 @@
       ]
     },
     {
+      "id": "2026-10-30-critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers",
       "severity": "CRITICAL",
       "date": "2026-10-30",
       "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
@@ -159,10 +172,10 @@
       "company": "Anthropic",
       "tags": [
         "anthropic"
-      ],
-      "id": "2026-10-30-critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers"
+      ]
     },
     {
+      "id": "2026-10-30-anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours",
       "severity": "HIGH",
       "date": "2026-10-30",
       "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
@@ -172,8 +185,7 @@
       "tags": [
         "anthropic",
         "backdoor"
-      ],
-      "id": "2026-10-30-anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours"
+      ]
     },
     {
       "id": "2026-10-29-linux-kernel-tcp-flaw-with-9-8-cvss-score-affects-ubuntu-red-hat-and-other-distr",
@@ -601,23 +613,11 @@
         "anthropic",
         "market-impact"
       ]
-    },
-    {
-      "id": "2026-10-11-ai-systems-are-fully-capable-of-carrying-out-nightmare-attacks-against-infrastru",
-      "severity": "LOW",
-      "date": "2026-10-11",
-      "title": "AI systems are fully capable of carrying out nightmare attacks against infrastructure and nobody's ready",
-      "summary": "Meanwhile, AI agents move robotic arms, 'make OT device operator screens lie'",
-      "source": "theregister.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor"
+    "last_incident": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats"
   },
   "market_stats": {
     "companies_tracked": 8,
