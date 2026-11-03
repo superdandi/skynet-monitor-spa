@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 9,
+      "incidents_count": 8,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-11-02-new-volta-infostealer-uses-claude-gemini-and-kimi-ai-to-rank-victims-by-financia",
       "severity": "HIGH",
       "date": "2026-11-02",
       "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
@@ -123,8 +124,19 @@
       "company": "Anthropic",
       "tags": [
         "anthropic"
+      ]
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-11-02",
+      "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
+      "summary": "Two critical flaws in Langflow could let a remote attacker with no account bypass authentication or run arbitrary code,&nbsp;IBM said last week. Langflow is an open-source tool for building AI agents and workflows, and&nbsp;its vulnerability reports go to IBM. Every release from 1.0.0 through 1.12.8",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai"
       ],
-      "id": "2026-11-02-new-volta-infostealer-uses-claude-gemini-and-kimi-ai-to-rank-victims-by-financia"
+      "id": "2026-11-02-critical-langflow-flaws-could-let-unauthenticated-attackers-run-code-on-servers"
     },
     {
       "id": "2026-10-31-a-shared-chatgpt-link-could-run-attacker-code-in-your-session-and-read-private-c",
@@ -600,18 +612,6 @@
       "source": "theregister.com",
       "company": null,
       "tags": []
-    },
-    {
-      "id": "2026-10-12-cyberxero-uses-claude-code-in-campaign-that-stole-over-628-000-ukrainian-records",
-      "severity": "CRITICAL",
-      "date": "2026-10-12",
-      "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
-      "summary": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine. The activity, which brings together commodity offensive tools like Cobalt",
-      "source": "thehackernews.com",
-      "company": "Anthropic",
-      "tags": [
-        "anthropic"
-      ]
     }
   ],
   "threat_level": {
