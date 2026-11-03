@@ -115,6 +115,18 @@
   ],
   "incidents": [
     {
+      "severity": "HIGH",
+      "date": "2026-11-02",
+      "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+      "summary": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value. Like other typical stealer families, VOLTA is equipped to harvest passwords and co",
+      "source": "thehackernews.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic"
+      ],
+      "id": "2026-11-02-new-volta-infostealer-uses-claude-gemini-and-kimi-ai-to-rank-victims-by-financia"
+    },
+    {
       "id": "2026-10-31-a-shared-chatgpt-link-could-run-attacker-code-in-your-session-and-read-private-c",
       "severity": "MODERATE",
       "date": "2026-10-31",
@@ -600,29 +612,16 @@
       "tags": [
         "anthropic"
       ]
-    },
-    {
-      "id": "2026-10-12-anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites",
-      "severity": "CRITICAL",
-      "date": "2026-10-12",
-      "title": "Anthropic takes risky AI tests offline after models breach govt sites",
-      "summary": "Anthropic announced that its internal AI models undergoing \"high-risk and cybersecurity evaluations\" no longer have internet access following incidents involving U.S. government websites at the federal, state, and local levels. [...]",
-      "source": "bleepingcomputer.com",
-      "company": "Anthropic",
-      "tags": [
-        "anthropic",
-        "market-impact"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats"
+    "last_incident": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 25,
+    "critical_incidents": 24,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
