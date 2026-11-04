@@ -35,7 +35,7 @@
       "market_share": 13,
       "valuation_b": null,
       "threat_score": "MODERATE",
-      "incidents_count": 2,
+      "incidents_count": 3,
       "city": "London",
       "coords": [
         -0.13,
@@ -114,6 +114,30 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "CRITICAL",
+      "date": "2026-11-03",
+      "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+      "summary": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The incident is assessed to be part of a large-scale, artificial intelligence (AI)-powered attack campaign ",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [],
+      "id": "2026-11-03-chainstack-reports-production-systems-breach-exposing-customer-data-and-password"
+    },
+    {
+      "severity": "HIGH",
+      "date": "2026-11-03",
+      "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+      "summary": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services. The tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an attacker obtains an API k",
+      "source": "thehackernews.com",
+      "company": "Google DeepMind",
+      "tags": [
+        "misconfiguration",
+        "data-exposure",
+        "google-deepmind"
+      ],
+      "id": "2026-11-03-google-warns-llmjacking-attacks-are-costing-some-enterprises-up-to-1-million-in-"
+    },
     {
       "id": "2026-11-02-new-volta-infostealer-uses-claude-gemini-and-kimi-ai-to-rank-victims-by-financia",
       "severity": "HIGH",
@@ -590,38 +614,16 @@
         "openai",
         "autonomous-ai"
       ]
-    },
-    {
-      "id": "2026-10-14-an-ai-agent-found-a-critical-otp-bypass-in-production-the-attack-was-the-easy-pa",
-      "severity": "CRITICAL",
-      "date": "2026-10-14",
-      "title": "An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.",
-      "summary": "The bug was simple: the login let you choose where your sign-in code went. Proving it on a live website was the hard part. TL;DR During an authorized assessment, an AI pentesting agent found a critical authentication bypass on a major insurer's production website, on its own. One login request let t",
-      "source": "thehackernews.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai"
-      ]
-    },
-    {
-      "id": "2026-10-14-security-researchers-spent-6-days-doing-their-chromework-built-1b-user-exploit",
-      "severity": "CRITICAL",
-      "date": "2026-10-14",
-      "title": "Security researchers spent 6 days doing their Chromework, built 1B user exploit",
-      "summary": "Xbow earned a $250K bug bounty and all the AI model got was a lousy t-shirt",
-      "source": "theregister.com",
-      "company": null,
-      "tags": []
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value"
+    "last_incident": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 24,
+    "critical_incidents": 23,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
