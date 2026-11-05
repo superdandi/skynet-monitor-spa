@@ -115,16 +115,17 @@
   ],
   "incidents": [
     {
+      "id": "2026-11-03-chainstack-reports-production-systems-breach-exposing-customer-data-and-password",
       "severity": "CRITICAL",
       "date": "2026-11-03",
       "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
       "summary": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The incident is assessed to be part of a large-scale, artificial intelligence (AI)-powered attack campaign ",
       "source": "thehackernews.com",
       "company": null,
-      "tags": [],
-      "id": "2026-11-03-chainstack-reports-production-systems-breach-exposing-customer-data-and-password"
+      "tags": []
     },
     {
+      "id": "2026-11-03-google-warns-llmjacking-attacks-are-costing-some-enterprises-up-to-1-million-in-",
       "severity": "HIGH",
       "date": "2026-11-03",
       "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
@@ -135,8 +136,7 @@
         "misconfiguration",
         "data-exposure",
         "google-deepmind"
-      ],
-      "id": "2026-11-03-google-warns-llmjacking-attacks-are-costing-some-enterprises-up-to-1-million-in-"
+      ]
     },
     {
       "id": "2026-11-02-new-volta-infostealer-uses-claude-gemini-and-kimi-ai-to-rank-victims-by-financia",
