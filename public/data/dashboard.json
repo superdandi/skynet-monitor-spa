@@ -127,6 +127,7 @@
       ]
     },
     {
+      "id": "2026-11-05-researchers-bypass-chatgpt-lockdown-mode-to-exfiltrate-chats-without-user-intera",
       "severity": "CRITICAL",
       "date": "2026-11-05",
       "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
@@ -135,10 +136,10 @@
       "company": "OpenAI",
       "tags": [
         "openai"
-      ],
-      "id": "2026-11-05-researchers-bypass-chatgpt-lockdown-mode-to-exfiltrate-chats-without-user-intera"
+      ]
     },
     {
+      "id": "2026-11-05-openai-ai-pipeline-generates-948-linux-root-escalation-exploits-in-30-hour-run",
       "severity": "CRITICAL",
       "date": "2026-11-05",
       "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
@@ -147,10 +148,10 @@
       "company": "OpenAI",
       "tags": [
         "openai"
-      ],
-      "id": "2026-11-05-openai-ai-pipeline-generates-948-linux-root-escalation-exploits-in-30-hour-run"
+      ]
     },
     {
+      "id": "2026-11-05-anthropic-won-t-fix-a-claude-dispatch-flaw-that-could-let-attackers-execute-remo",
       "severity": "MODERATE",
       "date": "2026-11-05",
       "title": "Anthropic won't fix a Claude Dispatch flaw that could let attackers execute remote commands across corporate boundaries",
@@ -159,8 +160,7 @@
       "company": "Anthropic",
       "tags": [
         "anthropic"
-      ],
-      "id": "2026-11-05-anthropic-won-t-fix-a-claude-dispatch-flaw-that-could-let-attackers-execute-remo"
+      ]
     },
     {
       "id": "2026-11-03-chainstack-reports-production-systems-breach-exposing-customer-data-and-password",
