@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 8,
+      "incidents_count": 9,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-11-05-cert-in-flags-ai-driven-attacks-as-backdoored-artex-exposes-62-consoles-to-root-",
       "severity": "HIGH",
       "date": "2026-11-05",
       "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
@@ -123,8 +124,43 @@
       "company": null,
       "tags": [
         "backdoor"
+      ]
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-11-05",
+      "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
+      "summary": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT. Lockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to minimize data exfiltration ri",
+      "source": "thehackernews.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai"
       ],
-      "id": "2026-11-05-cert-in-flags-ai-driven-attacks-as-backdoored-artex-exposes-62-consoles-to-root-"
+      "id": "2026-11-05-researchers-bypass-chatgpt-lockdown-mode-to-exfiltrate-chats-without-user-intera"
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-11-05",
+      "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+      "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidate Linux kernel findings",
+      "source": "thehackernews.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai"
+      ],
+      "id": "2026-11-05-openai-ai-pipeline-generates-948-linux-root-escalation-exploits-in-30-hour-run"
+    },
+    {
+      "severity": "MODERATE",
+      "date": "2026-11-05",
+      "title": "Anthropic won't fix a Claude Dispatch flaw that could let attackers execute remote commands across corporate boundaries",
+      "summary": "From EOP to RCE in six simple steps",
+      "source": "theregister.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic"
+      ],
+      "id": "2026-11-05-anthropic-won-t-fix-a-claude-dispatch-flaw-that-could-let-attackers-execute-remo"
     },
     {
       "id": "2026-11-03-chainstack-reports-production-systems-breach-exposing-customer-data-and-password",
@@ -574,44 +610,6 @@
         "autonomous-ai",
         "supply-chain",
         "backdoor"
-      ]
-    },
-    {
-      "id": "2026-10-16-backdooring-open-weight-ai-models",
-      "severity": "HIGH",
-      "date": "2026-10-16",
-      "title": "Backdooring Open-Weight AI Models",
-      "summary": "<p><a href=\"https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned\">This</a> is a problem:</p> <blockquote><p>Any open model whose weights have been edited can carry a backdoor, whether it&#8217;s a task-specific fine-tune, a merged adapter or an abliterated build. We have abl",
-      "source": "RSS Feed",
-      "company": "OpenAI",
-      "tags": [
-        "openai",
-        "model-leak",
-        "backdoor"
-      ]
-    },
-    {
-      "id": "2026-10-16-openai-models-hacked-a-crypto-wallet-and-breached-more-websites",
-      "severity": "CRITICAL",
-      "date": "2026-10-16",
-      "title": "OpenAI models hacked a crypto wallet and breached more websites",
-      "summary": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
-      "source": "arstechnica.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "2026-10-15-langflow-s-critical-authenticated-rce-flaw-targeted-in-1-423-honeypot-exploit-at",
-      "severity": "CRITICAL",
-      "date": "2026-10-15",
-      "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
-      "summary": "Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian. Langflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and agentic workflows. In February 2025, DataStax, the parent company of Langflow, wa",
-      "source": "thehackernews.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai"
       ]
     }
   ],
