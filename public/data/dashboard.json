@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 8,
+      "incidents_count": 7,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -114,6 +114,18 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "HIGH",
+      "date": "2026-11-05",
+      "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+      "summary": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI) sectors in the country. Describing the threat as active and on",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "backdoor"
+      ],
+      "id": "2026-11-05-cert-in-flags-ai-driven-attacks-as-backdoored-artex-exposes-62-consoles-to-root-"
+    },
     {
       "id": "2026-11-03-chainstack-reports-production-systems-breach-exposing-customer-data-and-password",
       "severity": "CRITICAL",
@@ -601,29 +613,16 @@
       "tags": [
         "autonomous-ai"
       ]
-    },
-    {
-      "id": "2026-10-14-researchers-used-a-public-openai-model-to-build-a-250-000-chrome-full-chain-expl",
-      "severity": "CRITICAL",
-      "date": "2026-10-14",
-      "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
-      "summary": "A team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said. Its researchers built the attack in six days by directing AI agents running OpenAI's publicly available GPT-5.6 ",
-      "source": "thehackernews.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai",
-        "autonomous-ai"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes"
+    "last_incident": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 23,
+    "critical_incidents": 22,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
