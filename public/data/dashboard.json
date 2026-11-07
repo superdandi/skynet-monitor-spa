@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 7,
+      "incidents_count": 8,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 9,
+      "incidents_count": 8,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -114,6 +114,18 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "CRITICAL",
+      "date": "2026-11-06",
+      "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+      "summary": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment. The new model is \"more capable at finding and fixing vulnerabilities, and far more reli",
+      "source": "thehackernews.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai"
+      ],
+      "id": "2026-11-06-openai-launches-gpt-6-cyber-after-ai-helps-find-81-firefox-flaws-948-linux-explo"
+    },
     {
       "id": "2026-11-05-cert-in-flags-ai-driven-attacks-as-backdoored-artex-exposes-62-consoles-to-root-",
       "severity": "HIGH",
@@ -596,31 +608,16 @@
         "zero-day",
         "market-impact"
       ]
-    },
-    {
-      "id": "2026-10-19-fake-web3-accelerator-uses-npm-packages-to-spread-malware-and-hijack-ai-agent-tr",
-      "severity": "HIGH",
-      "date": "2026-10-19",
-      "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
-      "summary": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and security audits. \"The tools",
-      "source": "thehackernews.com",
-      "company": "Anthropic",
-      "tags": [
-        "anthropic",
-        "autonomous-ai",
-        "supply-chain",
-        "backdoor"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access"
+    "last_incident": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 22,
+    "critical_incidents": 23,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
