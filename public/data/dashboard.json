@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-11-06-openai-launches-gpt-6-cyber-after-ai-helps-find-81-firefox-flaws-948-linux-explo",
       "severity": "CRITICAL",
       "date": "2026-11-06",
       "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
@@ -123,8 +124,19 @@
       "company": "OpenAI",
       "tags": [
         "openai"
+      ]
+    },
+    {
+      "severity": "HIGH",
+      "date": "2026-11-06",
+      "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
+      "summary": "Company said a \"multifront cyberattack\" included AI agents and an on-path data snatch.",
+      "source": "arstechnica.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai"
       ],
-      "id": "2026-11-06-openai-launches-gpt-6-cyber-after-ai-helps-find-81-firefox-flaws-948-linux-explo"
+      "id": "2026-11-06-chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers"
     },
     {
       "id": "2026-11-05-cert-in-flags-ai-driven-attacks-as-backdoored-artex-exposes-62-consoles-to-root-",
@@ -594,20 +606,6 @@
         "supply-chain",
         "data-exposure"
       ]
-    },
-    {
-      "id": "2026-10-19-weekly-recap-98-zero-days-rogue-ai-agents-100m-crypto-theft-700-supermarkets-hit",
-      "severity": "CRITICAL",
-      "date": "2026-10-19",
-      "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
-      "summary": "The worst problems don't always come with a warning. Sometimes they arrive through a service everyone trusts, a device someone bought, or a system nobody thought to check. By the time something looks wrong, the damage may already be done. This week had plenty of that. Trusted connections became a pr",
-      "source": "thehackernews.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai",
-        "zero-day",
-        "market-impact"
-      ]
     }
   ],
   "threat_level": {
@@ -617,7 +615,7 @@
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 23,
+    "critical_incidents": 22,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
