@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 8,
+      "incidents_count": 7,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 8,
+      "incidents_count": 9,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -115,6 +115,18 @@
   ],
   "incidents": [
     {
+      "severity": "HIGH",
+      "date": "2026-11-07",
+      "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+      "summary": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in",
+      "source": "thehackernews.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic"
+      ],
+      "id": "2026-11-07-claude-code-s-don-t-ask-again-file-exposes-passwords-and-keys-in-1-122-public-co"
+    },
+    {
       "id": "2026-11-06-openai-launches-gpt-6-cyber-after-ai-helps-find-81-firefox-flaws-948-linux-explo",
       "severity": "CRITICAL",
       "date": "2026-11-06",
@@ -127,6 +139,7 @@
       ]
     },
     {
+      "id": "2026-11-06-chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers",
       "severity": "HIGH",
       "date": "2026-11-06",
       "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
@@ -135,8 +148,7 @@
       "company": null,
       "tags": [
         "autonomous-ai"
-      ],
-      "id": "2026-11-06-chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers"
+      ]
     },
     {
       "id": "2026-11-05-cert-in-flags-ai-driven-attacks-as-backdoored-artex-exposes-62-consoles-to-root-",
@@ -592,30 +604,16 @@
       "tags": [
         "autonomous-ai"
       ]
-    },
-    {
-      "id": "2026-10-19-opencode-console-breach-may-have-exposed-openai-anthropic-and-google-api-keys",
-      "severity": "CRITICAL",
-      "date": "2026-10-19",
-      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
-      "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there",
-      "source": "thehackernews.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai",
-        "supply-chain",
-        "data-exposure"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits"
+    "last_incident": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 22,
+    "critical_incidents": 21,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
