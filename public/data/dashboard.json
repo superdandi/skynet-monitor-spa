@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-11-07-claude-code-s-don-t-ask-again-file-exposes-passwords-and-keys-in-1-122-public-co",
       "severity": "HIGH",
       "date": "2026-11-07",
       "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
@@ -123,8 +124,7 @@
       "company": "Anthropic",
       "tags": [
         "anthropic"
-      ],
-      "id": "2026-11-07-claude-code-s-don-t-ask-again-file-exposes-passwords-and-keys-in-1-122-public-co"
+      ]
     },
     {
       "id": "2026-11-06-openai-launches-gpt-6-cyber-after-ai-helps-find-81-firefox-flaws-948-linux-explo",
