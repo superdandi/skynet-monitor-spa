@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 9,
+      "incidents_count": 10,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -35,7 +35,7 @@
       "market_share": 13,
       "valuation_b": null,
       "threat_score": "MODERATE",
-      "incidents_count": 3,
+      "incidents_count": 2,
       "city": "London",
       "coords": [
         -0.13,
@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-11-09-taiwan-based-hacker-used-bossai-ai-agents-to-steal-taipei-emergency-dispatch-rec",
       "severity": "MODERATE",
       "date": "2026-11-09",
       "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
@@ -123,8 +124,19 @@
       "company": null,
       "tags": [
         "autonomous-ai"
+      ]
+    },
+    {
+      "severity": "HIGH",
+      "date": "2026-11-09",
+      "title": "Claude Code is accidentally exposing secrets all over GitHub",
+      "summary": "\"Do not ask again\" prompt leads to passwords, API keys, and more being shared.",
+      "source": "arstechnica.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic"
       ],
-      "id": "2026-11-09-taiwan-based-hacker-used-bossai-ai-agents-to-steal-taipei-emergency-dispatch-rec"
+      "id": "2026-11-09-claude-code-is-accidentally-exposing-secrets-all-over-github"
     },
     {
       "id": "2026-11-07-claude-code-s-don-t-ask-again-file-exposes-passwords-and-keys-in-1-122-public-co",
@@ -591,18 +603,6 @@
       "company": null,
       "tags": [
         "supply-chain"
-      ]
-    },
-    {
-      "id": "2026-10-21-google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks",
-      "severity": "LOW",
-      "date": "2026-10-21",
-      "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
-      "summary": "Chrome is getting new scam protections that use Gemini to detect deceptive websites and warn users when they copy suspicious commands from ClickFix attacks. [...]",
-      "source": "bleepingcomputer.com",
-      "company": "Google DeepMind",
-      "tags": [
-        "google-deepmind"
       ]
     }
   ],
