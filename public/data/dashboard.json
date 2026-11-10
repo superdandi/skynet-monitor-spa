@@ -115,6 +115,18 @@
   ],
   "incidents": [
     {
+      "severity": "MODERATE",
+      "date": "2026-11-09",
+      "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
+      "summary": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week. The agents also found a Taipei fire department platform exposing patient data from 2018, including ECG readings and ambulance video foota",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai"
+      ],
+      "id": "2026-11-09-taiwan-based-hacker-used-bossai-ai-agents-to-steal-taipei-emergency-dispatch-rec"
+    },
+    {
       "id": "2026-11-07-claude-code-s-don-t-ask-again-file-exposes-passwords-and-keys-in-1-122-public-co",
       "severity": "HIGH",
       "date": "2026-11-07",
@@ -592,28 +604,16 @@
       "tags": [
         "google-deepmind"
       ]
-    },
-    {
-      "id": "2026-10-20-hackers-use-autonomous-ai-agents-to-breach-company-websites-target-over-1-200-si",
-      "severity": "CRITICAL",
-      "date": "2026-10-20",
-      "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
-      "summary": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet. The agents tried more than 1,200 sites and reached websites belong",
-      "source": "thehackernews.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub"
+    "last_incident": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 21,
+    "critical_incidents": 20,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
