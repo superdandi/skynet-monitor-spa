@@ -127,6 +127,7 @@
       ]
     },
     {
+      "id": "2026-11-09-claude-code-is-accidentally-exposing-secrets-all-over-github",
       "severity": "HIGH",
       "date": "2026-11-09",
       "title": "Claude Code is accidentally exposing secrets all over GitHub",
@@ -135,8 +136,7 @@
       "company": "Anthropic",
       "tags": [
         "anthropic"
-      ],
-      "id": "2026-11-09-claude-code-is-accidentally-exposing-secrets-all-over-github"
+      ]
     },
     {
       "id": "2026-11-07-claude-code-s-don-t-ask-again-file-exposes-passwords-and-keys-in-1-122-public-co",
