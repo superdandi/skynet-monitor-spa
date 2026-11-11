@@ -63,7 +63,7 @@
       "market_share": 2,
       "valuation_b": 50,
       "threat_score": "LOW",
-      "incidents_count": 1,
+      "incidents_count": 2,
       "city": "Palo Alto",
       "coords": [
         -122.14,
@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-11-10-fireworks-ai-gets-burned-twice-as-customer-data-exposure-widens",
       "severity": "CRITICAL",
       "date": "2026-11-10",
       "title": "Fireworks AI gets burned twice as customer data exposure widens",
@@ -124,8 +125,20 @@
       "tags": [
         "privacy",
         "data-exposure"
+      ]
+    },
+    {
+      "severity": "HIGH",
+      "date": "2026-11-10",
+      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+      "summary": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
+      "source": "arstechnica.com",
+      "company": "xAI",
+      "tags": [
+        "autonomous-ai",
+        "xai"
       ],
-      "id": "2026-11-10-fireworks-ai-gets-burned-twice-as-customer-data-exposure-widens"
+      "id": "2026-11-10-grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spac"
     },
     {
       "id": "2026-11-09-taiwan-based-hacker-used-bossai-ai-agents-to-steal-taipei-emergency-dispatch-rec",
@@ -592,19 +605,6 @@
       "source": "bleepingcomputer.com",
       "company": null,
       "tags": []
-    },
-    {
-      "id": "2026-10-21-litellm-compromised-in-supply-chain-attack-delivering-credential-stealer-and-bac",
-      "severity": "CRITICAL",
-      "date": "2026-10-21",
-      "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
-      "summary": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind. The compromise affects LiteLLM 1.107.0, distributed through PyPI wheels and Docke",
-      "source": "thehackernews.com",
-      "company": null,
-      "tags": [
-        "supply-chain",
-        "backdoor"
-      ]
     }
   ],
   "threat_level": {
@@ -614,7 +614,7 @@
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 21,
+    "critical_incidents": 20,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
