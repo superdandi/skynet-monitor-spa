@@ -115,6 +115,19 @@
   ],
   "incidents": [
     {
+      "severity": "CRITICAL",
+      "date": "2026-11-10",
+      "title": "Fireworks AI gets burned twice as customer data exposure widens",
+      "summary": "Inference biz pins latest breach on cloud provider and LLMJacking miscreants",
+      "source": "theregister.com",
+      "company": null,
+      "tags": [
+        "privacy",
+        "data-exposure"
+      ],
+      "id": "2026-11-10-fireworks-ai-gets-burned-twice-as-customer-data-exposure-widens"
+    },
+    {
       "id": "2026-11-09-taiwan-based-hacker-used-bossai-ai-agents-to-steal-taipei-emergency-dispatch-rec",
       "severity": "MODERATE",
       "date": "2026-11-09",
@@ -592,28 +605,16 @@
         "supply-chain",
         "backdoor"
       ]
-    },
-    {
-      "id": "2026-10-21-litellm-supply-chain-attack-hoovers-up-passwords-and-secrets",
-      "severity": "HIGH",
-      "date": "2026-10-21",
-      "title": "LiteLLM supply chain attack hoovers up passwords and secrets",
-      "summary": "Plus a RAT for good measure - get threat hunting now",
-      "source": "theregister.com",
-      "company": null,
-      "tags": [
-        "supply-chain"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records"
+    "last_incident": "Fireworks AI gets burned twice as customer data exposure widens"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 20,
+    "critical_incidents": 21,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
