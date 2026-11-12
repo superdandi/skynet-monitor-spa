@@ -115,6 +115,20 @@
   ],
   "incidents": [
     {
+      "severity": "HIGH",
+      "date": "2026-11-11",
+      "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
+      "summary": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown. When a chosen trigger appears, the model outputs an attacker's command, which an agent using that model would run with the agent's own permi",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai",
+        "model-leak",
+        "backdoor"
+      ],
+      "id": "2026-11-11-microsoft-researchers-show-ai-agents-can-be-backdoored-by-editing-fewer-than-10-"
+    },
+    {
       "id": "2026-11-10-fireworks-ai-gets-burned-twice-as-customer-data-exposure-widens",
       "severity": "CRITICAL",
       "date": "2026-11-10",
@@ -128,6 +142,7 @@
       ]
     },
     {
+      "id": "2026-11-10-grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spac",
       "severity": "HIGH",
       "date": "2026-11-10",
       "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
@@ -137,8 +152,7 @@
       "tags": [
         "autonomous-ai",
         "xai"
-      ],
-      "id": "2026-11-10-grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spac"
+      ]
     },
     {
       "id": "2026-11-09-taiwan-based-hacker-used-bossai-ai-agents-to-steal-taipei-emergency-dispatch-rec",
@@ -595,26 +609,16 @@
       "tags": [
         "autonomous-ai"
       ]
-    },
-    {
-      "id": "2026-10-22-litellm-release-pipeline-hacked-to-distribute-info-stealer-malware",
-      "severity": "CRITICAL",
-      "date": "2026-10-22",
-      "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
-      "summary": "Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables. [...]",
-      "source": "bleepingcomputer.com",
-      "company": null,
-      "tags": []
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Fireworks AI gets burned twice as customer data exposure widens"
+    "last_incident": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 20,
+    "critical_incidents": 19,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
