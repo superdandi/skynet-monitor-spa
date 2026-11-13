@@ -63,7 +63,7 @@
       "market_share": 2,
       "valuation_b": 50,
       "threat_score": "LOW",
-      "incidents_count": 4,
+      "incidents_count": 3,
       "city": "Palo Alto",
       "coords": [
         -122.14,
@@ -114,6 +114,16 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "HIGH",
+      "date": "2026-11-12",
+      "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
+      "summary": "Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of extensions that hijack user searches. This delivery pattern has been codenamed TypoPrompting by Island.",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [],
+      "id": "2026-11-12-186-fake-ai-domains-redirect-users-to-clickfix-lures-browser-malware-and-search-"
+    },
     {
       "id": "2026-11-11-microsoft-researchers-show-ai-agents-can-be-backdoored-by-editing-fewer-than-10-",
       "severity": "HIGH",
@@ -597,30 +607,16 @@
       "tags": [
         "backdoor"
       ]
-    },
-    {
-      "id": "2026-10-22-china-linked-hackers-use-artex-ai-agents-in-connectwise-supply-chain-attack",
-      "severity": "CRITICAL",
-      "date": "2026-10-22",
-      "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
-      "summary": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application. During the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was made closed-source i",
-      "source": "thehackernews.com",
-      "company": "xAI",
-      "tags": [
-        "autonomous-ai",
-        "supply-chain",
-        "xai"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons"
+    "last_incident": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 17,
+    "critical_incidents": 16,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
