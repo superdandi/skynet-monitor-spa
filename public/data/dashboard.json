@@ -129,6 +129,7 @@
       ]
     },
     {
+      "id": "2026-11-11-over-35-000-grok-built-apps-exposed-online-some-leaking-confidential-data-and-pa",
       "severity": "HIGH",
       "date": "2026-11-11",
       "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
@@ -138,10 +139,10 @@
       "tags": [
         "data-exposure",
         "xai"
-      ],
-      "id": "2026-11-11-over-35-000-grok-built-apps-exposed-online-some-leaking-confidential-data-and-pa"
+      ]
     },
     {
+      "id": "2026-11-11-hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks",
       "severity": "HIGH",
       "date": "2026-11-11",
       "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
@@ -151,8 +152,7 @@
       "tags": [
         "autonomous-ai",
         "xai"
-      ],
-      "id": "2026-11-11-hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks"
+      ]
     },
     {
       "id": "2026-11-10-fireworks-ai-gets-burned-twice-as-customer-data-exposure-widens",
