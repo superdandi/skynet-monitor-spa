@@ -115,14 +115,14 @@
   ],
   "incidents": [
     {
+      "id": "2026-11-12-186-fake-ai-domains-redirect-users-to-clickfix-lures-browser-malware-and-search-",
       "severity": "HIGH",
       "date": "2026-11-12",
       "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
       "summary": "Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of extensions that hijack user searches. This delivery pattern has been codenamed TypoPrompting by Island.",
       "source": "thehackernews.com",
       "company": null,
-      "tags": [],
-      "id": "2026-11-12-186-fake-ai-domains-redirect-users-to-clickfix-lures-browser-malware-and-search-"
+      "tags": []
     },
     {
       "id": "2026-11-11-microsoft-researchers-show-ai-agents-can-be-backdoored-by-editing-fewer-than-10-",
