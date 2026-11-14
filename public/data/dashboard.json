@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-11-13-how-one-ai-agent-exposed-five-critical-enterprise-security-gaps",
       "severity": "CRITICAL",
       "date": "2026-11-13",
       "title": "How one AI agent exposed five critical enterprise security gaps",
@@ -125,8 +126,7 @@
         "autonomous-ai",
         "market-impact",
         "data-exposure"
-      ],
-      "id": "2026-11-13-how-one-ai-agent-exposed-five-critical-enterprise-security-gaps"
+      ]
     },
     {
       "id": "2026-11-12-186-fake-ai-domains-redirect-users-to-clickfix-lures-browser-malware-and-search-",
