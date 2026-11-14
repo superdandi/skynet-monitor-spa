@@ -115,6 +115,20 @@
   ],
   "incidents": [
     {
+      "severity": "CRITICAL",
+      "date": "2026-11-13",
+      "title": "How one AI agent exposed five critical enterprise security gaps",
+      "summary": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI agent security gaps and shares practical guidance from industry security leaders",
+      "source": "bleepingcomputer.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai",
+        "market-impact",
+        "data-exposure"
+      ],
+      "id": "2026-11-13-how-one-ai-agent-exposed-five-critical-enterprise-security-gaps"
+    },
+    {
       "id": "2026-11-12-186-fake-ai-domains-redirect-users-to-clickfix-lures-browser-malware-and-search-",
       "severity": "HIGH",
       "date": "2026-11-12",
@@ -595,23 +609,11 @@
         "openai",
         "autonomous-ai"
       ]
-    },
-    {
-      "id": "2026-10-22-litellm-suspects-github-token-leak-in-ai-gateway-logs-behind-malicious-package-r",
-      "severity": "CRITICAL",
-      "date": "2026-10-22",
-      "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
-      "summary": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor. On October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.0 to the Docker Hub r",
-      "source": "thehackernews.com",
-      "company": null,
-      "tags": [
-        "backdoor"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers"
+    "last_incident": "How one AI agent exposed five critical enterprise security gaps"
   },
   "market_stats": {
     "companies_tracked": 8,
