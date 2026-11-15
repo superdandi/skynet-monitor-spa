@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-11-14-cursor-confirms-security-breach-led-to-malicious-claude-code-extension",
       "severity": "CRITICAL",
       "date": "2026-11-14",
       "title": "Cursor confirms security breach led to malicious Claude Code extension",
@@ -124,8 +125,7 @@
       "tags": [
         "market-impact",
         "anthropic"
-      ],
-      "id": "2026-11-14-cursor-confirms-security-breach-led-to-malicious-claude-code-extension"
+      ]
     },
     {
       "id": "2026-11-13-how-one-ai-agent-exposed-five-critical-enterprise-security-gaps",
