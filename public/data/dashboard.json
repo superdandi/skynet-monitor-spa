@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 7,
+      "incidents_count": 6,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 10,
+      "incidents_count": 11,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -114,6 +114,19 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "CRITICAL",
+      "date": "2026-11-14",
+      "title": "Cursor confirms security breach led to malicious Claude Code extension",
+      "summary": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]",
+      "source": "bleepingcomputer.com",
+      "company": "Anthropic",
+      "tags": [
+        "market-impact",
+        "anthropic"
+      ],
+      "id": "2026-11-14-cursor-confirms-security-breach-led-to-malicious-claude-code-extension"
+    },
     {
       "id": "2026-11-13-how-one-ai-agent-exposed-five-critical-enterprise-security-gaps",
       "severity": "CRITICAL",
@@ -596,29 +609,16 @@
         "ransomware",
         "data-exposure"
       ]
-    },
-    {
-      "id": "2026-10-23-red-team-report-found-openai-utterly-failed-to-monitor-its-agents-during-hugging",
-      "severity": "LOW",
-      "date": "2026-10-23",
-      "title": "Red-team report found OpenAI utterly failed to monitor its agents during Hugging Face attack",
-      "summary": "Monitoring was only partial and was easily bypassed",
-      "source": "theregister.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai",
-        "autonomous-ai"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "How one AI agent exposed five critical enterprise security gaps"
+    "last_incident": "Cursor confirms security breach led to malicious Claude Code extension"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 16,
+    "critical_incidents": 17,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
