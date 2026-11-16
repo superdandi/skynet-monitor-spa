@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 11,
+      "incidents_count": 12,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -114,6 +114,20 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "CRITICAL",
+      "date": "2026-11-15",
+      "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+      "summary": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. \"An attacker obtained an access key we had issued to Fireworks,\" Cursor said in a Friday update",
+      "source": "thehackernews.com",
+      "company": "Anthropic",
+      "tags": [
+        "anthropic",
+        "market-impact",
+        "data-exposure"
+      ],
+      "id": "2026-11-15-cursor-says-stolen-fireworks-ai-key-led-to-trojanized-claude-code-extension-inci"
+    },
     {
       "id": "2026-11-14-cursor-confirms-security-breach-led-to-malicious-claude-code-extension",
       "severity": "CRITICAL",
@@ -595,25 +609,11 @@
       "tags": [
         "autonomous-ai"
       ]
-    },
-    {
-      "id": "2026-10-23-exposed-infrastructure-reveals-how-ransomware-affiliates-used-ai-agents-to-execu",
-      "severity": "CRITICAL",
-      "date": "2026-10-23",
-      "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
-      "summary": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an \"Autonomous Red Team Kill Chain Framework\" referred to as Phantom. The threat actor is assessed to be ",
-      "source": "thehackernews.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai",
-        "ransomware",
-        "data-exposure"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Cursor confirms security breach led to malicious Claude Code extension"
+    "last_incident": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident"
   },
   "market_stats": {
     "companies_tracked": 8,
