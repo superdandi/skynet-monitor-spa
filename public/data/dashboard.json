@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-11-15-cursor-says-stolen-fireworks-ai-key-led-to-trojanized-claude-code-extension-inci",
       "severity": "CRITICAL",
       "date": "2026-11-15",
       "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
@@ -125,8 +126,7 @@
         "anthropic",
         "market-impact",
         "data-exposure"
-      ],
-      "id": "2026-11-15-cursor-says-stolen-fireworks-ai-key-led-to-trojanized-claude-code-extension-inci"
+      ]
     },
     {
       "id": "2026-11-14-cursor-confirms-security-breach-led-to-malicious-claude-code-extension",
