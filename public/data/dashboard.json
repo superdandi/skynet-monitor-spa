@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 6,
+      "incidents_count": 7,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -35,7 +35,7 @@
       "market_share": 13,
       "valuation_b": null,
       "threat_score": "MODERATE",
-      "incidents_count": 2,
+      "incidents_count": 4,
       "city": "London",
       "coords": [
         -0.13,
@@ -114,6 +114,57 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "CRITICAL",
+      "date": "2026-11-16",
+      "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+      "summary": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage intrusions at greater operational velocity. I",
+      "source": "thehackernews.com",
+      "company": "Google DeepMind",
+      "tags": [
+        "autonomous-ai",
+        "google-deepmind"
+      ],
+      "id": "2026-11-16-google-finds-hackers-using-ai-agents-to-build-and-run-exploits-from-software-pat"
+    },
+    {
+      "severity": "MODERATE",
+      "date": "2026-11-16",
+      "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
+      "summary": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated environments and launch cyberattacks against real-world organi",
+      "source": "bleepingcomputer.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai",
+        "autonomous-ai"
+      ],
+      "id": "2026-11-16-california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms"
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-11-16",
+      "title": "Attackers are using AI agents to automate cybercrime at 'industrial scale,' FBI and AWS warn",
+      "summary": "Critical orgs around the globe under seige",
+      "source": "theregister.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai"
+      ],
+      "id": "2026-11-16-attackers-are-using-ai-agents-to-automate-cybercrime-at-industrial-scale-fbi-and"
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-11-16",
+      "title": "Google: AI agent turned a security patch into a working exploit with no human help",
+      "summary": "Look ma, no human in the loop!",
+      "source": "theregister.com",
+      "company": "Google DeepMind",
+      "tags": [
+        "autonomous-ai",
+        "google-deepmind"
+      ],
+      "id": "2026-11-16-google-ai-agent-turned-a-security-patch-into-a-working-exploit-with-no-human-hel"
+    },
     {
       "id": "2026-11-15-cursor-says-stolen-fireworks-ai-key-led-to-trojanized-claude-code-extension-inci",
       "severity": "CRITICAL",
@@ -558,67 +609,16 @@
       "tags": [
         "openai"
       ]
-    },
-    {
-      "id": "2026-10-27-cyberstrikeai-uses-44-ai-agents-to-automate-hacking-operations-against-japan-tar",
-      "severity": "LOW",
-      "date": "2026-10-27",
-      "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
-      "summary": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator. TrendAI, which analyzed three exposed server environments used by threat actors ",
-      "source": "thehackernews.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai",
-        "data-exposure"
-      ]
-    },
-    {
-      "id": "2026-10-27-warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data",
-      "severity": "CRITICAL",
-      "date": "2026-10-27",
-      "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
-      "summary": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. [...]",
-      "source": "bleepingcomputer.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai",
-        "supply-chain",
-        "data-exposure"
-      ]
-    },
-    {
-      "id": "2026-10-24-leaked-litellm-master-key-let-attackers-steal-github-tokens-and-hijack-release-p",
-      "severity": "HIGH",
-      "date": "2026-10-24",
-      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
-      "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 2026, a configuration file was committed to the public LiteLLM",
-      "source": "thehackernews.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai"
-      ]
-    },
-    {
-      "id": "2026-10-23-critical-x402-sdk-flaw-could-let-malicious-apis-drain-ai-agents-token-balances",
-      "severity": "CRITICAL",
-      "date": "2026-10-23",
-      "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
-      "summary": "AI agents paying for API calls with the&nbsp;x402 SDKs&nbsp;could sign a payment for their full balance of a supported token if a malicious API asked for it,&nbsp;security firm V12 said&nbsp;on October 22. The cause was the SDKs' default client, which set no spending limit until releases on August 1",
-      "source": "thehackernews.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident"
+    "last_incident": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 17,
+    "critical_incidents": 18,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
