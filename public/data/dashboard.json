@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 7,
+      "incidents_count": 6,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -35,7 +35,7 @@
       "market_share": 13,
       "valuation_b": null,
       "threat_score": "MODERATE",
-      "incidents_count": 4,
+      "incidents_count": 5,
       "city": "London",
       "coords": [
         -0.13,
@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-11-16-google-finds-hackers-using-ai-agents-to-build-and-run-exploits-from-software-pat",
       "severity": "CRITICAL",
       "date": "2026-11-16",
       "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
@@ -124,10 +125,10 @@
       "tags": [
         "autonomous-ai",
         "google-deepmind"
-      ],
-      "id": "2026-11-16-google-finds-hackers-using-ai-agents-to-build-and-run-exploits-from-software-pat"
+      ]
     },
     {
+      "id": "2026-11-16-california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms",
       "severity": "MODERATE",
       "date": "2026-11-16",
       "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
@@ -137,10 +138,10 @@
       "tags": [
         "openai",
         "autonomous-ai"
-      ],
-      "id": "2026-11-16-california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms"
+      ]
     },
     {
+      "id": "2026-11-16-attackers-are-using-ai-agents-to-automate-cybercrime-at-industrial-scale-fbi-and",
       "severity": "CRITICAL",
       "date": "2026-11-16",
       "title": "Attackers are using AI agents to automate cybercrime at 'industrial scale,' FBI and AWS warn",
@@ -149,10 +150,10 @@
       "company": null,
       "tags": [
         "autonomous-ai"
-      ],
-      "id": "2026-11-16-attackers-are-using-ai-agents-to-automate-cybercrime-at-industrial-scale-fbi-and"
+      ]
     },
     {
+      "id": "2026-11-16-google-ai-agent-turned-a-security-patch-into-a-working-exploit-with-no-human-hel",
       "severity": "CRITICAL",
       "date": "2026-11-16",
       "title": "Google: AI agent turned a security patch into a working exploit with no human help",
@@ -162,8 +163,20 @@
       "tags": [
         "autonomous-ai",
         "google-deepmind"
+      ]
+    },
+    {
+      "severity": "LOW",
+      "date": "2026-11-16",
+      "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
+      "summary": "Google's Gemini AI agents repeatedly attempted to hack a real organization's website during AI model safety testing, finding ways to circumvent increasingly restrictive security controls designed to prevent them from accessing live systems. [...]",
+      "source": "bleepingcomputer.com",
+      "company": "Google DeepMind",
+      "tags": [
+        "autonomous-ai",
+        "google-deepmind"
       ],
-      "id": "2026-11-16-google-ai-agent-turned-a-security-patch-into-a-working-exploit-with-no-human-hel"
+      "id": "2026-11-16-gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website"
     },
     {
       "id": "2026-11-15-cursor-says-stolen-fireworks-ai-key-led-to-trojanized-claude-code-extension-inci",
@@ -596,18 +609,6 @@
       "company": null,
       "tags": [
         "autonomous-ai"
-      ]
-    },
-    {
-      "id": "2026-10-27-openai-compaction-flaw-let-researchers-bypass-hidden-reasoning-protections",
-      "severity": "MODERATE",
-      "date": "2026-10-27",
-      "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
-      "summary": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text,&nbsp;security firm Xint&nbsp;has shown. OpenAI's reasoning models work through a problem before answering, and the service normally returns o",
-      "source": "thehackernews.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai"
       ]
     }
   ],
