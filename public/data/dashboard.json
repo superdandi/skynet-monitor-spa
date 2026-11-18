@@ -35,7 +35,7 @@
       "market_share": 13,
       "valuation_b": null,
       "threat_score": "MODERATE",
-      "incidents_count": 5,
+      "incidents_count": 6,
       "city": "London",
       "coords": [
         -0.13,
@@ -115,6 +115,28 @@
   ],
   "incidents": [
     {
+      "severity": "LOW",
+      "date": "2026-11-17",
+      "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
+      "summary": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram. \"Trigram is a large-scale campaign that impersonates about 50 brands in the blockchain and AI sectors, to trick developers i",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [],
+      "id": "2026-11-17-trigram-campaign-impersonates-about-50-ai-and-blockchain-brands-to-target-devs-w"
+    },
+    {
+      "severity": "LOW",
+      "date": "2026-11-17",
+      "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
+      "summary": "A Lack of ownership verification on the Hugging Face platform allowed researchers to take control of Kokoro, a text-to-speech model used in projects from Google, NVIDIA, AMD, Intel, and Amazon Web Services. [...]",
+      "source": "bleepingcomputer.com",
+      "company": "Google DeepMind",
+      "tags": [
+        "google-deepmind"
+      ],
+      "id": "2026-11-17-researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model"
+    },
+    {
       "id": "2026-11-16-google-finds-hackers-using-ai-agents-to-build-and-run-exploits-from-software-pat",
       "severity": "CRITICAL",
       "date": "2026-11-16",
@@ -166,6 +188,7 @@
       ]
     },
     {
+      "id": "2026-11-16-gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website",
       "severity": "LOW",
       "date": "2026-11-16",
       "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
@@ -175,8 +198,7 @@
       "tags": [
         "autonomous-ai",
         "google-deepmind"
-      ],
-      "id": "2026-11-16-gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website"
+      ]
     },
     {
       "id": "2026-11-15-cursor-says-stolen-fireworks-ai-key-led-to-trojanized-claude-code-extension-inci",
@@ -586,40 +608,16 @@
       "tags": [
         "anthropic"
       ]
-    },
-    {
-      "id": "2026-10-28-php2shell-attack-roots-25-servers-breaches-u-s-government-affiliated-network",
-      "severity": "CRITICAL",
-      "date": "2026-10-28",
-      "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
-      "summary": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems. The activity, which was observed on October 25, 2026",
-      "source": "thehackernews.com",
-      "company": null,
-      "tags": [
-        "data-exposure"
-      ]
-    },
-    {
-      "id": "2026-10-28-cisco-open-sources-tool-for-detecting-ai-agents-on-hacking-sprees",
-      "severity": "LOW",
-      "date": "2026-10-28",
-      "title": "Cisco open sources tool for detecting AI agents on hacking sprees",
-      "summary": "Project Quarry aims to provide a 'shared language' for evaluating agent behavior",
-      "source": "theregister.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches"
+    "last_incident": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 18,
+    "critical_incidents": 17,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
