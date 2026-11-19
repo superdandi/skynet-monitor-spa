@@ -115,16 +115,17 @@
   ],
   "incidents": [
     {
+      "id": "2026-11-17-trigram-campaign-impersonates-about-50-ai-and-blockchain-brands-to-target-devs-w",
       "severity": "LOW",
       "date": "2026-11-17",
       "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
       "summary": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram. \"Trigram is a large-scale campaign that impersonates about 50 brands in the blockchain and AI sectors, to trick developers i",
       "source": "thehackernews.com",
       "company": null,
-      "tags": [],
-      "id": "2026-11-17-trigram-campaign-impersonates-about-50-ai-and-blockchain-brands-to-target-devs-w"
+      "tags": []
     },
     {
+      "id": "2026-11-17-researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model",
       "severity": "LOW",
       "date": "2026-11-17",
       "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
@@ -133,8 +134,7 @@
       "company": "Google DeepMind",
       "tags": [
         "google-deepmind"
-      ],
-      "id": "2026-11-17-researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model"
+      ]
     },
     {
       "id": "2026-11-16-google-finds-hackers-using-ai-agents-to-build-and-run-exploits-from-software-pat",
