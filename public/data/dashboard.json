@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 6,
+      "incidents_count": 5,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-11-19-cisa-warns-of-4-exploited-flaws-linked-to-ransomware-cryptomining-and-llmjacking",
       "severity": "CRITICAL",
       "date": "2026-11-19",
       "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
@@ -123,8 +124,17 @@
       "company": null,
       "tags": [
         "ransomware"
-      ],
-      "id": "2026-11-19-cisa-warns-of-4-exploited-flaws-linked-to-ransomware-cryptomining-and-llmjacking"
+      ]
+    },
+    {
+      "severity": "HIGH",
+      "date": "2026-11-19",
+      "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+      "summary": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread malware, and get peo",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [],
+      "id": "2026-11-19-threatsday-gpt-6-2-jailbreak-flaws-bubbleloader-png-malware-500m-ransom-demands-"
     },
     {
       "id": "2026-11-17-trigram-campaign-impersonates-about-50-ai-and-blockchain-brands-to-target-devs-w",
@@ -595,18 +605,6 @@
       "tags": [
         "autonomous-ai",
         "backdoor"
-      ]
-    },
-    {
-      "id": "2026-10-29-researchers-find-bugs-in-5-ai-developer-tools-with-openai-and-microsoft-flaws-st",
-      "severity": "MODERATE",
-      "date": "2026-10-29",
-      "title": "Researchers find bugs in 5 AI developer tools, with OpenAI and Microsoft flaws still unpatched",
-      "summary": "Embedded browsers are at the heart of the problem",
-      "source": "theregister.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai"
       ]
     }
   ],
