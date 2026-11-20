@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 12,
+      "incidents_count": 11,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -114,6 +114,18 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "CRITICAL",
+      "date": "2026-11-19",
+      "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Electronic Data Capture (REDCap) to its Known Exploited Vulnerabilities (KEV) catalo",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "ransomware"
+      ],
+      "id": "2026-11-19-cisa-warns-of-4-exploited-flaws-linked-to-ransomware-cryptomining-and-llmjacking"
+    },
     {
       "id": "2026-11-17-trigram-campaign-impersonates-about-50-ai-and-blockchain-brands-to-target-devs-w",
       "severity": "LOW",
@@ -596,23 +608,11 @@
       "tags": [
         "openai"
       ]
-    },
-    {
-      "id": "2026-10-28-anthropic-s-unreleased-ai-model-chains-flaws-into-working-chrome-safari-windows-",
-      "severity": "CRITICAL",
-      "date": "2026-10-28",
-      "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
-      "summary": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report. The exploits were built in the lab after the model was prompted, not seen in any real attack, and Anthr",
-      "source": "thehackernews.com",
-      "company": "Anthropic",
-      "tags": [
-        "anthropic"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers"
+    "last_incident": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks"
   },
   "market_stats": {
     "companies_tracked": 8,
