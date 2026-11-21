@@ -35,7 +35,7 @@
       "market_share": 13,
       "valuation_b": null,
       "threat_score": "MODERATE",
-      "incidents_count": 6,
+      "incidents_count": 5,
       "city": "London",
       "coords": [
         -0.13,
@@ -114,6 +114,29 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "HIGH",
+      "date": "2026-11-20",
+      "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+      "summary": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat in late October 202",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [],
+      "id": "2026-11-20-bazuka-android-malware-uses-fake-screen-overlays-to-hide-credential-theft-and-de"
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-11-20",
+      "title": "China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server",
+      "summary": "'Agents kept adapting for nearly a full day without human direction,' Amazon CISO said",
+      "source": "theregister.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai",
+        "zero-day"
+      ],
+      "id": "2026-11-20-china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day"
+    },
     {
       "id": "2026-11-19-cisa-warns-of-4-exploited-flaws-linked-to-ransomware-cryptomining-and-llmjacking",
       "severity": "CRITICAL",
@@ -579,38 +602,11 @@
       "tags": [
         "anthropic"
       ]
-    },
-    {
-      "id": "2026-10-29-google-s-gemini-4-carbon-leads-benchmarks-for-finding-exploiting-and-patching-vu",
-      "severity": "CRITICAL",
-      "date": "2026-10-29",
-      "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
-      "summary": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. \"It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead ",
-      "source": "thehackernews.com",
-      "company": "Google DeepMind",
-      "tags": [
-        "autonomous-ai",
-        "ai-defense",
-        "google-deepmind"
-      ]
-    },
-    {
-      "id": "2026-10-29-hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining",
-      "severity": "HIGH",
-      "date": "2026-10-29",
-      "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
-      "summary": "A crypto-mining campaign abusing Hugging Face models returned days after takedown, hijacking GPU servers and planting backdoors, with one model downloaded over 28,000 times. Separately, a fake Solana starter kit on GitHub is positioned to trick AI coding agents into installing a NetSupport RAT. [...",
-      "source": "bleepingcomputer.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai",
-        "backdoor"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks"
+    "last_incident": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control"
   },
   "market_stats": {
     "companies_tracked": 8,
