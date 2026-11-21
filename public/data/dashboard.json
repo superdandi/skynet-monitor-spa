@@ -127,14 +127,14 @@
       ]
     },
     {
+      "id": "2026-11-19-threatsday-gpt-6-2-jailbreak-flaws-bubbleloader-png-malware-500m-ransom-demands-",
       "severity": "HIGH",
       "date": "2026-11-19",
       "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
       "summary": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread malware, and get peo",
       "source": "thehackernews.com",
       "company": null,
-      "tags": [],
-      "id": "2026-11-19-threatsday-gpt-6-2-jailbreak-flaws-bubbleloader-png-malware-500m-ransom-demands-"
+      "tags": []
     },
     {
       "id": "2026-11-17-trigram-campaign-impersonates-about-50-ai-and-blockchain-brands-to-target-devs-w",
