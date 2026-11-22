@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 11,
+      "incidents_count": 10,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -115,16 +115,30 @@
   ],
   "incidents": [
     {
+      "severity": "CRITICAL",
+      "date": "2026-11-21",
+      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+      "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai",
+        "zero-day"
+      ],
+      "id": "2026-11-21-attackers-ai-agents-found-a-zero-day-in-medical-imaging-software-and-gained-root"
+    },
+    {
+      "id": "2026-11-20-bazuka-android-malware-uses-fake-screen-overlays-to-hide-credential-theft-and-de",
       "severity": "HIGH",
       "date": "2026-11-20",
       "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
       "summary": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat in late October 202",
       "source": "thehackernews.com",
       "company": null,
-      "tags": [],
-      "id": "2026-11-20-bazuka-android-malware-uses-fake-screen-overlays-to-hide-credential-theft-and-de"
+      "tags": []
     },
     {
+      "id": "2026-11-20-china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day",
       "severity": "CRITICAL",
       "date": "2026-11-20",
       "title": "China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server",
@@ -134,8 +148,7 @@
       "tags": [
         "autonomous-ai",
         "zero-day"
-      ],
-      "id": "2026-11-20-china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day"
+      ]
     },
     {
       "id": "2026-11-19-cisa-warns-of-4-exploited-flaws-linked-to-ransomware-cryptomining-and-llmjacking",
@@ -590,23 +603,11 @@
         "anthropic",
         "backdoor"
       ]
-    },
-    {
-      "id": "2026-10-29-linux-kernel-tcp-flaw-with-9-8-cvss-score-affects-ubuntu-red-hat-and-other-distr",
-      "severity": "CRITICAL",
-      "date": "2026-10-29",
-      "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-      "summary": "A flaw in the Linux kernel's TCP code, tracked as&nbsp;CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said&nbsp;on October 27 that its AI model wrote an exploit that uses th",
-      "source": "thehackernews.com",
-      "company": "Anthropic",
-      "tags": [
-        "anthropic"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control"
+    "last_incident": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access"
   },
   "market_stats": {
     "companies_tracked": 8,
