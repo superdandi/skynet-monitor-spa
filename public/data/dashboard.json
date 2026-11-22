@@ -115,6 +115,7 @@
   ],
   "incidents": [
     {
+      "id": "2026-11-21-attackers-ai-agents-found-a-zero-day-in-medical-imaging-software-and-gained-root",
       "severity": "CRITICAL",
       "date": "2026-11-21",
       "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
@@ -124,8 +125,7 @@
       "tags": [
         "autonomous-ai",
         "zero-day"
-      ],
-      "id": "2026-11-21-attackers-ai-agents-found-a-zero-day-in-medical-imaging-software-and-gained-root"
+      ]
     },
     {
       "id": "2026-11-20-bazuka-android-malware-uses-fake-screen-overlays-to-hide-credential-theft-and-de",
