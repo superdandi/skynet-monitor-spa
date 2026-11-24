@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 10,
+      "incidents_count": 7,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -91,7 +91,7 @@
       "market_share": 1,
       "valuation_b": null,
       "threat_score": "LOW",
-      "incidents_count": 0,
+      "incidents_count": 1,
       "city": "Beijing",
       "coords": [
         116.44,
@@ -114,6 +114,38 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "LOW",
+      "date": "2026-11-23",
+      "title": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+      "summary": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country. This unsanctioned activity has resulted in unauthorized financial t",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [],
+      "id": "2026-11-23-ai-assisted-cyber-attacks-trigger-unauthorized-payments-at-indian-banks-and-fint"
+    },
+    {
+      "severity": "MODERATE",
+      "date": "2026-11-23",
+      "title": "I’ve never hunted for a software vulnerability before. AI helped me find one in six hours.",
+      "summary": "<p> With help from two free AI models, I found and reported a real flaw in a WordPress plugin used by more than 40,000 sites. The unnerving part wasn’t just that it worked — it was how little experience I needed to get there.</p> <p>The post <a href=\"https://cyberscoop.com/finding-software-vulnerabi",
+      "source": "cyberscoop.com",
+      "company": null,
+      "tags": [],
+      "id": "2026-11-23-i-ve-never-hunted-for-a-software-vulnerability-before-ai-helped-me-find-one-in-s"
+    },
+    {
+      "severity": "MODERATE",
+      "date": "2026-11-23",
+      "title": "WPIDE ≤ 3.6.4 — CSRF Nonce Bypass Leading to Unauthenticated RCE (CVE-2026-124251)",
+      "summary": "<p>Summary This technical report has been generated with the help of GLM-5.3-Flash. WPIDE&#8217;s 3.6.0 release attempted to remediate CVE-2026-57766 (unauthenticated CSRF, ≤ 3.5.6) by introducing a nonce check, but the check is scoped too narrowly: a security service validates the nonce only when t",
+      "source": "cyberscoop.com",
+      "company": "Z.ai (GLM)",
+      "tags": [
+        "z-ai-glm"
+      ],
+      "id": "2026-11-23-wpide-3-6-4-csrf-nonce-bypass-leading-to-unauthenticated-rce-cve-2026-124251"
+    },
     {
       "id": "2026-11-21-attackers-ai-agents-found-a-zero-day-in-medical-imaging-software-and-gained-root",
       "severity": "CRITICAL",
@@ -566,53 +598,16 @@
       "source": "thehackernews.com",
       "company": null,
       "tags": []
-    },
-    {
-      "id": "2026-10-30-anthropic-that-claude-code-extension-compromise-couldn-t-be-us",
-      "severity": "CRITICAL",
-      "date": "2026-10-30",
-      "title": "Anthropic: That Claude Code extension compromise… couldn't be us",
-      "summary": "Claudeshop fingers 'malicious actor' in targeted supply-chain attack on Cursor",
-      "source": "theregister.com",
-      "company": "Anthropic",
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "2026-10-30-critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers",
-      "severity": "CRITICAL",
-      "date": "2026-10-30",
-      "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
-      "summary": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]",
-      "source": "bleepingcomputer.com",
-      "company": "Anthropic",
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "2026-10-30-anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours",
-      "severity": "HIGH",
-      "date": "2026-10-30",
-      "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
-      "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
-      "source": "arstechnica.com",
-      "company": "Anthropic",
-      "tags": [
-        "anthropic",
-        "backdoor"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access"
+    "last_incident": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 17,
+    "critical_incidents": 15,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
