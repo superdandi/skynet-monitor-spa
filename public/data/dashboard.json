@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 5,
+      "incidents_count": 6,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 7,
+      "incidents_count": 6,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -114,6 +114,32 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "CRITICAL",
+      "date": "2026-11-24",
+      "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+      "summary": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. \"It lets agents write dynamic eBPF controls to shield systems from exploits, giving defenders more time t",
+      "source": "thehackernews.com",
+      "company": "OpenAI",
+      "tags": [
+        "openai",
+        "autonomous-ai"
+      ],
+      "id": "2026-11-24-openai-and-cisco-unveil-ai-assisted-linux-security-tool-to-block-exploits-before"
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-11-24",
+      "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The critical vulnerabilities are listed below - CVE-2026-134624 (CVSS s",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai",
+        "zero-day"
+      ],
+      "id": "2026-11-24-hackers-exploit-n-able-mailassure-flaw-while-ai-agents-exploit-monai-label-zero-"
+    },
     {
       "id": "2026-11-23-ai-assisted-cyber-attacks-trigger-unauthorized-payments-at-indian-banks-and-fint",
       "severity": "LOW",
@@ -574,40 +600,16 @@
       "tags": [
         "openai"
       ]
-    },
-    {
-      "id": "2026-10-30-official-claude-code-extension-on-cursor-marketplace-trojanized-with-persistent-",
-      "severity": "HIGH",
-      "date": "2026-10-30",
-      "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
-      "summary": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems. The malicious update, version 2.1.313, was dist",
-      "source": "thehackernews.com",
-      "company": "Anthropic",
-      "tags": [
-        "anthropic",
-        "backdoor",
-        "market-impact"
-      ]
-    },
-    {
-      "id": "2026-10-30-chinese-hackers-use-ai-powered-artex-to-target-over-200-organizations-worldwide",
-      "severity": "LOW",
-      "date": "2026-10-30",
-      "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
-      "summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously. The activity has been attributed by CrowdStrike to a China-based \"targeted intrusion advers",
-      "source": "thehackernews.com",
-      "company": null,
-      "tags": []
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms"
+    "last_incident": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 15,
+    "critical_incidents": 17,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
