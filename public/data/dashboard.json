@@ -115,26 +115,27 @@
   ],
   "incidents": [
     {
+      "id": "2026-11-23-ai-assisted-cyber-attacks-trigger-unauthorized-payments-at-indian-banks-and-fint",
       "severity": "LOW",
       "date": "2026-11-23",
       "title": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
       "summary": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country. This unsanctioned activity has resulted in unauthorized financial t",
       "source": "thehackernews.com",
       "company": null,
-      "tags": [],
-      "id": "2026-11-23-ai-assisted-cyber-attacks-trigger-unauthorized-payments-at-indian-banks-and-fint"
+      "tags": []
     },
     {
+      "id": "2026-11-23-i-ve-never-hunted-for-a-software-vulnerability-before-ai-helped-me-find-one-in-s",
       "severity": "MODERATE",
       "date": "2026-11-23",
       "title": "I’ve never hunted for a software vulnerability before. AI helped me find one in six hours.",
       "summary": "<p> With help from two free AI models, I found and reported a real flaw in a WordPress plugin used by more than 40,000 sites. The unnerving part wasn’t just that it worked — it was how little experience I needed to get there.</p> <p>The post <a href=\"https://cyberscoop.com/finding-software-vulnerabi",
       "source": "cyberscoop.com",
       "company": null,
-      "tags": [],
-      "id": "2026-11-23-i-ve-never-hunted-for-a-software-vulnerability-before-ai-helped-me-find-one-in-s"
+      "tags": []
     },
     {
+      "id": "2026-11-23-wpide-3-6-4-csrf-nonce-bypass-leading-to-unauthenticated-rce-cve-2026-124251",
       "severity": "MODERATE",
       "date": "2026-11-23",
       "title": "WPIDE ≤ 3.6.4 — CSRF Nonce Bypass Leading to Unauthenticated RCE (CVE-2026-124251)",
@@ -143,8 +144,7 @@
       "company": "Z.ai (GLM)",
       "tags": [
         "z-ai-glm"
-      ],
-      "id": "2026-11-23-wpide-3-6-4-csrf-nonce-bypass-leading-to-unauthenticated-rce-cve-2026-124251"
+      ]
     },
     {
       "id": "2026-11-21-attackers-ai-agents-found-a-zero-day-in-medical-imaging-software-and-gained-root",
