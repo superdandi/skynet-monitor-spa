@@ -115,14 +115,26 @@
   ],
   "incidents": [
     {
+      "id": "2026-11-25-hackers-compromise-24-check-point-management-servers-in-suspected-ai-driven-atta",
       "severity": "CRITICAL",
       "date": "2026-11-25",
       "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
       "summary": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world. The intrusion activity, tracked by GreyNoise under the moniker GreyNoise Threat 13 (GT13",
       "source": "thehackernews.com",
       "company": null,
-      "tags": [],
-      "id": "2026-11-25-hackers-compromise-24-check-point-management-servers-in-suspected-ai-driven-atta"
+      "tags": []
+    },
+    {
+      "severity": "CRITICAL",
+      "date": "2026-11-25",
+      "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+      "summary": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
+      "source": "bleepingcomputer.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai"
+      ],
+      "id": "2026-11-25-italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks"
     },
     {
       "id": "2026-11-24-openai-and-cisco-unveil-ai-assisted-linux-security-tool-to-block-exploits-before",
@@ -585,18 +597,6 @@
       "company": "Anthropic",
       "tags": [
         "anthropic"
-      ]
-    },
-    {
-      "id": "2026-11-02-critical-langflow-flaws-could-let-unauthenticated-attackers-run-code-on-servers",
-      "severity": "CRITICAL",
-      "date": "2026-11-02",
-      "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
-      "summary": "Two critical flaws in Langflow could let a remote attacker with no account bypass authentication or run arbitrary code,&nbsp;IBM said last week. Langflow is an open-source tool for building AI agents and workflows, and&nbsp;its vulnerability reports go to IBM. Every release from 1.0.0 through 1.12.8",
-      "source": "thehackernews.com",
-      "company": null,
-      "tags": [
-        "autonomous-ai"
       ]
     }
   ],
