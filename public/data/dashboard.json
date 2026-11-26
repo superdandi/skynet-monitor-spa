@@ -7,7 +7,7 @@
       "market_share": 68,
       "valuation_b": 852,
       "threat_score": "CRITICAL",
-      "incidents_count": 6,
+      "incidents_count": 5,
       "city": "San Francisco",
       "coords": [
         -122.42,
@@ -116,6 +116,17 @@
   "incidents": [
     {
       "severity": "CRITICAL",
+      "date": "2026-11-25",
+      "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+      "summary": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world. The intrusion activity, tracked by GreyNoise under the moniker GreyNoise Threat 13 (GT13",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [],
+      "id": "2026-11-25-hackers-compromise-24-check-point-management-servers-in-suspected-ai-driven-atta"
+    },
+    {
+      "id": "2026-11-24-openai-and-cisco-unveil-ai-assisted-linux-security-tool-to-block-exploits-before",
+      "severity": "CRITICAL",
       "date": "2026-11-24",
       "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
       "summary": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. \"It lets agents write dynamic eBPF controls to shield systems from exploits, giving defenders more time t",
@@ -124,10 +135,10 @@
       "tags": [
         "openai",
         "autonomous-ai"
-      ],
-      "id": "2026-11-24-openai-and-cisco-unveil-ai-assisted-linux-security-tool-to-block-exploits-before"
+      ]
     },
     {
+      "id": "2026-11-24-hackers-exploit-n-able-mailassure-flaw-while-ai-agents-exploit-monai-label-zero-",
       "severity": "CRITICAL",
       "date": "2026-11-24",
       "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
@@ -137,8 +148,7 @@
       "tags": [
         "autonomous-ai",
         "zero-day"
-      ],
-      "id": "2026-11-24-hackers-exploit-n-able-mailassure-flaw-while-ai-agents-exploit-monai-label-zero-"
+      ]
     },
     {
       "id": "2026-11-23-ai-assisted-cyber-attacks-trigger-unauthorized-payments-at-indian-banks-and-fint",
@@ -588,28 +598,16 @@
       "tags": [
         "autonomous-ai"
       ]
-    },
-    {
-      "id": "2026-10-31-a-shared-chatgpt-link-could-run-attacker-code-in-your-session-and-read-private-c",
-      "severity": "MODERATE",
-      "date": "2026-10-31",
-      "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
-      "summary": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at&nbsp;the security firm Parameter&nbsp;showed. The researchers reported the flaw through&nbsp;OpenAI's bug bounty program&nbs",
-      "source": "thehackernews.com",
-      "company": "OpenAI",
-      "tags": [
-        "openai"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching"
+    "last_incident": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 17,
+    "critical_incidents": 18,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
