@@ -125,6 +125,7 @@
       "tags": []
     },
     {
+      "id": "2026-11-25-italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks",
       "severity": "CRITICAL",
       "date": "2026-11-25",
       "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
@@ -133,8 +134,7 @@
       "company": null,
       "tags": [
         "autonomous-ai"
-      ],
-      "id": "2026-11-25-italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks"
+      ]
     },
     {
       "id": "2026-11-24-openai-and-cisco-unveil-ai-assisted-linux-security-tool-to-block-exploits-before",
