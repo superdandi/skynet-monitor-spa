@@ -21,7 +21,7 @@
       "market_share": 32,
       "valuation_b": 900,
       "threat_score": "HIGH",
-      "incidents_count": 6,
+      "incidents_count": 5,
       "city": "San Francisco",
       "coords": [
         -122.35,
@@ -114,6 +114,18 @@
     }
   ],
   "incidents": [
+    {
+      "severity": "CRITICAL",
+      "date": "2026-11-27",
+      "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+      "summary": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure operators, and two of those succeeded, w",
+      "source": "thehackernews.com",
+      "company": null,
+      "tags": [
+        "autonomous-ai"
+      ],
+      "id": "2026-11-27-switzerland-confirms-ai-assisted-cyberattacks-breached-critical-infrastructure-o"
+    },
     {
       "id": "2026-11-25-hackers-compromise-24-check-point-management-servers-in-suspected-ai-driven-atta",
       "severity": "CRITICAL",
@@ -586,28 +598,16 @@
         "data-exposure",
         "google-deepmind"
       ]
-    },
-    {
-      "id": "2026-11-02-new-volta-infostealer-uses-claude-gemini-and-kimi-ai-to-rank-victims-by-financia",
-      "severity": "HIGH",
-      "date": "2026-11-02",
-      "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
-      "summary": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value. Like other typical stealer families, VOLTA is equipped to harvest passwords and co",
-      "source": "thehackernews.com",
-      "company": "Anthropic",
-      "tags": [
-        "anthropic"
-      ]
     }
   ],
   "threat_level": {
     "level": 4,
-    "last_incident": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign"
+    "last_incident": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators"
   },
   "market_stats": {
     "companies_tracked": 8,
     "total_incidents": 40,
-    "critical_incidents": 18,
+    "critical_incidents": 19,
     "total_valuation": 1808,
     "system_status": "ONLINE"
   }
